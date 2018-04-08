@@ -12,7 +12,7 @@
 	<div class="separator-2"></div>
 	<ul class="list-icons">
 		<li><i class="fa fa-map-marker pr-10 text-default"></i>PO Box 1234 Dallas,<br><span class="pl-24">TX 75252</span></li>
-		<li><i class="fa fa-phone pr-10 text-default"></i>+1-800-555-1234</li>
-		<li><a href="mailto:info@example.com"><i class="fa fa-envelope-o pr-10"></i>info@example.com</a></li>
+		<li><i class="fa fa-phone pr-10 text-default"></i>{{ config('branding.contacts.phones.primary') }}</li>
+		<li><a href="mailto:{{ config('branding.contacts.emails.primary') }}"><i class="fa fa-envelope-o pr-10"></i>{{ config('branding.contacts.emails.primary') }}</a></li>
 	</ul>
 </div>

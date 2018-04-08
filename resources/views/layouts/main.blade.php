@@ -27,6 +27,10 @@
 
 			@include('partials.footer.main.top')
 			@include('partials.footer.main.content')
+
+			@if(config('app.debug'))
+				@include('partials.style-switcher')
+			@endif
 		</div>
 		<!-- page-wrapper end -->
 

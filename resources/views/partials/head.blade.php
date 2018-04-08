@@ -1,6 +1,10 @@
 <head>
 	<meta charset="utf-8">
-	<title>@yield('title', 'The Project')</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	<title>@yield('title', config('app.name'))</title>
+
+
 	<meta name="description" content="The Project a Bootstrap-based, Responsive HTML5 Template">
 	<meta name="author" content="htmlcoder.me">
 
@@ -36,10 +40,16 @@
 	<link href="{{ asset('/media/css/style.css') }}" rel="stylesheet" >
 
 	<!-- Color Scheme (In order to change the color scheme, replace the blue.css with the color scheme that you prefer)-->
-	<link href="{{ asset('/media/css/skins/light_blue.css') }}" rel="stylesheet">
+	@if(config('app.debug'))
+		<link href="{{ asset('/media/css/skins/brown.css') }}" data-style="styles-no-cookie" rel="stylesheet">
+		<link href="{{ asset('/media/plugins/style-switcher/style-switcher.css') }}" rel="stylesheet">
+	@else
+		<link href="{{ asset('/media/css/skins/light_blue.css') }}" rel="stylesheet">
+	@endif
 
 	<!-- Custom css --> 
 	<link href="{{ asset('/media/css/main.css') }}" rel="stylesheet">
+	<link href="{{ asset('/media/css/app.css') }}" rel="stylesheet">
 
 	@yield('head')
 </head>

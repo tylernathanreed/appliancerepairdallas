@@ -11,6 +11,14 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Home
+Route::get('/', [
+	'as' => 'pages.home',
+	'uses' => 'PagesController@home'
+]);
+
+// Pricing
+Route::get('pricing', [
+	'as' => 'pages.pricing',
+	'uses' => 'PagesController@pricing'
+]);

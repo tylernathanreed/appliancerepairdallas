@@ -49,5 +49,9 @@
 	<!-- Custom Scripts -->
 	<script type="text/javascript" src="{{ config('app.url') }}/media/js/custom.js"></script>
 
+	@if(config('app.debug'))
+		<script type="text/javascript" src="{{ config('app.url') }}/media/plugins/style-switcher/style-switcher.js"></script>
+	@endif
+
 	@yield('tail')
 </div>
