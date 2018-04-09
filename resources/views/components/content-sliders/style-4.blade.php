@@ -1,4 +1,4 @@
-<div class="owl-carousel content-slider-with-controls">
+<div class="owl-carousel content-slider-with-controls-autoplay">
 
     @if(isset($slot))
         {{ $slot }}

@@ -291,6 +291,24 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "resources/views/pages/home.blade.php",
+			"settings":
+			{
+				"buffer_size": 9840,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "resources/views/components/owl-carousel/content-slider.blade.php",
+			"settings":
+			{
+				"buffer_size": 1067,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -336,23 +354,42 @@
 	},
 	"expanded_folders":
 	[
-		"/S/Docroot/personal/e-and-m"
+		"/S/Docroot/personal/e-and-m",
+		"/S/Docroot/personal/e-and-m/resources",
+		"/S/Docroot/personal/e-and-m/resources/views",
+		"/S/Docroot/personal/e-and-m/resources/views/components",
+		"/S/Docroot/personal/e-and-m/resources/views/components/content-sliders",
+		"/S/Docroot/personal/e-and-m/resources/views/components/owl-carousel",
+		"/S/Docroot/personal/e-and-m/resources/views/pages"
 	],
 	"file_history":
 	[
+		"/S/Docroot/personal/e-and-m/resources/views/components/content-sliders/style-1.blade.php",
+		"/S/Docroot/personal/e-and-m/resources/views/components/content-sliders/style-7.blade.php",
+		"/S/Docroot/personal/e-and-m/resources/views/components/content-sliders/style-8.blade.php",
+		"/S/Docroot/personal/e-and-m/resources/views/components/content-sliders/style-6.blade.php",
+		"/S/Docroot/personal/e-and-m/resources/views/components/content-sliders/item.blade.php",
+		"/S/Docroot/personal/e-and-m/resources/views/components/content-sliders/style-5.blade.php",
+		"/S/Docroot/personal/e-and-m/resources/views/components/content-sliders/style-4.blade.php",
+		"/S/Docroot/personal/e-and-m/resources/views/components/content-sliders/style-2.blade.php",
+		"/S/Docroot/personal/e-and-m/resources/views/components/content-sliders/style-3.blade.php",
+		"/S/Docroot/personal/e-and-m/.gitignore",
+		"/S/Docroot/personal/e-and-m/resources/views/partials/nav.blade.php",
+		"/S/Docroot/personal/e-and-m/resources/views/partials/header/landing/content.blade.php",
+		"/S/Docroot/personal/e-and-m/resources/views/partials/footer/latest.blade.php",
+		"/S/Docroot/personal/e-and-m/resources/views/partials/header/main/content.blade.php",
+		"/S/Docroot/personal/e-and-m/resources/views/partials/header/main/container.blade.php",
+		"/S/Docroot/personal/e-and-m/resources/views/partials/footer/contact.blade.php",
+		"/S/Docroot/personal/e-and-m/resources/views/partials/copyright.blade.php",
+		"/S/Docroot/personal/e-and-m/resources/views/partials/footer/about.blade.php",
 		"/S/Docroot/personal/e-and-m/public/media/css/style.css",
 		"/S/Docroot/personal/e-and-m/resources/views/partials/head.blade.php",
 		"/S/Docroot/personal/e-and-m/resources/views/welcome.blade.php",
 		"/S/Docroot/personal/e-and-m/resources/views/layouts/main.blade.php",
 		"/S/Docroot/personal/e-and-m/resources/views/partials/footer/main/content.blade.php",
-		"/S/Docroot/personal/e-and-m/resources/views/partials/nav.blade.php",
-		"/S/Docroot/personal/e-and-m/resources/views/partials/header/main/container.blade.php",
 		"/S/Docroot/personal/e-and-m/resources/views/partials/footer/main/top.blade.php",
-		"/S/Docroot/personal/e-and-m/resources/views/partials/footer/about.blade.php",
-		"/S/Docroot/personal/e-and-m/resources/views/partials/footer/latest.blade.php",
 		"/S/Docroot/personal/e-and-m/resources/views/partials/footer/quick-info.blade.php",
 		"/S/Docroot/personal/e-and-m/resources/views/partials/tail.blade.php",
-		"/S/Docroot/personal/e-and-m/resources/views/partials/header/main/content.blade.php",
 		"/S/Docroot/personal/e-and-m/.env",
 		"/S/Docroot/personal/e-and-m/config/app.php",
 		"/C/Users/tyreed/Downloads/Halo Keep/Docroot/portal/source/_layouts/landing.blade.php",
@@ -454,20 +491,7 @@
 		"/S/Docroot/UAS/servo/app/Servo/Imports/Transformers/Traits/Borrowers.php",
 		"/S/Docroot/UAS/servo/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Relations/BelongsToMany.php",
 		"/S/Docroot/UAS/servo/database/migrations/2018_04_03_173534_add_original_client_id_to_loans_table.php",
-		"/S/Docroot/UAS/servo/app/Http/Controllers/Models/Loans/BillingPeriodsController.php",
-		"/S/Docroot/UAS/servo/app/Models/Loan.php",
-		"/S/Docroot/UAS/servo/app/Models/Concerns/Loans.php",
-		"/S/Docroot/UAS/servo/app/Http/Controllers/LoansBaseController.php",
-		"/S/Docroot/UAS/servo/public/js/servo.forms.js",
-		"/S/Docroot/UAS/servo/resources/views/loans/models/billing-periods/modals/update.blade.php",
-		"/S/Docroot/UAS/servo/resources/views/loans/models/billing-periods/partials/codes.blade.php",
-		"/S/Docroot/UAS/servo/app/Providers/ValidationServiceProvider.php",
-		"/S/Docroot/UAS/servo/resources/views/loans/modals/transfer-tabs.blade.php",
-		"/S/Docroot/UAS/servo/app/Servo/Concerns/Loans/Boarding.php",
-		"/S/Docroot/UAS/servo/app/Models/BillingPeriod.php",
-		"/S/Docroot/UAS/servo/app/Http/Routes/auth/models/loans/_billing-periods.php",
-		"/S/Docroot/UAS/servo/app/Http/Routes/auth/models/_loans.php",
-		"/S/Docroot/UAS/servo/app/Http/Controllers/LoansBillingPeriodsController.php"
+		"/S/Docroot/UAS/servo/app/Http/Controllers/Models/Loans/BillingPeriodsController.php"
 	],
 	"find":
 	{
@@ -478,6 +502,7 @@
 		"height": 104.0,
 		"where_history":
 		[
+			"S:\\Docroot\\personal\\e-and-m\\resources",
 			"S:\\Docroot\\UAS\\servo\\app",
 			"S:\\Docroot\\UAS\\servo\\database\\migrations",
 			"S:\\Docroot\\UAS\\servo\\app",
@@ -490,6 +515,15 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"jpg",
+			"'image'",
+			"image",
+			"link",
+			"title",
+			"portfolio",
+			"bottom",
+			"$item['",
+			"UAS",
 			"Raleway",
 			"url",
 			"$url",
@@ -608,16 +642,7 @@
 			"\t",
 			",\\n",
 			"\\t",
-			"\t",
-			"removeOldExceptions",
-			"90",
-			"Borrower",
-			"\t",
-			"notifyJobCommandDoesNotExist",
-			"getNightlyJobQueue",
-			"\t",
-			"Length",
-			"serialize"
+			"\t"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -643,8 +668,69 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "resources/views/pages/home.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9840,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1733,
+								1733
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Laravel Blade Highlighter/blade.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "resources/views/components/owl-carousel/content-slider.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1067,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								204,
+								204
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Laravel Blade Highlighter/blade.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -704,6 +790,26 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"copyright",
+				"resources\\views\\partials\\copyright.blade.php"
+			],
+			[
+				"footer/",
+				"resources\\views\\partials\\footer\\contact.blade.php"
+			],
+			[
+				"head/contain",
+				"resources\\views\\partials\\header\\main\\container.blade.php"
+			],
+			[
+				"about",
+				"resources\\views\\partials\\footer\\about.blade.php"
+			],
+			[
+				"header/content",
+				"resources\\views\\partials\\header\\main\\content.blade.php"
+			],
 			[
 				"welcome",
 				"resources\\views\\welcome.blade.php"
@@ -1195,26 +1301,6 @@
 			[
 				"serializeso",
 				"app\\Support\\Serialization\\SerializesProperties.php"
-			],
-			[
-				"serializesmodel",
-				"vendor\\laravel\\framework\\src\\Illuminate\\Queue\\SerializesModels.php"
-			],
-			[
-				"job.php",
-				"app\\Jobs\\Job.php"
-			],
-			[
-				"config/ser",
-				"config\\servo.php"
-			],
-			[
-				"trans/loans.php",
-				"app\\Servo\\Transformers\\Traits\\Loans.php"
-			],
-			[
-				"modelid",
-				"vendor\\laravel\\framework\\src\\Illuminate\\Contracts\\Database\\ModelIdentifier.php"
 			]
 		],
 		"width": 0.0
