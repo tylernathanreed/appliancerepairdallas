@@ -15,6 +15,7 @@
 		<a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Resources</a>
 		<ul class="dropdown-menu">
 			<li><a href="{{ config('app.url') }}/loan">E&amp;M Services</a></li>
+			<li><a href="{{ route('pages.resources.content-sliders') }}">Content Sliders</a></li>
 			<li><a href="#">Rake leaves</a></li>
 		</ul>
 	</li>

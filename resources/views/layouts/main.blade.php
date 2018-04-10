@@ -20,7 +20,12 @@
 		<!-- ================ -->
 		<div class="page-wrapper">
 			@include('partials.header.main.container')
-			@include('partials.banner.main')
+
+			@optional('banner')
+				<div class="banner clearfix">
+					@yield('banner')
+				</div>
+			@endoptional
 
 			<div id="page-start"></div>
 			@yield('content')

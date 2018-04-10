@@ -28,4 +28,14 @@ class PagesController extends Controller
 
 		return view('pages.pricing', compact('pricingTables'));
 	}
+
+	/**
+	 * Displays the resources content sliders page.
+	 *
+	 * @return \Illuminate\Http\Response
+	 */
+	public function resourcesContentSliders()
+	{
+		return view('pages.resources.content-sliders');
+	}
 }

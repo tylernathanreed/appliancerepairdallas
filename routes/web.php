@@ -22,3 +22,15 @@ Route::get('pricing', [
 	'as' => 'pages.pricing',
 	'uses' => 'PagesController@pricing'
 ]);
+
+// Services
+Route::group(['prefix' => 'resources'], function() {
+
+	// Content Sliders
+	Route::get('content-sliders', [
+		'as' => 'pages.resources.content-sliders',
+		'uses' => 'PagesController@resourcesContentSliders'
+	]);
+
+
+});

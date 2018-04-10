@@ -1,9 +1,9 @@
 <?php $autoplay = $autoplay ?? false; ?>
-<?php $controls = $controls ?? $autoplay; ?>
+<?php $controls = $controls ?? false; ?>
 <?php $largeControls = $largeControls ?? ($controls === 'large'); ?>
 <?php $controls = $controls || $largeControls; ?>
 
-<div class="owl-carousel content-slider-{{ $controls ? 'with-' . ($largeControls ? 'large-' : '' ) . 'controls' : ''}}{{ $autoplay ? '-autoplay' : '' }}">
+<div class="owl-carousel content-slider{{ $controls ? '-with-' . ($largeControls ? 'large-' : '' ) . 'controls' : ''}}{{ ($controls && $autoplay) ? '-autoplay' : '' }}">
 
     @if(isset($slot))
         {{ $slot }}

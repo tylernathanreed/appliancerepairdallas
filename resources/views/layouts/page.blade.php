@@ -2,24 +2,26 @@
 
 @section('content')
 
-    <section class="main-container">
+    @optional('page.content')
+        <section class="main-container">
 
-        <div class="container">
-            <div class="row">
-                <div class="main col-md-12">
+            <div class="container">
+                <div class="row">
+                    <div class="main col-md-12">
 
-                	@optional('page.heading')
-	                    <h1 class="page-title">
-	                    	@yield('page.heading')
-	                    </h1>
-	                    <div class="separator-2"></div>
-                    @endoptional
+                    	@optional('page.heading')
+    	                    <h1 class="page-title">
+    	                    	@yield('page.heading')
+    	                    </h1>
+    	                    <div class="separator-2"></div>
+                        @endoptional
 
-                    @yield('page.content')
+                        @yield('page.content')
 
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+    @endoptional
 
 @endsection

@@ -41,7 +41,7 @@
 
 	<!-- Color Scheme (In order to change the color scheme, replace the blue.css with the color scheme that you prefer)-->
 	@if(config('app.debug'))
-		<link href="{{ asset('/media/css/skins/brown.css') }}" data-style="styles-no-cookie" rel="stylesheet">
+		<link href="{{ asset('/media/css/skins/light_blue.css') }}" data-style="styles-no-cookie" rel="stylesheet">
 		<link href="{{ asset('/media/plugins/style-switcher/style-switcher.css') }}" rel="stylesheet">
 	@else
 		<link href="{{ asset('/media/css/skins/light_blue.css') }}" rel="stylesheet">
