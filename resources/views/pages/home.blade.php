@@ -94,4 +94,37 @@
     </section>
     <!-- section end -->
 
+    @include('components.owl-carousel.brands', [
+        'items' => [
+            ['image' => asset('media/images/brands/admiral.jpeg')],
+            ['image' => asset('media/images/brands/amana.jpeg')],
+            ['image' => asset('media/images/brands/asko.jpeg')],
+            ['image' => asset('media/images/brands/bosch.jpeg')],
+            ['image' => asset('media/images/brands/caloric.jpeg')],
+            ['image' => asset('media/images/brands/dacor.jpeg')],
+            ['image' => asset('media/images/brands/electrolux.jpeg')],
+            ['image' => asset('media/images/brands/frigidaire.jpeg')],
+            ['image' => asset('media/images/brands/ge.jpeg')],
+            ['image' => asset('media/images/brands/hotpoint.jpeg')],
+            ['image' => asset('media/images/brands/insinkerator.jpeg')],
+            ['image' => asset('media/images/brands/jenn-air.jpeg')],
+            ['image' => asset('media/images/brands/kelvinator.jpeg')],
+            ['image' => asset('media/images/brands/kenmore.jpeg')],
+            ['image' => asset('media/images/brands/kitchenaid.jpeg')],
+            ['image' => asset('media/images/brands/magic chef.jpeg')],
+            ['image' => asset('media/images/brands/maytag.jpeg')],
+            ['image' => asset('media/images/brands/modern maid.jpeg')],
+            ['image' => asset('media/images/brands/scotsman.jpeg')],
+            ['image' => asset('media/images/brands/sears.jpeg')],
+            ['image' => asset('media/images/brands/speed queen.jpeg')],
+            ['image' => asset('media/images/brands/sub-zero.jpeg')],
+            ['image' => asset('media/images/brands/tappan.jpeg')],
+            ['image' => asset('media/images/brands/thermador.jpeg')],
+            ['image' => asset('media/images/brands/uline.jpeg')],
+            ['image' => asset('media/images/brands/westinghouse.jpeg')],
+            ['image' => asset('media/images/brands/whirlpool.jpeg')],
+            ['image' => asset('media/images/brands/wolf.jpeg')],
+        ]
+    ])
+
 @endsection
