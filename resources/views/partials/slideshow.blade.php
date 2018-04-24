@@ -91,7 +91,7 @@
                     data-y="110"
                     data-speed="500"
                     data-start="1000"
-                    data-easing="easeOutQuad">Free Service Call with Repair
+                    data-easing="easeOutQuad">Service Call Fee waived with Repair
                 </div>  
 
                 <!-- LAYER NR. 2 -->
