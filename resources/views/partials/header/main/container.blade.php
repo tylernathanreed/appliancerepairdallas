@@ -1,18 +1,26 @@
 <div class="header-container">
-	<div class="header-top dark ">
+	<div class="header-top dark">
 		<div class="container">
 			<div class="row">
-				<div class="col-xs-3 col-sm-6 col-md-8">
+				<div class="col-3 col-sm-6 col-md-8">
 					<div class="header-top-first clearfix">
 						<ul class="list-inline hidden-sm hidden-xs">
-							<li><i class="fa fa-map-marker pr-5 pl-10"></i>PO Box 1234 Dallas, TX 75252</li>
-							<li><i class="fa fa-phone pr-5 pl-10"></i>{{ config('branding.contacts.phones.primary') }} or {{ config('branding.contacts.phones.secondary') }}</li>
-							<li><i class="fa fa-envelope-o pr-5 pl-10"></i>{{ config('branding.contacts.emails.primary') }}</li>
+							<li class="list-inline-item">
+								<i class="fa fa-map-marker pr-1 pl-10"></i>PO Box 1234 Dallas, TX 75252
+							</li>
+
+							<li class="list-inline-item">
+								<i class="fa fa-phone pr-1 pl-10"></i>{{ config('branding.contacts.phones.primary') }} or {{ config('branding.contacts.phones.secondary') }}
+							</li>
+
+							<li class="list-inline-item">
+								<i class="fa fa-envelope-o pr-1 pl-10"></i>{{ config('branding.contacts.emails.primary') }}
+							</li>
 						</ul>
 					</div>
 				</div>
 
-				<div class="col-xs-9 col-sm-6 col-md-4">
+				<div class="col-9 col-sm-6 col-md-4">
 					<div id="header-top-second"  class="clearfix">
 						<div class="header-top-dropdown text-right">
 							<div class="btn-group">

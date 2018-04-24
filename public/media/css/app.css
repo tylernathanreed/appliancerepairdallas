@@ -72,3 +72,22 @@
 .btn-animated-left.btn-lg:hover i {
   left: 15px;
 }
+
+/* Brands
+---------------------------------- */
+.brands-container {
+  text-align: center;
+}
+.brands {
+  margin: 10px auto;
+}
+.brands .brand-image {
+  text-align: center;
+  width: 80px;
+  height: 80px;
+  margin: 5px;
+  display: inline-block;
+}
+.brands img {
+  margin: 0px auto;
+}

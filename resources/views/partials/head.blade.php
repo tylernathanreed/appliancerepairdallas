@@ -15,29 +15,28 @@
 	<link rel="shortcut icon" href="{{ asset('/media/images/favicon.ico') }}">
 
 	<!-- Web Fonts -->
-	<link href='http://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,500,500italic,700,700italic' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Raleway:700,400,300' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=PT+Serif' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet">
 
 	<!-- Bootstrap core CSS -->
-	<link href="{{ asset('/media/css/bootstrap.css') }}" rel="stylesheet">
+	<link href="{{ asset('/media/bootstrap/css/bootstrap.css') }}" rel="stylesheet">
 
 	<!-- Fonts -->
 	<link href="{{ asset('/media/fonts/font-awesome/css/font-awesome.css') }}" rel="stylesheet">
-	<link href="{{ asset('/media/fonts/fontello/css/fontello.css') }}" rel="stylesheet">
 
 	<!-- Plugins -->
 	<link href="{{ asset('/media/plugins/magnific-popup/magnific-popup.css') }}" rel="stylesheet">
-	<link href="{{ asset('/media/plugins/rs-plugin/css/settings.css') }}" rel="stylesheet">
+	<link href="{{ asset('/media/plugins/rs-plugin-5/css/settings.css') }}" rel="stylesheet">
+	<link href="{{ asset('/media/plugins/rs-plugin-5/css/layers.css') }}" rel="stylesheet">
+	<link href="{{ asset('/media/plugins/rs-plugin-5/css/navigation.css') }}" rel="stylesheet">
 	<link href="{{ asset('/media/css/animations.css') }}" rel="stylesheet">
-	<link href="{{ asset('/media/plugins/owl-carousel/owl.carousel.css') }}" rel="stylesheet">
-	<link href="{{ asset('/media/plugins/owl-carousel/owl.transitions.css') }}" rel="stylesheet">
-	<link href="{{ asset('/media/plugins/hover/hover-min.css') }}" rel="stylesheet">
-	<link href="{{ asset('/media/plugins/morphext/morphext.css') }}" rel="stylesheet">
+	<link href="{{ asset('/media/plugins/slick/slick.css') }}" rel="stylesheet">
 	
-	<!-- the project core CSS file -->
-	<link href="{{ asset('/media/css/style.css') }}" rel="stylesheet" >
+	<!-- The Project's core CSS file -->
+	<link href="{{ asset('/media/css/style.css') }}" rel="stylesheet">
+	<link href="{{ asset('/media/css/typography-default.css') }}" rel="stylesheet">
 
 	<!-- Color Scheme (In order to change the color scheme, replace the blue.css with the color scheme that you prefer)-->
 	@if(config('app.debug'))
