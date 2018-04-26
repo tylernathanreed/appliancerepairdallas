@@ -1,4 +1,4 @@
-<div class="owl-carousel brands">
+<div class="slick-carousel clients">
 
     @if(isset($slot))
         {{ $slot }}
@@ -7,7 +7,7 @@
     @if(isset($items))
 
         @foreach($items as $item)
-            <div class="brand">
+            <div class="client">
                 <a href="{{ $item['link'] ?? '#' }}">
                     <img src="{{ $item['image'] }}" alt="{{ $item['alt'] ?? '' }}">
                 </a>

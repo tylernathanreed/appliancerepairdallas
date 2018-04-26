@@ -3,7 +3,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-auto hidden-md-down pl-3">
-					<div class="header-left clearfix">
+					<div class="header-first clearfix">
 						<div id="logo" class="logo">
 							<a href="{{ config('app.url') }}"><img id="logo_img" src="{{ config('app.url') }}/media/images/logo.jpg" alt="E and M Home Service" style="max-height: 60px"></a>
 						</div>

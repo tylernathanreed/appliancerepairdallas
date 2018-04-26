@@ -5,7 +5,7 @@
                 <div class="call-to-action">
                     <div class="row">
                         <div class="col-sm-8">
-                            <h3 class="mt-10 text-muted">{{ $slot ?? $text }}</h3>
+                            <h3 class="mt-10">{{ $slot ?? $text }}</h3>
                         </div>
 
                         @if(isset($link))

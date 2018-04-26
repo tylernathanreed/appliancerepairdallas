@@ -31,11 +31,11 @@ jQuery(document).ready(function($) {
 				style_switcher.animate({"left" : "0px"});
 				$(".style-switcher.closed").removeClass("closed");
 				$(".style-switcher").addClass("opened");
-				$(".style-switcher .trigger i").removeClass("icon-cog-1").addClass("fa fa-times");
+				$(".style-switcher .trigger i").removeClass("fa fa-cog").addClass("fa fa-times");
 			} else {
 				$(".style-switcher.opened").removeClass("opened");
 				$(".style-switcher").addClass("closed");
-				$(".style-switcher .trigger i").removeClass("fa fa-times").addClass("icon-cog-1");
+				$(".style-switcher .trigger i").removeClass("fa fa-times").addClass("fa fa-cog");
 				style_switcher.animate({"left" : '-' + panelWidth});
 			}
 			return false;
@@ -74,13 +74,13 @@ jQuery(document).ready(function($) {
 				$("body").removeClass("wide");
 				$('.style-switcher .layoutChange li[data-style="boxed"]').addClass("selected");
 				$('.style-switcher .layoutChange li[data-style="wide"]').removeClass("selected");
-				$(".owl-carousel .container").css("marginLeft", "0");
+				$(".slick-carousel .container").css("marginLeft", "0");
 			} else { 
 				$("body").addClass(tp_layout_mode);
 				$("body").removeClass("boxed pattern-0 pattern-1 pattern-2 pattern-3 pattern-4 pattern-5 pattern-6 pattern-7 pattern-8 pattern-9");
 				$('.style-switcher .layoutChange li[data-style="boxed"]').removeClass("selected");
 				$('.style-switcher .layoutChange li[data-style="wide"]').addClass("selected");
-				$(".owl-carousel .container").css("marginLeft", "auto");
+				$(".slick-carousel .container").css("marginLeft", "auto");
 			};
 		};
 
@@ -113,38 +113,61 @@ jQuery(document).ready(function($) {
 		};
 
 		// switch colors
-		$('.style-switcher .styleChange li').on('click',function(){
-			if (link.length>0) {
-				var $this = $(this),
-					tp_stylesheet = $this.data('style');
-				$(".style-switcher .styleChange .selected").removeClass("selected");
-				$this.addClass("selected");
+		$('.style-switcher .styleChange li').on('click', function() {
+
+			// Determine the selected item
+			var $this = $(this);
+
+			// Remove the selected class from the other options
+			$(".style-switcher .styleChange .selected").removeClass("selected");
+
+			// Add the selected class to the selected option
+			$this.addClass("selected");
+
+			// Update the name of the selected style
+			$(".style-switcher .styleName").html($this.attr('title'));
+
+			// Check if a style has already been applied
+			if (link.length > 0) {
+
+				// Determine the selected item and style
+				var tp_stylesheet = $this.data('style');
+
+				// Update the stylesheet
 				link.attr('href', 'media/css/skins/' + tp_stylesheet + '.css');
+
+				// Remember the selected stylesheet
 				$.cookie('tp_stylesheet', tp_stylesheet, 365);
-			} else {
-				var $this = $(this),
-					tp_stylesheet_no_cookie = $this.data('style');
-				$(".style-switcher .styleChange .selected").removeClass("selected");
-				$this.addClass("selected");
+
+			}
+
+			// A style has not already been applied
+			else {
+
+				// Determine the selected item and style
+				var tp_stylesheet_no_cookie = $this.data('style');
+
+				// Update the stylesheet
 				link_no_cookie.attr('href', 'media/css/skins/' + tp_stylesheet_no_cookie + '.css');
 			};
+
 		});
 
 		// switch patterns
 		$('.style-switcher .patternChange li').on('click',function(){
-		var $this = $(this),
-			pattern = $this.data('style');
-		$(".style-switcher .patternChange .selected").removeClass("selected");
-		$this.addClass("selected");
-		$("body").removeClass("pattern-0 pattern-1 pattern-2 pattern-3 pattern-4 pattern-5 pattern-6 pattern-7 pattern-8 pattern-9 wide");
-		$("body").addClass(pattern);
-		$("body").addClass("boxed");
-		$('.style-switcher .layoutChange li[data-style="boxed"]').addClass("selected");
-		$('.style-switcher .layoutChange li[data-style="wide"]').removeClass("selected");
-		$(".owl-carousel .container").css("marginLeft", "0");
-		$(".style-switcher select").val("boxed");
-		$.cookie('pattern', pattern, 365);
-		$.cookie('tp_layout_mode', 'boxed', 365);
+			var $this = $(this),
+				pattern = $this.data('style');
+			$(".style-switcher .patternChange .selected").removeClass("selected");
+			$this.addClass("selected");
+			$("body").removeClass("pattern-0 pattern-1 pattern-2 pattern-3 pattern-4 pattern-5 pattern-6 pattern-7 pattern-8 pattern-9 wide");
+			$("body").addClass(pattern);
+			$("body").addClass("boxed");
+			$('.style-switcher .layoutChange li[data-style="boxed"]').addClass("selected");
+			$('.style-switcher .layoutChange li[data-style="wide"]').removeClass("selected");
+			$(".slick-carousel .container").css("marginLeft", "0");
+			$(".style-switcher select").val("boxed");
+			$.cookie('pattern', pattern, 365);
+			$.cookie('tp_layout_mode', 'boxed', 365);
 		});
 
 		// Switch layout
@@ -154,7 +177,7 @@ jQuery(document).ready(function($) {
 			$("body").removeClass("wide");
 			$('.style-switcher .layoutChange li[data-style="boxed"]').addClass("selected");
 			$('.style-switcher .layoutChange li[data-style="wide"]').removeClass("selected");
-			$(".owl-carousel .container").css("marginLeft", "0");
+			$(".slick-carousel .container").css("marginLeft", "0");
 			$.cookie('tp_layout_mode', 'boxed', 365);
 			if ($.cookie('pattern')) {
 				var pattern = $.cookie('pattern');
@@ -172,7 +195,7 @@ jQuery(document).ready(function($) {
 			$("body").removeClass("boxed pattern-0 pattern-1 pattern-2 pattern-3 pattern-4 pattern-5 pattern-6 pattern-7 pattern-8 pattern-9");
 			$('.style-switcher .layoutChange li[data-style="boxed"]').removeClass("selected");
 			$('.style-switcher .layoutChange li[data-style="wide"]').addClass("selected");
-			$(".owl-carousel .container").css("marginLeft", "auto");
+			$(".slick-carousel .container").css("marginLeft", "auto");
 			$('.style-switcher .patternChange li.selected').removeClass("selected");
 			$.cookie('tp_layout_mode', 'wide', 365);
 		});
@@ -205,7 +228,7 @@ jQuery(document).ready(function($) {
 			$("body").removeClass("boxed");
 			$('.style-switcher .layoutChange li[data-style="boxed"]').removeClass("selected");
 			$('.style-switcher .layoutChange li[data-style="wide"]').addClass("selected");
-			$(".owl-carousel .container").css("marginLeft", "auto");
+			$(".slick-carousel .container").css("marginLeft", "auto");
 			$('.style-switcher .patternChange li.selected').removeClass("selected");
 			//pattern
 			$.cookie('pattern', 'pattern-0', 365);

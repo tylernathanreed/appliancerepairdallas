@@ -2,3 +2,11 @@
  * Version: 2.1
  * File Description: Place here your custom CSS styles
  */
+
+.hover-hide-container:hover > .hover-hide-item {
+	display: none;
+}
+
+.pl-26 {
+	padding-left: 26px;
+}

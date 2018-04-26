@@ -13,25 +13,30 @@
     <section class="main-container">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 col-md-push-6">
-                    <div class="overlay-container overlay-visible">
+                <div class="col-md-6">
+                    <h3 id="text-rotator" class="title d-inline-block text-rotator"></h3>
+                    <div id="text-rotator-text" class="mt-4 text-rotator-text d-none">
+                        <p>E&amp;M Home Service is Reliable</p>
+                        <p>E&amp;M Home Service is Committed</p>
+                        <p>E&amp;M Home Service is Honest</p>
+                    </div>
+
+                    <p>We repairs all makes and models of home appliances in the <span class="text-default">Dallas / Fort Worth Metroplex</span> area.</p>
+                    <p>We are <strong>A+</strong> rated by the Dallas Better Business Bureau since 2005.</p>
+                    <p>We strive to provide great appliance repairs and outstanding service.</p>
+                    <p>We do not charge extra for Saturday service.</p>
+                    <a href="page-about.html" class="btn radius-50 btn-default btn-hvr hvr-shutter-out-horizontal"><i class="fa fa-arrow-left pr-10"></i>Learn More</a>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="overlay-container overlay-visible hover-hide-container">
                         <div id="map-canvas"></div>
-                        {{-- <img src="{{ asset('media/images/coverage.jpg') }}" alt=""> --}}
-                        <div class="overlay-bottom hidden-xs">
+                        <div class="overlay-bottom hidden-xs hover-hide-item">
                             <div class="text">
                                 E&amp;M Home Service has a wide service area for you.
                             </div>
                         </div>
                     </div>
-                </div>
-
-                <div class="col-md-6 col-md-pull-6">
-                    <h3 class="title">E&amp;M Home Service is <span class="text-rotator" data-rotator-animation-effect="fadeIn">Reliable, Committed, Honest</span></h3>
-                    <p>We repairs all makes and models of home appliances in the <span class="text-default">Dallas / Fort Worth Metroplex</span> area.</p>
-                    <p>We are <strong>A+</strong> rated by the Dallas Better Business Bureau since 2005.</p>
-                    <p>We strive to provide great appliance repairs and outstanding service.</p>
-                    <p>We do not charge extra for Saturday service.</p>
-                    <a href="page-about.html" class="btn radius-50 btn-default btn-hvr hvr-shutter-out-horizontal"><i class="icon-users-1 pr-10"></i>Learn More</a>
                 </div>
             </div>
         </div>
@@ -96,7 +101,7 @@
     </section>
     <!-- section end -->
 
-    @include('components.owl-carousel.brands', [
+    @include('components.carousels.brands', [
         'items' => [
             ['image' => asset('media/images/brands/admiral.jpeg')],
             ['image' => asset('media/images/brands/amana.jpeg')],

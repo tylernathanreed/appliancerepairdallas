@@ -3,7 +3,7 @@
 <?php $largeControls = $largeControls ?? ($controls === 'large'); ?>
 <?php $controls = $controls || $largeControls; ?>
 
-<div class="owl-carousel content-slider{{ $controls ? '-with-' . ($largeControls ? 'large-' : '' ) . 'controls' : ''}}{{ ($controls && $autoplay) ? '-autoplay' : '' }}">
+<div class="slick-carousel content-slider{{ $controls ? '-with-' . ($largeControls ? 'large-' : '' ) . 'controls' : ''}}{{ ($controls && $autoplay) ? '-autoplay' : '' }}">
 
     @if(isset($slot))
         {{ $slot }}

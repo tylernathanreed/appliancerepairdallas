@@ -1,7 +1,7 @@
 <?php $autoplay = $autoplay ?? false; ?>
 <?php $imageBox = $imageBox ?? false; ?>
 
-<div class="owl-carousel carousel{{ $autoplay ? '-autoplay' : '' }}">
+<div class="slick-carousel carousel{{ $autoplay ? '-autoplay' : '' }}">
 
     @if(isset($slot))
         {{ $slot }}

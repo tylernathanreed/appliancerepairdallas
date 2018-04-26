@@ -1,27 +1,20 @@
 <div class="style-switcher closed" style="left: -225px;">
 	<div class="header">
-		<a class="trigger" href="#"><i class="icon-cog-1"></i></a>
+		<a class="trigger" href="#"><i class="fa fa-cog"></i></a>
 		<h2>Style Switcher</h2>
 	</div>
 
 	<div class="clearfix body">
-		<h3>Predifined Colors</h3>
+		<h3>Primary Color</h3>
 		<ul class="styleChange">
-			<li class="light-blue" data-style="light_blue" title="light_blue"></li>
-			<li class="blue" data-style="blue" title="blue"></li>
-			<li class="green" data-style="green" title="green"></li>
-			<li class="dark-cyan" data-style="dark_cyan" title="dark_cyan"></li>
-			<li class="brown selected" data-style="brown" title="brown"></li>
-			<li class="dark-red" data-style="dark_red" title="dark_red"></li>
-			<li class="gold" data-style="gold" title="gold"></li>
-			<li class="gray" data-style="gray" title="gray"></li>
-			<li class="cool-green" data-style="cool_green" title="cool_green"></li>
-			<li class="pink" data-style="pink" title="pink"></li>
-			<li class="purple" data-style="purple" title="purple"></li>
-			<li class="orange" data-style="orange" title="orange"></li>
-			<li class="red" data-style="red" title="red"></li>
-			<li class="vivid-red" data-style="vivid_red" title="vivid_red"></li>
+			<?php $selected = config('styles.primary-colors.selected'); ?>
+
+			@foreach(config('styles.primary-colors.colors') as $name => $color)
+				<li class="{{ $color['class'] . ($name == $selected ? ' selected' : '') }}" data-style="{{ $color['style'] }}" title="{{ $color['title'] }}"></li>
+			@endforeach
 		</ul>
+
+		<small class="styleName text-muted">{{ config("styles.primary-colors.colors.{$selected}.title") }}</small>
 
 		<hr>
 

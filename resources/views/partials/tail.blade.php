@@ -30,8 +30,8 @@
 	<script type="text/javascript" src="{{ config('app.url') }}/media/plugins/slick/slick.min.js"></script>
 
 	<!-- Google Maps javascript -->
-	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAQeVPJEiUi8YbP4rueUnGXJhCgA2GQcOw"></script>
 	<script type="text/javascript" src="{{ asset('media/js/google.map.config.js') }}"></script>
+	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAQeVPJEiUi8YbP4rueUnGXJhCgA2GQcOw&callback=initializeGoogleMaps"></script>
 
 	<!-- Initialization of Plugins -->
 	<script type="text/javascript" src="{{ config('app.url') }}/media/js/template.js"></script>

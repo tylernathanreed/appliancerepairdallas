@@ -35,7 +35,7 @@
 	<link href="{{ asset('/media/plugins/slick/slick.css') }}" rel="stylesheet">
 	
 	<!-- The Project's core CSS file -->
-	<link href="{{ asset('/media/css/style.css') }}" rel="stylesheet">
+	<link href="{{ asset('/media/css/template.css') }}" rel="stylesheet">
 	<link href="{{ asset('/media/css/typography-default.css') }}" rel="stylesheet">
 
 	<!-- Color Scheme (In order to change the color scheme, replace the blue.css with the color scheme that you prefer)-->
@@ -47,8 +47,8 @@
 	@endif
 
 	<!-- Custom css --> 
-	<link href="{{ asset('/media/css/main.css') }}" rel="stylesheet">
 	<link href="{{ asset('/media/css/app.css') }}" rel="stylesheet">
+	<link href="{{ asset('/media/css/custom.css') }}" rel="stylesheet">
 
 	@yield('head')
 </head>
