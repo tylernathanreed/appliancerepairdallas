@@ -1,8 +1,10 @@
 @extends('layouts.page')
 
 @section('banner')
-
     @include('partials.slideshow')
+@endsection
+
+@section('content')
 
     @component('components.call-to-action', ['link' => '#', 'action' => 'Learn More'])
         Free Repair, Installation, and Maintenance Tips!
