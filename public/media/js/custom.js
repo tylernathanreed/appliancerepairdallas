@@ -6,7 +6,7 @@
 		//-----------------------------------------------
 		if ($('.slick-carousel').length > 0) {
 
-			$("*[dir='ltr'] .slick-carousel.clients").slick({
+			$("*[dir='ltr'] .slick-carousel.brands").slick({
 				arrows: false,
 				slidesToShow: 10,
 				slidesToScroll: 10,
