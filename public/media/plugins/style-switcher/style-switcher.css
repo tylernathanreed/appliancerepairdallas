@@ -221,87 +221,25 @@ div.style-switcher select {
 	padding: 5px;
 	border: 1px solid #b2bfca;
 }
-div.style-switcher .blue {
-	background: #3697d9;
-}
-div.style-switcher .blue:hover {
-	background: #338dca;
-}
-div.style-switcher .brown {
-	background: #91633c;
-}
-div.style-switcher .brown:hover {
-	background: #795332;
-}
-div.style-switcher .cool-green {
-	background: #21bb9d;
-}
-div.style-switcher .cool-green:hover {
-	background: #1ea88d;
-}
-div.style-switcher .dark-cyan {
-	background: #2aa4a5;
-}
-div.style-switcher .dark-cyan:hover {
-	background: #248d8e;
-}
-div.style-switcher .dark-red {
-	background: #992020;
-}
-div.style-switcher .dark-red:hover {
-	background: #681313;
-}
-div.style-switcher .gold {
-	background: #c7ac56;
-}
-div.style-switcher .gold:hover {
-	background: #b0984d;
-}
-div.style-switcher .gray {
-	background: #809398;
-}
-div.style-switcher .gray:hover {
-	background: #6e7e82;
-}
-div.style-switcher .green {
-	background: #24a828;
-}
-div.style-switcher .green:hover {
-	background: #1f9123;
-}
-div.style-switcher .light-blue {
-	background: #09afdf;
-}
-div.style-switcher .light-blue:hover {
-	background: #0c9ec7;
-}
-div.style-switcher .orange {
-	background: #e07e27;
-}
-div.style-switcher .orange:hover {
-	background: #cc7324;
-}
-div.style-switcher .pink {
-	background: #dd7b9b;
-}
-div.style-switcher .pink:hover {
-	background: #c9718e;
-}
-div.style-switcher .purple {
-	background: #ab6cc6;
-}
-div.style-switcher .purple:hover {
-	background: #9760af;
-}
-div.style-switcher .red {
-	background: #dc5b5b;
-}
-div.style-switcher .red:hover {
-	background: #c15050;
-}
-div.style-switcher .vivid-red {
-	background: #c82727;
-}
-div.style-switcher .vivid-red:hover {
-	background: #b42424;
-}
+div.style-switcher .blue       { background: #3697d9; } div.style-switcher .blue:hover       { background: #338dca; }
+div.style-switcher .brown      { background: #91633c; } div.style-switcher .brown:hover      { background: #795332; }
+div.style-switcher .cool-green { background: #21bb9d; } div.style-switcher .cool-green:hover { background: #1ea88d; }
+div.style-switcher .dark-cyan  { background: #2aa4a5; } div.style-switcher .dark-cyan:hover  { background: #248d8e; }
+div.style-switcher .dark-red   { background: #992020; } div.style-switcher .dark-red:hover   { background: #681313; }
+div.style-switcher .gold       { background: #c7ac56; } div.style-switcher .gold:hover       { background: #b0984d; }
+div.style-switcher .gray       { background: #809398; } div.style-switcher .gray:hover       { background: #6e7e82; }
+div.style-switcher .green      { background: #24a828; } div.style-switcher .green:hover      { background: #1f9123; }
+div.style-switcher .light-blue { background: #09afdf; } div.style-switcher .light-blue:hover { background: #0c9ec7; }
+div.style-switcher .orange     { background: #e07e27; } div.style-switcher .orange:hover     { background: #cc7324; }
+div.style-switcher .pink       { background: #dd7b9b; } div.style-switcher .pink:hover       { background: #c9718e; }
+div.style-switcher .purple     { background: #ab6cc6; } div.style-switcher .purple:hover     { background: #9760af; }
+div.style-switcher .red        { background: #dc5b5b; } div.style-switcher .red:hover        { background: #c15050; }
+div.style-switcher .vivid-red  { background: #c82727; } div.style-switcher .vivid-red:hover  { background: #b42424; }
+
+div.style-switcher .san-marino      { background: hsl(218, 45%, 48%); } div.style-switcher .san-marino:hover      { background: hsl(218, 40%, 43%); }
+div.style-switcher .royal-blue      { background: hsl(214, 65%, 55%); } div.style-switcher .royal-blue:hover      { background: hsl(214, 60%, 49%); }
+div.style-switcher .piction-blue    { background: hsl(204, 71%, 62%); } div.style-switcher .piction-blue:hover    { background: hsl(204, 66%, 56%); }
+div.style-switcher .curious-blue    { background: hsl(204, 70%, 53%); } div.style-switcher .curious-blue:hover    { background: hsl(204, 65%, 47%); }
+div.style-switcher .chambray        { background: hsl(225, 46%, 42%); } div.style-switcher .chambray:hover        { background: hsl(226, 8%, 24%); }
+div.style-switcher .jacksons-purple { background: hsl(226, 65%, 35%); } div.style-switcher .jacksons-purple:hover { background: hsl(227, 9%, 25%); }
+div.style-switcher .true-blue       { background: hsl(240, 100%, 50%); } div.style-switcher .true-blue:hover      { background: hsl(240, 95%, 45%); }

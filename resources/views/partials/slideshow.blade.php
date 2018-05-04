@@ -78,6 +78,7 @@
                         <a href="page-contact.html" class="btn radius-50 btn-default btn-animated-left">
                             <i class="fa fa-truck"></i> Submit a Service Request
                         </a>
+                        <i></i>
                     </div>
 
                     <!-- LAYER NR. 5 -->
@@ -167,6 +168,7 @@
                         <a href="page-contact.html" class="btn radius-50 btn-default btn-animated-left">
                             <i class="fa fa-truck"></i> Submit a Service Request
                         </a>
+                        <i></i>
                     </div>
 
                     <!-- LAYER NR. 5 -->

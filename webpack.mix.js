@@ -11,5 +11,10 @@ let mix = require('laravel-mix');
  |
  */
 
-mix.js('resources/assets/js/app.js', 'public/js')
-   .sass('resources/assets/sass/app.scss', 'public/css');
+mix.sass('resources/assets/sass/skins/san_marino.scss', 'public/media/css/skins');
+mix.sass('resources/assets/sass/skins/royal_blue.scss', 'public/media/css/skins');
+mix.sass('resources/assets/sass/skins/piction_blue.scss', 'public/media/css/skins');
+mix.sass('resources/assets/sass/skins/curious_blue.scss', 'public/media/css/skins');
+mix.sass('resources/assets/sass/skins/chambray.scss', 'public/media/css/skins');
+mix.sass('resources/assets/sass/skins/jacksons_purple.scss', 'public/media/css/skins');
+mix.sass('resources/assets/sass/skins/true_blue.scss', 'public/media/css/skins');
