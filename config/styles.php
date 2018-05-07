@@ -4,7 +4,7 @@ return [
 
 	'primary-colors' => [
 
-		'selected' => 'light-blue',
+		'selected' => 'blue',
 
 		'colors' => [
 			'blue'            => ['title' => 'Blue',            'class' => 'blue',            'style' => 'blue'],
