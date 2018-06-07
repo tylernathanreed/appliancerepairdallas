@@ -38,4 +38,14 @@ class PagesController extends Controller
 	{
 		return view('pages.resources.content-sliders');
 	}
+
+	/**
+	 * Displays the contact page.
+	 *
+	 * @return \Illuminate\Http\Response
+	 */
+	public function contact()
+	{
+		return view('pages.contact');
+	}
 }

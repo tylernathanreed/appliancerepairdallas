@@ -21,6 +21,8 @@
 		<div class="page-wrapper">
 			@include('partials.header.main.container')
 
+			@include('partials.breadcrumbs')
+
 			@optional('banner')
 				<div class="banner clearfix">
 					@yield('banner')

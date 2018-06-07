@@ -22,6 +22,32 @@
                 </div>
             </div>
         </section>
+    @else
+        @optional('page.main')
+            <?php $col = 12; ?>
+
+            @optional('page.sidebar-right')
+                <?php $col -= 4; ?>
+            @endoptional
+
+            <section class="main-container">
+                <div class="container">
+                    <div class="row">
+                        <div class="main col-md-{{ $col }}{{ isset($main['class']) ? ' ' . $main['class'] : '' }}">
+                            @yield('page.main')
+                        </div>
+
+                        @optional('page.sidebar-right')
+                            <aside class="col-lg-3 ml-xl-auto">
+                                <div class="sidebar">
+                                    @yield('page.sidebar-right')
+                                </div>
+                            </aside>
+                        @endoptional
+                    </div>
+                </div>
+            </section>
+        @endoptional
     @endoptional
 
 @endsection

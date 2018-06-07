@@ -23,6 +23,12 @@ Route::get('pricing', [
 	'uses' => 'PagesController@pricing'
 ]);
 
+// Contact
+Route::get('contact', [
+	'as' => 'pages.contact',
+	'uses' => 'PagesController@contact'
+]);
+
 // Services
 Route::group(['prefix' => 'resources'], function() {
 

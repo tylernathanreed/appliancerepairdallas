@@ -25,6 +25,6 @@
 	</li>
 
 	<li class="nav-item mega-menu mega-menu--wide">
-		<a href="{{ config('app.url') }}/contact" class="nav-link">Contact Us</a>
+		<a href="{{ route('pages.contact') }}" class="nav-link">Contact Us</a>
 	</li>
 </ul>
