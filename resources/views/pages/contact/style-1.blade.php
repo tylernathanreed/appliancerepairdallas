@@ -14,7 +14,7 @@
 
 @section('banner')
 
-	<div class="banner dark-translucent-bg" style="background-image:url('media/images/page-contact-banner.jpg'); background-position: 50% 40%;">
+	<div class="banner dark-translucent-bg" style="background-image:url({{ asset('media/images/page-contact-banner.jpg') }}); background-position: 50% 40%;">
 		<div class="container">
 			<div class="row justify-content-lg-center">
 				<div class="col-lg-8 text-center pv-20">

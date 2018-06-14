@@ -50,4 +50,6 @@
         @endoptional
     @endoptional
 
+    @yield('page.bottom')
+
 @endsection

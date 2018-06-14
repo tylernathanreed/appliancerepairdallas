@@ -1,5 +1,32 @@
 <?php
 
+use App\Support\Contacts\Address;
+
+if(!function_exists('address')) {
+
+    /**
+     * Creates and returns a new address from the given components.
+     *
+     * @param  string|array  $components
+     *
+     * @return array
+     */
+    function address($components = 'primary')
+    {
+        // Check for a configuration reference
+        if(is_string($components)) {
+
+            // Determine the components from configuration
+            $components = config('branding.contacts.addresses.' . $components);
+
+        }
+
+        // Create and return a new address
+        return new Address($components);
+    }
+
+}
+
 if(!function_exists('popover')) {
 
     /**

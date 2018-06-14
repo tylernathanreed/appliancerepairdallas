@@ -10,3 +10,13 @@
 .pl-26 {
 	padding-left: 26px;
 }
+
+.pl-24 {
+    padding-left: 24px;
+}
+
+::placeholder {
+    font-style: italic;
+    color: #ccc !important;
+    opacity: 1;
+}

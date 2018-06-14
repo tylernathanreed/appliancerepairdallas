@@ -24,7 +24,10 @@
 		<a href="{{ config('app.url') }}/news" class="nav-link">News</a>
 	</li>
 
-	<li class="nav-item mega-menu mega-menu--wide">
-		<a href="{{ route('pages.contact') }}" class="nav-link">Contact Us</a>
+	<li class="nav-item dropdown">
+		<a id="second-dropdown" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Contact Us</a>
+		<ul class="dropdown-menu" aria-labelledby="second-dropdown">
+			<li><a href="{{ route('pages.contact.style-1') }}">Style 1</a></li>
+		</ul>
 	</li>
 </ul>

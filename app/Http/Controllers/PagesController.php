@@ -44,8 +44,8 @@ class PagesController extends Controller
 	 *
 	 * @return \Illuminate\Http\Response
 	 */
-	public function contact()
+	public function contactStyle1()
 	{
-		return view('pages.contact');
+		return view('pages.contact.style-1');
 	}
 }

@@ -71,6 +71,11 @@ div.style-switcher a.trigger {
 	border-left: none;
 	border-radius: 0 5px 5px 0;
 }
+
+div.style-switcher a.trigger .fa {
+    margin-top:  9px;
+}
+
 div.style-switcher.opened a.trigger {
 	right: 0px;
 	border-color: transparent;

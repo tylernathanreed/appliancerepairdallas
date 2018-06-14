@@ -24,9 +24,9 @@ Route::get('pricing', [
 ]);
 
 // Contact
-Route::get('contact', [
-	'as' => 'pages.contact',
-	'uses' => 'PagesController@contact'
+Route::get('contact/style-1', [
+	'as' => 'pages.contact.style-1',
+	'uses' => 'PagesController@contactStyle1'
 ]);
 
 // Services
