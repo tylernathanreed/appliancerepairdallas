@@ -48,4 +48,24 @@ class PagesController extends Controller
 	{
 		return view('pages.contact.style-1');
 	}
+
+	/**
+	 * Displays the contact page.
+	 *
+	 * @return \Illuminate\Http\Response
+	 */
+	public function contactStyle2()
+	{
+		return view('pages.contact.style-2');
+	}
+
+	/**
+	 * Displays the contact page.
+	 *
+	 * @return \Illuminate\Http\Response
+	 */
+	public function contactStyle3()
+	{
+		return view('pages.contact.style-3');
+	}
 }

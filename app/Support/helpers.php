@@ -27,6 +27,65 @@ if(!function_exists('address')) {
 
 }
 
+if(!function_exists('email')) {
+
+    /**
+     * Creates and returns a new email from the given address.
+     *
+     * @param  string   $email
+     * @param  boolean  $mailTo
+     *
+     * @return array
+     */
+    function email($email = 'primary', $mailTo = false)
+    {
+        // Check for configuration reference
+        if(strpos($email, '@') === false) {
+
+            // Determine the email configuration
+            $email = config('branding.contacts.emails.' . $email);
+
+        }
+
+        // Check for a mailto reference
+        if($mailTo) {
+            $email = "<a href=\"mailto:{$email}\">{$email}</a>";
+        }
+
+        // Return the email address
+        return $email;
+    }
+
+}
+
+if(!function_exists('phone')) {
+
+    /**
+     * Returns a formatting phone number using the given number.
+     *
+     * @param  string  $number
+     *
+     * @return array
+     */
+    function phone($number = 'primary')
+    {
+        // Determine the characters that can make up a phone number
+        $characters = ['(', ')', '+', '-', '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '.'];
+
+        // Check for configuration reference
+        if(strlen($number) < 10 || strlen(str_replace($characters, '', $number)) == 0) {
+
+            // Determine the phone configuration
+            $number = config('branding.contacts.phones.' . $number);
+
+        }
+
+        // Return the phone number
+        return $number;
+    }
+
+}
+
 if(!function_exists('popover')) {
 
     /**

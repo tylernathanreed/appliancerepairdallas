@@ -24,24 +24,27 @@
         </section>
     @else
         @optional('page.main')
-            <?php $col = 12; ?>
+            <?php $col = [
+                'md' => 12,
+                'lg' => 12,
+                'xl' => 12
+            ]; ?>
 
             @optional('page.sidebar-right')
-                <?php $col -= 4; ?>
+                <?php $col['lg'] -= 4; ?>
+                <?php $col['xl'] -= 3; ?>
             @endoptional
 
             <section class="main-container">
                 <div class="container">
                     <div class="row">
-                        <div class="main col-md-{{ $col }}{{ isset($main['class']) ? ' ' . $main['class'] : '' }}">
+                        <div class="main col-md-{{ $col['md'] }} col-lg-{{ $col['lg'] }} col-xl-{{ $col['xl'] }}{{ isset($main['class']) ? ' ' . $main['class'] : '' }}">
                             @yield('page.main')
                         </div>
 
                         @optional('page.sidebar-right')
-                            <aside class="col-lg-3 ml-xl-auto">
-                                <div class="sidebar">
-                                    @yield('page.sidebar-right')
-                                </div>
+                            <aside class="col-lg-4 col-xl-3 ml-xl-auto">
+                                @yield('page.sidebar-right')
                             </aside>
                         @endoptional
                     </div>

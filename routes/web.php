@@ -23,10 +23,22 @@ Route::get('pricing', [
 	'uses' => 'PagesController@pricing'
 ]);
 
-// Contact
+// Contact (Style 1)
 Route::get('contact/style-1', [
 	'as' => 'pages.contact.style-1',
 	'uses' => 'PagesController@contactStyle1'
+]);
+
+// Contact (Style 2)
+Route::get('contact/style-2', [
+	'as' => 'pages.contact.style-2',
+	'uses' => 'PagesController@contactStyle2'
+]);
+
+// Contact (Style 3)
+Route::get('contact/style-3', [
+	'as' => 'pages.contact.style-3',
+	'uses' => 'PagesController@contactStyle3'
 ]);
 
 // Services

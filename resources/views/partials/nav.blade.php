@@ -28,6 +28,8 @@
 		<a id="second-dropdown" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Contact Us</a>
 		<ul class="dropdown-menu" aria-labelledby="second-dropdown">
 			<li><a href="{{ route('pages.contact.style-1') }}">Style 1</a></li>
+			<li><a href="{{ route('pages.contact.style-2') }}">Style 2</a></li>
+			<li><a href="{{ route('pages.contact.style-3') }}">Style 3</a></li>
 		</ul>
 	</li>
 </ul>

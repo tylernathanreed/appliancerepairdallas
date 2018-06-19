@@ -186,19 +186,14 @@ class Address extends Contact
 	 */
 	public function toLine1()
 	{
-		// Determine the first address line
-		$line1 = $this->getLine1();
+		// Determine the first and second address lines
+		$components = array_filter([
+			$this->getLine1(),
+			$this->getLine2()
+		]);
 
-		// Check for a second address line
-		if(!is_null($line2 = $this->getLine2())) {
-
-			// Return the two address lines
-			return $line1 . ', ' . $line2;
-
-		}
-
-		// Return the first address line
-		return $line1;
+		// Format the first addess line
+		return implode(', ', $components);
 	}
 
 	/**
@@ -216,6 +211,23 @@ class Address extends Contact
 		]);
 
 		// Format the second address line
+		return implode(', ', $components);
+	}
+
+	/**
+	 * Returns a string representation of the address.
+	 *
+	 * @return string
+	 */
+	public function __toString()
+	{
+		// Determine the address components
+		$components = array_filter([
+			$this->toLine1(),
+			$this->toLine2()
+		]);
+
+		// Format the address
 		return implode(', ', $components);
 	}
 
