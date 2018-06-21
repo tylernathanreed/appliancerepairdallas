@@ -3,8 +3,14 @@
 		<a href="{{ config('app.url') }}" class="nav-link">Home</a>
 	</li>
 
-	<li class="nav-item mega-menu mega-menu--wide{{ url() == (config('app.url') . '/about') ? ' active' : '' }}">
-		<a href="{{ config('app.url') }}/about" class="nav-link">About Us</a>
+	<li class="nav-item dropdown">
+		<a id="second-dropdown" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">About Us</a>
+		<ul class="dropdown-menu" aria-labelledby="second-dropdown">
+			<li><a href="{{ route('pages.about.style-1') }}">Style 1</a></li>
+			<li><a href="{{ route('pages.about.style-2') }}">Style 2</a></li>
+			<li><a href="{{ route('pages.about.style-3') }}">Style 3</a></li>
+			<li><a href="{{ route('pages.about.style-3') }}">Style 4</a></li>
+		</ul>
 	</li>
 
 	<li class="nav-item mega-menu mega-menu--wide">

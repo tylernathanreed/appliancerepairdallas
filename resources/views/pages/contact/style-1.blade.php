@@ -32,7 +32,7 @@
 
 	<p class="lead">It would be great to hear from you! Just drop us a line and ask for anything with which you think we could be helpful. We are looking forward to hearing from you!</p>
 	<div class="contact-form">
-		@include('pages.forms.contact')
+		@include('pages.forms.contact-style-1')
 	</div>
 
 @endsection

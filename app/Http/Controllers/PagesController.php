@@ -17,6 +17,46 @@ class PagesController extends Controller
 	}
 
 	/**
+	 * Displays the about page.
+	 *
+	 * @return \Illuminate\Http\Response
+	 */
+	public function aboutStyle1()
+	{
+		return view('pages.about.style-1');
+	}
+
+	/**
+	 * Displays the about page.
+	 *
+	 * @return \Illuminate\Http\Response
+	 */
+	public function aboutStyle2()
+	{
+		return view('pages.about.style-2');
+	}
+
+	/**
+	 * Displays the about page.
+	 *
+	 * @return \Illuminate\Http\Response
+	 */
+	public function aboutStyle3()
+	{
+		return view('pages.about.style-3');
+	}
+
+	/**
+	 * Displays the about page.
+	 *
+	 * @return \Illuminate\Http\Response
+	 */
+	public function aboutStyle4()
+	{
+		return view('pages.about.style-4');
+	}
+
+	/**
 	 * Displays the pricing page.
 	 *
 	 * @return \Illuminate\Http\Response

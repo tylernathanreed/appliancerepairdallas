@@ -58,7 +58,7 @@
 		<div class="col-lg-6">
 			<p>Submit the form below, and we'll get back to you as soon as possible!</p>
 			<div class="contact-form">
-				@include('pages.forms.contact')
+				@include('pages.forms.contact-style-1')
 			</div>
 		</div>
 

@@ -23,6 +23,30 @@ Route::get('pricing', [
 	'uses' => 'PagesController@pricing'
 ]);
 
+// About (Style 1)
+Route::get('about/style-1', [
+	'as' => 'pages.about.style-1',
+	'uses' => 'PagesController@aboutStyle1'
+]);
+
+// About (Style 2)
+Route::get('about/style-2', [
+	'as' => 'pages.about.style-2',
+	'uses' => 'PagesController@aboutStyle2'
+]);
+
+// About (Style 3)
+Route::get('about/style-3', [
+	'as' => 'pages.about.style-3',
+	'uses' => 'PagesController@aboutStyle3'
+]);
+
+// About (Style 4)
+Route::get('about/style-4', [
+	'as' => 'pages.about.style-4',
+	'uses' => 'PagesController@aboutStyle4'
+]);
+
 // Contact (Style 1)
 Route::get('contact/style-1', [
 	'as' => 'pages.contact.style-1',
