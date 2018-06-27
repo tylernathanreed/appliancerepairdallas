@@ -34,49 +34,37 @@
 	<div class="separator-2"></div>
 	<div class="row">
 		<div class="col-lg-6">
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus illo vero cupiditate, sed enim voluptatibus provident consectetur. Quo dolor sunt nostrum, eligendi illo accusamus odit, ipsam excepturi voluptatem nulla minus.</p>
+			<p>The E&amp;M Home Service team will repair or install appliances for your residence, rental property, or property being prepared for sale in the Dallas / Fort Worth Metroplex. We specialize in superior customer service. We have a female technician on staff that works exclusively with seniors and women who live alone.</p>
 			<p>Blanditiis aspernatur, non quasi, maxime corporis officiis quia. Cupiditate, voluptatibus ducimus, natus, labore mollitia dolorem incidunt voluptatum, delectus eius fugit porro placeat animi voluptatem autem hic eligendi sint. Amet pariatur odit repudiandae sunt. Rem ipsum dolor sit amet, consectetur adipisicing elit. Sunt asperiores a.</p>
 
 			<ul class="list-icons">
-				<li><i class="fa fa-check-square-o"></i> Unt in culpa qui deserunt</li>
-				<li><i class="fa fa-check-square-o"></i> Elegant Design</li>
-				<li><i class="fa fa-check-square-o"></i> Labore et dolore magna aliqua</li>
-				<li><i class="fa fa-check-square-o"></i> ipsam asperiores fugiat quo</li>
+				<li><i class="fa fa-check-square-o"></i> Experienced and qualified in-home service technicians</li>
+				<li><i class="fa fa-check-square-o"></i> Fully licensed and bonded, E&amp;M Home Service stands behind their work</li>
+				<li><i class="fa fa-check-square-o"></i> Better Business Bureau Accredited Since 2005; <b>A+ Rating!</b></li>
+				<li><i class="fa fa-check-square-o"></i> Superior technical expertise for all major appliance brands</li>
+				<li><i class="fa fa-check-square-o"></i> Simple pricing and wide service area, available 24/7</li>
 			</ul>
 		</div>
 
 		<div class="col-lg-6">
-			<div class="slick-carousel content-slider-with-controls">
-				<div class="overlay-container overlay-visible">
-					<img src="{{ asset('media/images/page-about-1.jpg') }}" alt="">
-					<div class="overlay-bottom hidden-sm-down">
-						<div class="text">
-							<h3 class="title">We Can Do It</h3>
-						</div>
-					</div>
-					<a href="images/page-about-1.jpg" class="slick-carousel--popup-img overlay-link" title="image title"><i class="fa fa-plus"></i></a>
-				</div>
-
-				<div class="overlay-container overlay-visible">
-					<img src="{{ asset('media/images/page-about-2.jpg') }}" alt="">
-					<div class="overlay-bottom hidden-sm-down">
-						<div class="text">
-							<h3 class="title">You Can Trust Us</h3>
-						</div>
-					</div>
-					<a href="images/page-about-2.jpg" class="slick-carousel--popup-img overlay-link" title="image title"><i class="fa fa-plus"></i></a>
-				</div>
-
-				<div class="overlay-container overlay-visible">
-					<img src="{{ asset('media/images/page-about-3.jpg') }}" alt="">
-					<div class="overlay-bottom hidden-sm-down">
-						<div class="text">
-							<h3 class="title">We Love What We Do</h3>
-						</div>
-					</div>
-					<a href="images/page-about-3.jpg" class="slick-carousel--popup-img overlay-link" title="image title"><i class="fa fa-plus"></i></a>
-				</div>
-			</div>
+            @include('components.carousels.content-slider', [
+                'controls' => true,
+                'autoplay' => false,
+                'items' => [
+                    [
+                        'image' => asset('media/images/page-about-1.jpg'),
+                        'title' => 'We Can Do It'
+                    ],
+                    [
+                        'image' => asset('media/images/page-about-2.jpg'),
+                        'title' => 'You Can Trust Us'
+                    ],
+                    [
+                        'image' =>asset('media/images/page-about-3.jpg'),
+                        'title' => 'We Love What We Do'
+                    ]
+                ]
+            ])
 		</div>
 	</div>
 
@@ -90,14 +78,14 @@
 			<div class="row grid-space-10">
 				<div class="col-md-6 col-lg-3">
 					@component('components.team-member.style-1', [
-						'name' => 'Jane Doe',
-						'title' => 'CEO',
-						'subtitle' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit!',
+						'name' => 'Eric',
+						'title' => 'Owner / Lead Technician',
+						'subtitle' => 'Hardworking',
 						'image' => asset('media/images/team-member-1.jpg')
 					])
 
-						<ul class="social-links circle colored margin-clear">
-							<li class="skype"><a href="#"><i class="fa fa-skype"></i></a></li>
+						<ul class="social-links circle animated-effect-1 margin-clear">
+							<li class="facebook"><a href="#"><i class="fa fa-facebook"></i></a></li>
 							<li class="linkedin"><a href="#"><i class="fa fa-linkedin"></i></a></li>
 							<li class="xing"><a href="#"><i class="fa fa-xing"></i></a></li>
 						</ul>
@@ -107,14 +95,14 @@
 
 				<div class="col-md-6 col-lg-3">
 					@component('components.team-member.style-1', [
-						'name' => 'John Doe',
-						'title' => 'CTO',
-						'subtitle' => 'Ipsum dolor sit amet, consectetur adipisicing elit!',
+						'name' => 'Lisa',
+						'title' => 'Owner / Lead Coordinator',
+						'subtitle' => 'Dedicated',
 						'image' => asset('media/images/team-member-2.jpg')
 					])
 
-						<ul class="social-links circle colored margin-clear">
-							<li class="skype"><a href="#"><i class="fa fa-skype"></i></a></li>
+						<ul class="social-links circle animated-effect-1 margin-clear">
+							<li class="facebook"><a href="#"><i class="fa fa-facebook"></i></a></li>
 							<li class="linkedin"><a href="#"><i class="fa fa-linkedin"></i></a></li>
 							<li class="xing"><a href="#"><i class="fa fa-xing"></i></a></li>
 						</ul>
@@ -124,14 +112,14 @@
 
 				<div class="col-md-6 col-lg-3">
 					@component('components.team-member.style-1', [
-						'name' => 'Anne Doe',
-						'title' => 'Project Manager',
-						'subtitle' => 'Dolor sit amet, praesentium consectetur adipisicing elit!',
+						'name' => 'Terry',
+						'title' => 'Experienced',
+						'subtitle' => 'Loyal',
 						'image' => asset('media/images/team-member-3.jpg')
 					])
 
-						<ul class="social-links circle colored margin-clear">
-							<li class="skype"><a href="#"><i class="fa fa-skype"></i></a></li>
+						<ul class="social-links circle animated-effect-1 margin-clear">
+							<li class="facebook"><a href="#"><i class="fa fa-facebook"></i></a></li>
 							<li class="linkedin"><a href="#"><i class="fa fa-linkedin"></i></a></li>
 							<li class="xing"><a href="#"><i class="fa fa-xing"></i></a></li>
 						</ul>
@@ -141,14 +129,14 @@
 
 				<div class="col-md-6 col-lg-3">
 					@component('components.team-member.style-1', [
-						'name' => 'Maria Doe',
-						'title' => 'Designer',
-						'subtitle' => 'Voluptates praesentium nulla cupiditate explicabo!',
+						'name' => 'Ryan',
+						'title' => 'Technician',
+						'subtitle' => 'Approachable',
 						'image' => asset('media/images/team-member-4.jpg')
 					])
 
-						<ul class="social-links circle colored margin-clear">
-							<li class="skype"><a href="#"><i class="fa fa-skype"></i></a></li>
+						<ul class="social-links circle animated-effect-1 margin-clear">
+							<li class="facebook"><a href="#"><i class="fa fa-facebook"></i></a></li>
 							<li class="linkedin"><a href="#"><i class="fa fa-linkedin"></i></a></li>
 							<li class="xing"><a href="#"><i class="fa fa-xing"></i></a></li>
 						</ul>
@@ -165,55 +153,24 @@
 			<div class="separator-2"></div>
 			<div class="row">
 				<div class="col-lg-6">
-					<div id="accordion" class="collapse-style-1" role="tablist" aria-multiselectable="true">
-						<div class="card">
-							<div class="card-header" role="tab" id="headingOne">
-								<h4 class="panel-title">
-									<a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-										<i class="fa fa-rocket pr-10"></i>We Have Strong Background
-									</a>
-								</h4>
-							</div>
+					@include('components.accordion', [
+						'items' => [
+							0 => [
+								'heading' => '<i class="fa fa-rocket pr-10"></i>We Have Strong Background',
+								'content' => 'Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put.'
+							],
 
-							<div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne">
-								<div class="card-block">
-									Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put.
-								</div>
-							</div>
-						</div>
+							1 => [
+								'heading' => '<i class="fa fa-leaf pr-10"></i>Unt loremcu doloriem sit lormeyci',
+								'content' => 'Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put.'
+							],
 
-						<div class="card">
-							<div class="card-header" role="tab" id="headingTwo">
-								<h4 class="panel-title">
-									<a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" class="collapsed" aria-expanded="true" aria-controls="collapseTwo">
-										<i class="fa fa-leaf pr-10"></i>Unt loremcu doloriem sit lormeyci
-									</a>
-								</h4>
-							</div>
-
-							<div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
-								<div class="card-block">
-									Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put.
-								</div>
-							</div>
-						</div>
-
-						<div class="card">
-							<div class="card-header" role="tab" id="headingThree">
-								<h4 class="panel-title">
-									<a data-toggle="collapse" data-parent="#accordion" href="#collapseThree" class="collapsed" aria-expanded="true" aria-controls="collapseThree">
-										<i class="fa fa-heart pr-10"></i>We Love What We Do
-									</a>
-								</h4>
-							</div>
-
-							<div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree">
-								<div class="card-block">
-									Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put.
-								</div>
-							</div>
-						</div>
-					</div>
+							2 => [
+								'heading' => '<i class="fa fa-heart pr-10"></i>We Love What We Do',
+								'content' => 'Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put.'
+							]
+						]
+					])
 				</div>
 
 				<div class="col-lg-6">
@@ -298,7 +255,7 @@
 					</div>
 				</div>
 			</div>
-	  </div>
+		</div>
 	</div>
 
 @endsection
@@ -307,39 +264,9 @@
 
 	<section class="pv-40 stats padding-bottom-clear dark-translucent-bg hovered background-img-1" style="background-position: 50% 60%;">
 		<div class="container-fluid">
-			<div class="row">
-				<div class="col-lg-3 col-sm-6 text-center">
-					<div class="feature-box object-non-visible" data-animation-effect="fadeIn" data-effect-delay="300">
-						<span class="icon default-bg circle"><i class="fa fa-wrench"></i></span>
-						<h3><strong>Repairs</strong></h3>
-						<span class="counter" data-to="1525" data-speed="5000">0</span>
-					</div>
-				</div>
-
-				<div class="col-lg-3 col-sm-6 text-center">
-					<div class="feature-box object-non-visible" data-animation-effect="fadeIn" data-effect-delay="300">
-						<span class="icon default-bg circle"><i class="fa fa-plus"></i></span>
-						<h3><strong>Installations</strong></h3>
-						<span class="counter" data-to="1225" data-speed="5000">0</span>
-					</div>
-				</div>
-
-				<div class="col-lg-3 col-sm-6 text-center">
-					<div class="feature-box object-non-visible" data-animation-effect="fadeIn" data-effect-delay="300">
-						<span class="icon default-bg circle"><i class="fa fa-phone"></i></span>
-						<h3><strong>Service Calls</strong></h3>
-						<span class="counter" data-to="6532" data-speed="5000">0</span>
-					</div>
-				</div>
-
-				<div class="col-lg-3 col-sm-6 text-center">
-					<div class="feature-box object-non-visible" data-animation-effect="fadeIn" data-effect-delay="300">
-						<span class="icon default-bg circle"><i class="fa fa-users"></i></span>
-						<h3><strong>Customers</strong></h3>
-						<span class="counter" data-to="15002" data-speed="5000">0</span>
-					</div>
-				</div>
-			</div>
+			@include('partials.stats', [
+				'style' => 1
+			])
 		</div>
 	</section>
 

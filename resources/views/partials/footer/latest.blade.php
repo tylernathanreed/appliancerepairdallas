@@ -10,8 +10,8 @@
 			</div>
 		</div>
 		<div class="media-body">
-			<h6 class="media-heading"><a href="{{ config('app.url') }}/news/article-with-slider">Living off Campus...</a></h6>
-			<p class="small margin-clear"><i class="fa fa-calendar pr-1"></i>Mar 23, 2015</p>
+			<h6 class="media-heading"><a href="{{ config('app.url') }}/news/article-with-slider">Cleaning your dryer...</a></h6>
+			<p class="small margin-clear"><i class="fa fa-calendar pr-1"></i>Mar 23, 2018</p>
 		</div>
 		<hr>
 	</div>
@@ -25,8 +25,8 @@
 			</div>
 		</div>
 		<div class="media-body">
-			<h6 class="media-heading"><a href="{{ config('app.url') }}/news/article-with-slider">Accounting Online...</a></h6>
-			<p class="small margin-clear"><i class="fa fa-calendar pr-1"></i>Mar 22, 2015</p>
+			<h6 class="media-heading"><a href="{{ config('app.url') }}/news/article-with-slider">Easy fixes...</a></h6>
+			<p class="small margin-clear"><i class="fa fa-calendar pr-1"></i>Mar 22, 2018</p>
 		</div>
 		<hr>
 	</div>
@@ -41,7 +41,7 @@
 		</div>
 		<div class="media-body">
 			<h6 class="media-heading"><a href="{{ config('app.url') }}/news/article-with-slider">E&amp;M on the go...</a></h6>
-			<p class="small margin-clear"><i class="fa fa-calendar pr-1"></i>Mar 21, 2015</p>
+			<p class="small margin-clear"><i class="fa fa-calendar pr-1"></i>Mar 21, 2018</p>
 		</div>
 		<hr>
 	</div>
@@ -55,8 +55,8 @@
 			</div>
 		</div>
 		<div class="media-body">
-			<h6 class="media-heading"><a href="{{ config('app.url') }}/news/article-with-slider">Improving your Credit Score...</a></h6>
-			<p class="small margin-clear"><i class="fa fa-calendar pr-1"></i>Mar 21, 2015</p>
+			<h6 class="media-heading"><a href="{{ config('app.url') }}/news/article-with-slider">Never broil...</a></h6>
+			<p class="small margin-clear"><i class="fa fa-calendar pr-1"></i>Mar 21, 2018</p>
 		</div>
 	</div>
 

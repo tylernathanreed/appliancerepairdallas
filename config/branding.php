@@ -100,6 +100,34 @@ return [
 
 		]
 
+	],
+
+	'stats' => [
+
+		0 => [
+			'label' => 'Repairs',
+			'count' => 1525,
+			'icon' => '<i class="text-default fa fa-wrench"></i>'
+		],
+
+		1 => [
+			'label' => 'Installations',
+			'count' => 1225,
+			'icon' => '<i class="text-default fa fa-plus"></i>'
+		],
+
+		2 => [
+			'label' => 'Service Calls',
+			'count' => 6532,
+			'icon' => '<i class="text-default fa fa-phone"></i>'
+		],
+
+		3 => [
+			'label' => 'Customers',
+			'count' => 15002,
+			'icon' => '<i class="text-default fa fa-users"></i>'
+		]
+
 	]
 
 ];

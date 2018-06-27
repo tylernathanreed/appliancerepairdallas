@@ -17,10 +17,12 @@
                 <div class="overlay-bottom hidden-xs">
                     <div class="text">
                         <h3 class="title">{{ $item['title'] }}</h3>
-                        <p>{!! $item['text'] !!}</p>
+                        @if(isset($item['text']))
+                            <p>{!! $item['text'] !!}</p>
+                        @endif
                     </div>
                 </div>
-                <a href="{{ $item['image'] }}" class="popup-img overlay-link" title="image title"><i class="icon-plus-1"></i></a>
+                <a href="{{ $item['image'] }}" class="popup-img overlay-link" title="image title"><i class="fa fa-plus"></i></a>
             </div>
         @endforeach
 
