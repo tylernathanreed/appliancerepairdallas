@@ -133,7 +133,9 @@
 			<div class="separator mb-20"></div>
 
 			@include('partials.stats', [
-				'style' => 3
+				'style' => 1,
+				'class' => 'shadow-narrow bordered pv-20 light-gray-bg',
+				'iconColor' => 'text-default'
 			])
 
 			<div class="clients-container">

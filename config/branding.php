@@ -107,25 +107,25 @@ return [
 		0 => [
 			'label' => 'Repairs',
 			'count' => 1525,
-			'icon' => '<i class="text-default fa fa-wrench"></i>'
+			'iconClass' => 'fa fa-wrench'
 		],
 
 		1 => [
 			'label' => 'Installations',
 			'count' => 1225,
-			'icon' => '<i class="text-default fa fa-plus"></i>'
+			'iconClass' => 'fa fa-plus'
 		],
 
 		2 => [
 			'label' => 'Service Calls',
 			'count' => 6532,
-			'icon' => '<i class="text-default fa fa-phone"></i>'
+			'iconClass' => 'fa fa-phone'
 		],
 
 		3 => [
 			'label' => 'Customers',
 			'count' => 15002,
-			'icon' => '<i class="text-default fa fa-users"></i>'
+			'iconClass' => 'fa fa-users'
 		]
 
 	]
