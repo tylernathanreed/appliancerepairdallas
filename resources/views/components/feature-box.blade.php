@@ -12,15 +12,23 @@
 		<span class="icon {{ $iconStyle }}">{!! $icon !!}</span>
 	@endif
 
-	@if(isset($title))
-		<h3>{!! $title !!}</h3>
+	@if(isset($body))
+		<div class="body">
 	@endif
+
+		@if(isset($title))
+			<h3>{!! $title !!}</h3>
+		@endif
+
+		@if(isset($body))
+			<p>{!! $body !!}</p>
+		@endif
+
+		@if(isset($slot))
+			{!! $slot !!}
+		@endif
 
 	@if(isset($body))
-		<p>{!! $body !!}</p>
-	@endif
-
-	@if(isset($slot))
-		{!! $slot !!}
+		</div>
 	@endif
 </div>

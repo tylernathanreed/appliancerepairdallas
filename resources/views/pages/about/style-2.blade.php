@@ -32,8 +32,9 @@
 
 	<div class="row">
 		<div class="col-lg-4">
-			@include('components.feature-box.style-2', [
-				'icon' => '<i class="fa fa-diamond"></i>',
+			@include('components.feature-box', [
+				'style' => 2,
+				'iconClass' => 'fa fa-diamond',
 				'title' => 'We Have Strong Background',
 				'href' => '#',
 				'body' => 'Voluptatem ad provident non repudiandae beatae cupiditate amet reiciendis lorem dolor consectetur.'
@@ -41,8 +42,9 @@
 		</div>
 
 		<div class="col-lg-4">
-			@include('components.feature-box.style-2', [
-				'icon' => '<i class="fa fa-connectdevelop"></i>',
+			@include('components.feature-box', [
+				'style' => 2,
+				'iconClass' => 'fa fa-connectdevelop',
 				'title' => 'We Love Details',
 				'href' => '#',
 				'body' => 'Iure sequi unde hic. Sapiente quaerat sequi inventore veritatis cumque lorem ipsum dolor sit amet, consectetur.'
@@ -50,8 +52,9 @@
 		</div>
 
 		<div class="col-lg-4">
-			@include('components.feature-box.style-2', [
-				'icon' => '<i class="fa fa-connectdevelop"></i>',
+			@include('components.feature-box', [
+				'style' => 2,
+				'iconClass' => 'fa fa-connectdevelop',
 				'title' => 'We Love Details',
 				'href' => '#',
 				'body' => 'Iure sequi unde hic. Sapiente quaerat sequi inventore veritatis cumque lorem ipsum dolor sit amet, consectetur.'
@@ -61,8 +64,9 @@
 
 	<div class="row">
 		<div class="col-lg-4">
-			@include('components.feature-box.style-2', [
-				'icon' => '<i class="fa fa-heart"></i>',
+			@include('components.feature-box', [
+				'style' => 2,
+				'iconClass' => 'fa fa-heart',
 				'title' => 'We Love to Help',
 				'href' => '#',
 				'body' => 'Voluptatem ad provident non repudiandae beatae cupiditate amet reiciendis lorem dolor consectetur.'
@@ -70,8 +74,9 @@
 		</div>
 
 		<div class="col-lg-4">
-			@include('components.feature-box.style-2', [
-				'icon' => '<i class="fa fa-cogs"></i>',
+			@include('components.feature-box', [
+				'style' => 2,
+				'iconClass' => 'fa fa-cogs',
 				'title' => 'We Are Experienced',
 				'href' => '#',
 				'body' => 'Iure sequi unde hic. Sapiente quaerat sequi inventore veritatis cumque lorem ipsum dolor sit amet, consectetur.'
@@ -79,8 +84,9 @@
 		</div>
 
 		<div class="col-lg-4">
-			@include('components.feature-box.style-2', [
-				'icon' => '<i class="fa fa fa-life-ring"></i>',
+			@include('components.feature-box', [
+				'style' => 2,
+				'iconClass' => 'fa fa fa-life-ring',
 				'title' => 'We Are Affordable',
 				'href' => '#',
 				'body' => 'Inventore dolores aut laboriosam cum consequuntur delectus sequi lorem ipsum dolor sit amet, consectetur.'
@@ -180,22 +186,13 @@
 		<div class="container">
 			<div class="row justify-content-lg-center">
 				<div class="col-lg-8">
-					<div class="testimonial text-center">
-						<div class="testimonial-image">
-							<img src="{{ asset('media/images/testimonial-1.jpg') }}" alt="Jane Doe" title="Jane Doe" class="rounded-circle">
-						</div>
-
-						<h3>Just Perfect!</h3>
-						<div class="separator"></div>
-						<div class="testimonial-body">
-							<blockquote>
-								<p>Sed ut perspiciatis unde omnis iste natu error sit voluptatem accusan tium dolore laud antium, totam rem dolor sit amet tristique pulvinar, turpis arcu rutrum nunc, ac laoreet turpis augue a justo.</p>
-							</blockquote>
-
-							<div class="testimonial-info-1">- Jane Doe</div>
-							<div class="testimonial-info-2">By Company</div>
-						</div>
-					</div>
+					@include('components.testimony', [
+						'image' => asset('media/images/testimonial-1.jpg'),
+						'title' => 'Just Perfect!',
+						'body' => 'Sed ut perspiciatis unde omnis iste natu error sit voluptatem accusan tium dolore laud antium, totam rem dolor sit amet tristique pulvinar, turpis arcu rutrum nunc, ac laoreet turpis augue a justo.',
+						'name' => 'John Doe',
+						'organization' => 'Company'
+					])
 				</div>
 			</div>
 		</div>

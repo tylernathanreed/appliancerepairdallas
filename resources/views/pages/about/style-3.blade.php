@@ -31,14 +31,14 @@
 
 	<div class="row">
 		<div class="col-lg-6">
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex. Suspendisse aliquet imperdiet commodo. Aenean vel lacinia elit. Class aptent taciti sociosqu ad litora torquent per.</p>
-		<p>Sed eget pulvinar quam, vel feugiat enim. Aliquam erat volutpat. Phasellus eu porta ipsum. Suspendisse aliquet imperdiet commodo. Aenean vel lacinia elit. Class aptent taciti sociosqu ad litora torquent per. Vestibulum velmo.</p>
-		<ul class="list-icons">
-		<li class="object-non-visible animated object-visible fadeInUpSmall" data-animation-effect="fadeInUpSmall"><i class="fa fa-check"></i> Etiam sed dolor ac diam volutpat</li>
-		<li class="object-non-visible animated object-visible fadeInUpSmall" data-animation-effect="fadeInUpSmall" data-effect-delay="100"><i class="fa fa-check"></i> Sed eget pulvinar quam, vel feugiat enim aliquam </li>
-		<li class="object-non-visible animated object-visible fadeInUpSmall" data-animation-effect="fadeInUpSmall" data-effect-delay="150"><i class="fa fa-check"></i> Erat volutpat. Phasellus eu porta ipsum suspendisse aliquet imperdiet</li>
-		<li class="object-non-visible animated object-visible fadeInUpSmall" data-animation-effect="fadeInUpSmall" data-effect-delay="200"><i class="fa fa-check"></i> Phasellus eu porta ipsum. Suspendisse aliquet imperdiet commodo</li>
-		</ul>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex. Suspendisse aliquet imperdiet commodo. Aenean vel lacinia elit. Class aptent taciti sociosqu ad litora torquent per.</p>
+			<p>Sed eget pulvinar quam, vel feugiat enim. Aliquam erat volutpat. Phasellus eu porta ipsum. Suspendisse aliquet imperdiet commodo. Aenean vel lacinia elit. Class aptent taciti sociosqu ad litora torquent per. Vestibulum velmo.</p>
+			<ul class="list-icons">
+			<li class="object-non-visible animated object-visible fadeInUpSmall" data-animation-effect="fadeInUpSmall"><i class="fa fa-check"></i> Etiam sed dolor ac diam volutpat</li>
+			<li class="object-non-visible animated object-visible fadeInUpSmall" data-animation-effect="fadeInUpSmall" data-effect-delay="100"><i class="fa fa-check"></i> Sed eget pulvinar quam, vel feugiat enim aliquam </li>
+			<li class="object-non-visible animated object-visible fadeInUpSmall" data-animation-effect="fadeInUpSmall" data-effect-delay="150"><i class="fa fa-check"></i> Erat volutpat. Phasellus eu porta ipsum suspendisse aliquet imperdiet</li>
+			<li class="object-non-visible animated object-visible fadeInUpSmall" data-animation-effect="fadeInUpSmall" data-effect-delay="200"><i class="fa fa-check"></i> Phasellus eu porta ipsum. Suspendisse aliquet imperdiet commodo</li>
+			</ul>
 		</div>
 
 		<aside class="sidebar col-lg-6">
@@ -127,33 +127,21 @@
 			<div class="row">
 				<div class="col-lg-6">
 					<div class="slick-carousel content-slider">
-						<div class="testimonial text-center padding-ver-clear">
-							<h3>Just Perfect!</h3>
-							<div class="separator"></div>
+						@include('components.testimony', [
+							'class' => 'text-center padding-ver-clear',
+							'title' => 'Just Perfect!',
+							'body' => 'Sed ut perspiciatis unde omnis iste natu error sit voluptatem accusan tium dolore laud antium, totam rem dolor sit amet tristique pulvinar, turpis arcu rutrum nunc, ac laoreet turpis augue a justo.',
+							'info1' => '- Jane Doe',
+							'info2' => 'By Company'
+						])
 
-							<div class="testimonial-body">
-								<blockquote>
-									<p>Sed ut perspiciatis unde omnis iste natu error sit voluptatem accusan tium dolore laud antium, totam rem dolor sit amet tristique pulvinar, turpis arcu rutrum nunc, ac laoreet turpis augue a justo.</p>
-								</blockquote>
-
-								<div class="testimonial-info-1">- Jane Doe</div>
-								<div class="testimonial-info-2">By Company</div>
-							</div>
-						</div>
-
-						<div class="testimonial text-center padding-ver-clear">
-							<h3>Amazing!</h3>
-							<div class="separator"></div>
-
-							<div class="testimonial-body">
-								<blockquote>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et cupiditate deleniti ratione in. Expedita nemo, quisquam, fuga adipisci omnis ad mollitia libero culpa nostrum est quia eos esse vel!</p>
-								</blockquote>
-
-								<div class="testimonial-info-1">- John Doe</div>
-								<div class="testimonial-info-2">By Other Company</div>
-							</div>
-						</div>
+						@include('components.testimony', [
+							'class' => 'text-center padding-ver-clear',
+							'title' => 'Amazing!',
+							'body' => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et cupiditate deleniti ratione in. Expedita nemo, quisquam, fuga adipisci omnis ad mollitia libero culpa nostrum est quia eos esse vel!',
+							'info1' => '- John Doe',
+							'info2' => 'By Other Company'
+						])
 					</div>
 				</div>
 

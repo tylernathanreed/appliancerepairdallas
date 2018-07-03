@@ -23,6 +23,10 @@ Route::get('pricing', [
 	'uses' => 'PagesController@pricing'
 ]);
 
+////////////////////
+//* About Styles *//
+////////////////////
+
 // About (Style 1)
 Route::get('about/style-1', [
 	'as' => 'pages.about.style-1',
@@ -47,6 +51,32 @@ Route::get('about/style-4', [
 	'uses' => 'PagesController@aboutStyle4'
 ]);
 
+//////////////////////
+//* Service Styles *//
+//////////////////////
+
+// Services (Style 1)
+Route::get('services/style-1', [
+	'as' => 'pages.services.style-1',
+	'uses' => 'PagesController@servicesStyle1'
+]);
+
+// Services (Style 2)
+Route::get('services/style-2', [
+	'as' => 'pages.services.style-2',
+	'uses' => 'PagesController@servicesStyle2'
+]);
+
+// Services (Style 3)
+Route::get('services/style-3', [
+	'as' => 'pages.services.style-3',
+	'uses' => 'PagesController@servicesStyle3'
+]);
+
+//////////////////////
+//* Contact Styles *//
+//////////////////////
+
 // Contact (Style 1)
 Route::get('contact/style-1', [
 	'as' => 'pages.contact.style-1',
@@ -65,7 +95,7 @@ Route::get('contact/style-3', [
 	'uses' => 'PagesController@contactStyle3'
 ]);
 
-// Services
+// Resources
 Route::group(['prefix' => 'resources'], function() {
 
 	// Content Sliders
