@@ -21,7 +21,7 @@
 
 	            @if(isset($action))
 	                <li>
-	                    <a class="btn btn-{{ $best ? 'default' : 'dark' }} radius-50 btn-animated-left btn-lg">
+	                    <a href="#" class="btn btn-{{ $best ? 'default' : 'dark' }} radius-50 btn-animated-left btn-lg">
 	                        @if(is_array($action))
 	                            @if(isset($action['icon']))
 	                                <i class="{{ $action['icon'] }}"></i>&nbsp;

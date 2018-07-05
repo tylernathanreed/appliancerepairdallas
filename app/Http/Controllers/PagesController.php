@@ -57,6 +57,48 @@ class PagesController extends Controller
 	}
 
 	/**
+	 * Displays the services page.
+	 *
+	 * @return \Illuminate\Http\Response
+	 */
+	public function servicesStyle1()
+	{
+		// Determine the pricing tables
+		$pricingTables = PricingTable::all();
+
+		// Return the response
+		return view('pages.services.style-1', compact('pricingTables'));
+	}
+
+	/**
+	 * Displays the services page.
+	 *
+	 * @return \Illuminate\Http\Response
+	 */
+	public function servicesStyle2()
+	{
+		// Determine the pricing tables
+		$pricingTables = PricingTable::all();
+
+		// Return the response
+		return view('pages.services.style-2', compact('pricingTables'));
+	}
+
+	/**
+	 * Displays the services page.
+	 *
+	 * @return \Illuminate\Http\Response
+	 */
+	public function servicesStyle3()
+	{
+		// Determine the pricing tables
+		$pricingTables = PricingTable::all();
+
+		// Return the response
+		return view('pages.services.style-3', compact('pricingTables'));
+	}
+
+	/**
 	 * Displays the pricing page.
 	 *
 	 * @return \Illuminate\Http\Response

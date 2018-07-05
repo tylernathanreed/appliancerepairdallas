@@ -31,4 +31,21 @@
 	@if(isset($body))
 		</div>
 	@endif
+
+	@if(isset($link))
+
+		<?php $link['text'] = $link['text'] ?? 'Read More'; ?>
+		<?php $link['href'] = $link['href'] ?? '#'; ?>
+
+		@if(isset($link['iconClass']))
+			<?php $link['icon'] = '<i class="pl-1 ' . $iconClass . '"></i>'; ?>
+		@endif
+
+		<?php $link['icon'] = $link['icon'] ?? '<i class="pl-1 fa fa-angle-double-right"></i>'; ?>
+
+		<a href="{{ $link['href'] }}"{{ isset($link['class']) ? ' class="' . $link['class'] . '"' : '' }}>
+			<span>{!! $link['text'] !!}</span>
+			{!! $link['icon'] !!}
+		</a>
+	@endif
 </div>
