@@ -49,55 +49,93 @@
 		</div>
 
 		<div class="col-lg-4 col-md-6">
-			<div class="ph-20 feature-box text-center object-non-visible" data-animation-effect="fadeInDownSmall" data-effect-delay="200">
-				<span class="icon large dark-bg circle"><i class="fa fa-connectdevelop"></i></span>
-				<h3>Porro ullam volu</h3>
+			@component('components.feature-box', [
+				'class' => 'ph-20 text-center',
+				'title' => 'Porro ullam volu',
+				'iconStyle' => 'large dark-bg circle',
+				'iconClass' => 'fa fa-connectdevelop',
+				'link' => [
+					'href' => '#',
+					'class' => 'link-dark'
+				]
+			])
+
 				<div class="separator clearfix"></div>
 				<p class="text-muted">Iure sequi unde hic. Sapiente quaerat sequi inventore veritatis cumque lorem ipsum dolor sit amet, consectetur.</p>
-				<a class="link-dark" href="#">Read More<i class="pl-1 fa fa-angle-double-right"></i></a>
-			</div>
+
+			@endcomponent
 		</div>
 
 		<div class="col-lg-4 col-md-6">
-			<div class="ph-20 feature-box text-center object-non-visible" data-animation-effect="fadeInDownSmall" data-effect-delay="300">
-				<span class="icon large default-bg circle"><i class="fa fa-snowflake-o"></i></span>
-				<h3>Latest Technologies</h3>
+			@component('components.feature-box', [
+				'class' => 'ph-20 text-center',
+				'title' => 'Latest Technologies',
+				'iconStyle' => 'large default-bg circle',
+				'iconClass' => 'fa fa-snowflake-o',
+				'link' => [
+					'href' => '#'
+				]
+			])
+
 				<div class="separator clearfix"></div>
 				<p class="text-muted">Inventore dolores aut laboriosam cum consequuntur delectus sequi lorem ipsum dolor sit amet, consectetur.</p>
-				<a href="#">Read More<i class="pl-1 fa fa-angle-double-right"></i></a>
-			</div>
+
+			@endcomponent
 		</div>
 
 		<div class="clearfix visible-md"></div>
 
 		<div class="col-lg-4 col-md-6">
-			<div class="ph-20 feature-box text-center object-non-visible" data-animation-effect="fadeInDownSmall" data-effect-delay="100">
-				<span class="icon large dark-bg circle"><i class="fa fa-check"></i></span>
-				<h3>Elegant Design</h3>
+			@component('components.feature-box', [
+				'class' => 'ph-20 text-center',
+				'title' => 'Elegant Design',
+				'iconStyle' => 'large dark-bg circle',
+				'iconClass' => 'fa fa-check',
+				'link' => [
+					'href' => '#',
+					'class' => 'link-dark'
+				]
+			])
+
 				<div class="separator clearfix"></div>
 				<p class="text-muted">Voluptatem ad provident non repudiandae beatae cupiditate amet reiciendis lorem ipsum dolor sit amet, consectetur.</p>
-				<a class="link-dark" href="#">Read More<i class="pl-1 fa fa-angle-double-right"></i></a>
-			</div>
+
+			@endcomponent
 		</div>
 
 		<div class="col-lg-4 col-md-6">
-			<div class="ph-20 feature-box text-center object-non-visible" data-animation-effect="fadeInDownSmall" data-effect-delay="200">
-				<span class="icon large default-bg circle"><i class="fa fa-life-ring"></i></span>
-				<h3>Unt loremcu</h3>
+			@component('components.feature-box', [
+				'class' => 'ph-20 text-center',
+				'title' => 'Unt loremcu',
+				'iconStyle' => 'large default-bg circle',
+				'iconClass' => 'fa fa-life-ring',
+				'link' => [
+					'href' => '#'
+				]
+			])
+
 				<div class="separator clearfix"></div>
 				<p class="text-muted">Iure sequi unde hic. Sapiente quaerat sequi inventore veritatis cumque lorem ipsum dolor sit amet, consectetur.</p>
-				<a href="#">Read More<i class="pl-1 fa fa-angle-double-right"></i></a>
-			</div>
+
+			@endcomponent
 		</div>
 
 		<div class="col-lg-4 col-md-6">
-			<div class="ph-20 feature-box text-center object-non-visible" data-animation-effect="fadeInDownSmall" data-effect-delay="300">
-				<span class="icon large dark-bg circle"><i class="fa fa-gift"></i></span>
-				<h3>Packed Full Of Features</h3>
+			@component('components.feature-box', [
+				'class' => 'ph-20 text-center',
+				'title' => 'Packed Full Of Features',
+				'iconStyle' => 'large dark-bg circle',
+				'iconClass' => 'fa fa-gift',
+				'link' => [
+					'href' => '#',
+					'class' => 'link-dark'
+				]
+			])
+
 				<div class="separator clearfix"></div>
 				<p class="text-muted">Inventore dolores aut laboriosam cum consequuntur delectus sequi lorem ipsum dolor sit amet, consectetur.</p>
-				<a class="link-dark" href="#">Read More<i class="pl-1 fa fa-angle-double-right"></i></a>
-			</div>
+
+			@endcomponent
 		</div>
 	</div>
 
@@ -105,29 +143,26 @@
 
 @section('page.bottom')
 
-	<!-- section start -->
-	<!-- ================ -->
-	<section class="section background-img-1 dark-translucent-bg" style="background-position: 50% 42%;">
-		<div class="container">
-			<div class="row">
-				<div class="col-12">
-					<div class="call-to-action text-center">
-						<div class="row">
-							<div class="col-md-8">
-								<h1 class="title">Excepteur sint</h1>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus error pariatur deserunt laudantium nam, mollitia quas nihil inventore, quibusdam?</p>
-								</div>
-								<div class="col-md-4">
-								<br>
-								<p><a href="#" class="btn btn-lg btn-gray-transparent btn-animated">Purchase<i class="fa fa-shopping-cart pl-20"></i></a></p>
-							</div>
-						</div>
-					</div>
-				</div>
+	@component('components.call-to-action', [
+		'background' => 'background-img-1 dark-translucent-bg',
+		'style' => 'background-position: 50% 42%;',
+		'class' => 'text-center'
+	])
+
+		@slot('header')
+			<h1 class="title mt-2">Contact Us</h1>
+			<p>Ready to utilize our services? Submit a service request form!</p>
+		@endslot
+
+		@slot('button')
+			<div class="mv-4">
+				<a href="#" class="btn btn-lg btn-animated-left btn-gray-transparent radius-50">
+					<i class="fa fa-truck pr-20"></i>Submit a Service Request
+				</a>
 			</div>
-		</div>
-	</section>
-	<!-- section end -->
+		@endslot
+
+	@endcomponent
 
 	<!-- section start -->
 	<!-- ================ -->

@@ -43,7 +43,7 @@
 
 		<?php $link['icon'] = $link['icon'] ?? '<i class="pl-1 fa fa-angle-double-right"></i>'; ?>
 
-		<a href="{{ $link['href'] }}"{{ isset($link['class']) ? ' class="' . $link['class'] . '"' : '' }}>
+		<a href="{{ $link['href'] }}"{!! isset($link['class']) ? ' class="' . $link['class'] . '"' : '' !!}>
 			<span>{!! $link['text'] !!}</span>
 			{!! $link['icon'] !!}
 		</a>
