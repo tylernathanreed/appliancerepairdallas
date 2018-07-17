@@ -180,7 +180,7 @@
 						<span class="icon without-bg"><i class="fa fa-arrows"></i></span>
 						<div class="body">
 							<h4 class="title">Responsive Design</h4>
-							<p>Our design is with responsive in mind. Our themes are compatible with various desktop, tablet, and mobile devices. <a href="page-services.html">Read More<i class="pl-1 fa fa-angle-double-right"></i></a></p>
+							<p>Our design is with responsive in mind. Our website is compatible with various desktop, tablet, and mobile devices. <a href="page-services.html">Read More<i class="pl-1 fa fa-angle-double-right"></i></a></p>
 							<div class="separator-3"></div>
 						</div>
 					</div>
@@ -189,7 +189,7 @@
 						<span class="icon without-bg"><i class="fa fa-bullhorn"></i></span>
 						<div class="body">
 							<h4 class="title">Inve et ita</h4>
-							<p>Our design is with responsive in mind. Our themes are compatible with various desktop, tablet, and mobile devices. <a href="page-services.html">Read More<i class="pl-1 fa fa-angle-double-right"></i></a></p>
+							<p>Our design is with responsive in mind. Our website is compatible with various desktop, tablet, and mobile devices. <a href="page-services.html">Read More<i class="pl-1 fa fa-angle-double-right"></i></a></p>
 							<div class="separator-3"></div>
 						</div>
 					</div>
@@ -198,7 +198,7 @@
 						<span class="icon without-bg"><i class="fa fa-umbrella"></i></span>
 						<div class="body">
 							<h4 class="title">Labore et dolore magna aliqua</h4>
-							<p>Our design is with responsive in mind. Our themes are compatible with various desktop, tablet, and mobile devices. <a href="page-services.html">Read More<i class="pl-1 fa fa-angle-double-right"></i></a></p>
+							<p>Our design is with responsive in mind. Our website is compatible with various desktop, tablet, and mobile devices. <a href="page-services.html">Read More<i class="pl-1 fa fa-angle-double-right"></i></a></p>
 						</div>
 					</div>
 				</div>
@@ -209,37 +209,6 @@
 			</div>
 
 			@include('models.pricing-tables.partials.index', ['style' => 'style-3'])
-		</div>
-	</section>
-	<!-- section end -->
-
-	<!-- section start -->
-	<!-- ================ -->
-	<section class="section light-gray-bg pv-40 clearfix">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<div class="call-to-action text-center">
-						<div class="row justify-content-lg-center">
-							<div class="col-lg-8">
-								<h2 class="title">Join Us Now</h2>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus error pariatur deserunt laudantium nam, mollitia quas nihil inventore, quibusdam?</p>
-								<div class="separator"></div>
-
-								<form class="form-inline margin-clear d-flex justify-content-center">
-									<div class="form-group has-feedback">
-										<label class="sr-only" for="subscribe2">Email address</label>
-										<input type="email" class="form-control form-control-lg" id="subscribe2" placeholder="Enter email" required="">
-										<i class="fa fa-envelope form-control-feedback"></i>
-									</div>
-
-									<button type="submit" class="btn btn-lg btn-gray-transparent btn-animated margin-clear ml-3">Submit <i class="fa fa-send"></i></button>
-								</form>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
 		</div>
 	</section>
 	<!-- section end -->
