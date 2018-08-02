@@ -13,7 +13,7 @@
 
 						<div class="col-sm-4">
 							<p class="mt-10">
-								<a href="{{ config('app.url') }}/register" class="btn btn-animated-left radius-50 btn-lg btn-gray-transparent">
+								<a href="{{ route('pages.contact.style-1') }}" class="btn btn-animated-left radius-50 btn-lg btn-gray-transparent">
 									<i class="fa fa-truck pr-20"></i>Submit a Service Request
 								</a>
 							</p>

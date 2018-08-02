@@ -23,12 +23,8 @@
 				<div class="col-9 col-sm-6 col-md-4">
 					<div id="header-top-second"  class="clearfix">
 						<div class="header-top-dropdown text-right">
-							<div class="btn-group">
-								<a href="{{ config('app.url') }}/register" class="btn btn-default btn-sm"><i class="fa fa-fw fa-newspaper-o"></i> Blog</a>
-							</div>
-
 							<div class="btn-group dropdown">
-								<a href="{{ config('app.url') }}/register" class="btn btn-default btn-sm"><i class="fa fa-fw fa-truck"></i> Submit a Service Request</a>
+								<a href="{{ route('pages.contact.style-1') }}" class="btn btn-default btn-sm"><i class="fa fa-fw fa-truck"></i> Submit a Service Request</a>
 							</div>
 						</div>
 					</div>
