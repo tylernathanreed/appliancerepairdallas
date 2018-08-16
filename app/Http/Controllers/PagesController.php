@@ -57,6 +57,69 @@ class PagesController extends Controller
 	}
 
 	/**
+	 * Displays the contact page.
+	 *
+	 * @return \Illuminate\Http\Response
+	 */
+	public function contactStyle1()
+	{
+		return view('pages.contact.style-1');
+	}
+
+	/**
+	 * Displays the contact page.
+	 *
+	 * @return \Illuminate\Http\Response
+	 */
+	public function contactStyle2()
+	{
+		return view('pages.contact.style-2');
+	}
+
+	/**
+	 * Displays the contact page.
+	 *
+	 * @return \Illuminate\Http\Response
+	 */
+	public function contactStyle3()
+	{
+		return view('pages.contact.style-3');
+	}
+
+	/**
+	 * Displays the faq page.
+	 *
+	 * @return \Illuminate\Http\Response
+	 */
+	public function faq()
+	{
+		return view('pages.faq');
+	}
+
+	/**
+	 * Displays the pricing page.
+	 *
+	 * @return \Illuminate\Http\Response
+	 */
+	public function pricing()
+	{
+		// Determine the pricing tables
+		$pricingTables = PricingTable::all();
+
+		return view('pages.pricing', compact('pricingTables'));
+	}
+
+	/**
+	 * Displays the resources content sliders page.
+	 *
+	 * @return \Illuminate\Http\Response
+	 */
+	public function resourcesContentSliders()
+	{
+		return view('pages.resources.content-sliders');
+	}
+
+	/**
 	 * Displays the services page.
 	 *
 	 * @return \Illuminate\Http\Response
@@ -96,58 +159,5 @@ class PagesController extends Controller
 
 		// Return the response
 		return view('pages.services.style-3', compact('pricingTables'));
-	}
-
-	/**
-	 * Displays the pricing page.
-	 *
-	 * @return \Illuminate\Http\Response
-	 */
-	public function pricing()
-	{
-		// Determine the pricing tables
-		$pricingTables = PricingTable::all();
-
-		return view('pages.pricing', compact('pricingTables'));
-	}
-
-	/**
-	 * Displays the resources content sliders page.
-	 *
-	 * @return \Illuminate\Http\Response
-	 */
-	public function resourcesContentSliders()
-	{
-		return view('pages.resources.content-sliders');
-	}
-
-	/**
-	 * Displays the contact page.
-	 *
-	 * @return \Illuminate\Http\Response
-	 */
-	public function contactStyle1()
-	{
-		return view('pages.contact.style-1');
-	}
-
-	/**
-	 * Displays the contact page.
-	 *
-	 * @return \Illuminate\Http\Response
-	 */
-	public function contactStyle2()
-	{
-		return view('pages.contact.style-2');
-	}
-
-	/**
-	 * Displays the contact page.
-	 *
-	 * @return \Illuminate\Http\Response
-	 */
-	public function contactStyle3()
-	{
-		return view('pages.contact.style-3');
 	}
 }

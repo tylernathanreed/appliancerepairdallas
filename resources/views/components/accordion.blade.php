@@ -2,6 +2,26 @@
 <?php $style = $style ?? 1; ?>
 <?php $class = isset($class) ? ' ' . $class : ''; ?>
 
+<?php $slots = array_filter(array_keys($__data), function($name) {
+	return preg_match("/items\.[^\.]+\.(?:heading|content)/", $name);
+}); ?>
+
+@if(count($slots) > 0)
+
+	<?php $items = []; ?>
+
+	@foreach($slots as $name)
+
+		<?php $key = substr($name, 6, -8); ?>
+		<?php $attribute = substr($name, -7); ?>
+		<?php $value = $__data[$name]; ?>
+
+		<?php $items[$key][$attribute] = $value; ?>
+
+	@endforeach
+
+@endif
+
 <div id="{{ $id }}" class="collapse-style-{{ $style }}{{ $class }}" role="tablist" aria-multiselectable="true">
 	@foreach($items as $key => $item)
 

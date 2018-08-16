@@ -5,7 +5,7 @@
 	<nav>
 		<ul class="nav flex-column">
 			<li class="nav-item">
-				<a class="nav-link" href="{{ config('app.url') }}/faq">FAQ</a>
+				<a class="nav-link" href="{{ route('pages.faq') }}">FAQ</a>
 			</li>
 
 			<li class="nav-item">

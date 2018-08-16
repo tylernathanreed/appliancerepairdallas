@@ -1,3 +1,59 @@
+<?php
+
+    /*
+    |--------------------------------------------------------------------------
+    | Tabs
+    |--------------------------------------------------------------------------
+    |
+    | The tabs component is for displaying layered content where each layer
+    | can be selected by the user, such that only one layer is displayed
+    | at a time. This can be useful for complex but similar content.
+    |
+    | Parameters:
+    |  - id              (string)   The element id for the tab list and content wrapper (Defaults to "tabs-{{ microtime }}").
+    |  - type            (string)   The type of tabs to use (Defaults to "tabs").
+    |  - style           (integer)  The styling class to use (Defaults to 1).
+    |  - items           (array)    The tab list and content instructions (can be built using slots).
+    |  - tabs-container  (array)    Additional options for the tabs container element.
+    |
+    | Supported Types: "tabs", "pills"
+    | Supported Styles: 1, 2
+    | Supported Tab Container Options: "class"
+    |
+    | Example Usage (All Slots):
+    |
+    |    @component('...')
+    |
+    |      @slot('items.0.heading')
+    |        Item 1
+    |      @endslot
+    |
+    |      @slot('items.0.content')
+    |        Lorem ipsum
+    |      @endslot
+    |
+    |    @endcomponent
+    |
+    | Example Usage (Content Slots):
+    |
+    |    @component('...', [
+    |      'items.0.heading' => 'Item 1',
+    |      'items.1.heading' => 'Item 2'
+    |    ])
+    |
+    |      @slot('items.0.content')
+    |        Lorem ipsum
+    |      @endslot
+    |
+    |      @slot('items.1.content')
+    |        Lorem ipsum
+    |      @endslot
+    |
+    |    @endcomponent
+    */
+
+?>
+
 <?php $id = $id ?? ('tabs-' . microtime(true)); ?>
 <?php $type = $type ?? 'tabs'; ?>
 <?php $style = $style ?? 1; ?>

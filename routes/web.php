@@ -23,6 +23,11 @@ Route::get('pricing', [
 	'uses' => 'PagesController@pricing'
 ]);
 
+Route::get('faq', [
+	'as' => 'pages.faq',
+	'uses' => 'PagesController@faq'
+]);
+
 ////////////////////
 //* About Styles *//
 ////////////////////
