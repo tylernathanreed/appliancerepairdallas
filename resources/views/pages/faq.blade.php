@@ -17,441 +17,362 @@
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis ut quisquam ab harum hic enim quibusdam aut quasi recusandae temporibus quo voluptatibus, dolorem consectetur ipsam facere ipsa. Commodi sunt, inventore!</p>
 
     @component('components.tabs', [
-        'items.0.heading' => '<i class="fa  fa-life-saver pr-10"></i>Support',
-        'items.1.heading' => '<i class="fa fa-user pr-10"></i>Sales',
+        'items.0.heading' => '<i class="fa fa-life-saver pr-10"></i>Services',
+        'items.1.heading' => '<i class="fa fa-user pr-10"></i>Common Problems',
         'items.2.heading' => '<i class="fa fa-star pr-10"></i>Popular Topics'
     ])
 
-            @slot('items.0.content')
+        @slot('items.0.content')
 
-                @component('components.accordion')
+            @component('components.accordion')
 
-                    @slot('items.0.heading')
-                        <i class="fa fa-question-circle pr-10"></i>
-                    @endslot
+                @slot('items.0.heading')
+                    <i class="fa fa-question-circle pr-10"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                @endslot
 
-                    @slot('items.0.content')
-                        Enim, deleniti atque error corporis, laudantium consequuntur et ipsum velit, laboriosam sint inventore nam quo dolorum. Totam, facilis. Unde nobis cumque quam modi quia doloribus nesciunt eveniet, reprehenderit iste blanditiis ipsa, dolor nemo nulla harum quibusdam ipsum expedita explicabo obcaecati ab amet labore tempore sequi. Sed nam quidem tempore laboriosam ipsa perferendis officiis quos sapiente mollitia facilis earum, reprehenderit corporis eum dolore, ratione reiciendis expedita. Iste tenetur eos molestias dicta itaque adipisci cum laudantium aperiam atque, consequuntur, inventore possimus accusamus nisi a quaerat totam est aliquid alias amet id nulla quia illum illo. Quibusdam expedita omnis est hic, ipsum quo impedit! Facere voluptates repudiandae sunt quos inventore exercitationem quas distinctio ducimus vitae iure eos est, natus voluptatum! Odio totam ipsam natus sed, a, vel, corrupti molestiae magnam dicta officia eveniet temporibus perspiciatis aperiam aliquid cumque mollitia, quibusdam! Consequuntur eum aut aspernatur reprehenderit.
-                    @endslot
+                @slot('items.0.content')
+                    Enim, deleniti atque error corporis, laudantium consequuntur et ipsum velit, laboriosam sint inventore nam quo dolorum. Totam, facilis. Unde nobis cumque quam modi quia doloribus nesciunt eveniet, reprehenderit iste blanditiis ipsa, dolor nemo nulla harum quibusdam ipsum expedita explicabo obcaecati ab amet labore tempore sequi. Sed nam quidem tempore laboriosam ipsa perferendis officiis quos sapiente mollitia facilis earum, reprehenderit corporis eum dolore, ratione reiciendis expedita. Iste tenetur eos molestias dicta itaque adipisci cum laudantium aperiam atque, consequuntur, inventore possimus accusamus nisi a quaerat totam est aliquid alias amet id nulla quia illum illo. Quibusdam expedita omnis est hic, ipsum quo impedit! Facere voluptates repudiandae sunt quos inventore exercitationem quas distinctio ducimus vitae iure eos est, natus voluptatum! Odio totam ipsam natus sed, a, vel, corrupti molestiae magnam dicta officia eveniet temporibus perspiciatis aperiam aliquid cumque mollitia, quibusdam! Consequuntur eum aut aspernatur reprehenderit.
+                @endslot
 
-                @endcomponent
+                @slot('items.1.heading')
+                    <i class="fa fa-question-circle pr-10"></i> Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor.
+                @endslot
 
-                <!-- accordion start -->
-                <div class="collapse-style-1" role="tablist" aria-multiselectable="true">
-                    <div class="card">
-                        <div class="card-header" role="tab" id="headingOne">
-                            <h4 class="mb-0">
-                                <a data-toggle="collapse" data-parent="#accordion-faq" href="#collapseOne" class="collapsed" aria-expanded="true" aria-controls="collapseOne">
-                                    <i class="fa fa-question-circle pr-10"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                </a>
-                            </h4>
-                        </div>
-                        <div id="collapseOne" class="collapse" role="tabpanel" aria-labelledby="headingOne">
-                            <div class="card-block">
-                                Enim, deleniti atque error corporis, laudantium consequuntur et ipsum velit, laboriosam sint inventore nam quo dolorum. Totam, facilis. Unde nobis cumque quam modi quia doloribus nesciunt eveniet, reprehenderit iste blanditiis ipsa, dolor nemo nulla harum quibusdam ipsum expedita explicabo obcaecati ab amet labore tempore sequi. Sed nam quidem tempore laboriosam ipsa perferendis officiis quos sapiente mollitia facilis earum, reprehenderit corporis eum dolore, ratione reiciendis expedita. Iste tenetur eos molestias dicta itaque adipisci cum laudantium aperiam atque, consequuntur, inventore possimus accusamus nisi a quaerat totam est aliquid alias amet id nulla quia illum illo. Quibusdam expedita omnis est hic, ipsum quo impedit! Facere voluptates repudiandae sunt quos inventore exercitationem quas distinctio ducimus vitae iure eos est, natus voluptatum! Odio totam ipsam natus sed, a, vel, corrupti molestiae magnam dicta officia eveniet temporibus perspiciatis aperiam aliquid cumque mollitia, quibusdam! Consequuntur eum aut aspernatur reprehenderit.
-                            </div>
-                        </div>
+                @slot('items.1.content')
+                    Distinctio dolor assumenda optio a adipisci inventore culpa tempora molestias fuga cupiditate alias sint labore, quod minus iusto ad earum, vel nihil ipsum necessitatibus maxime facere? Corporis inventore, saepe placeat labore rerum assumenda repudiandae, eveniet aperiam dolor quibusdam porro nesciunt omnis voluptatum, perspiciatis. Doloremque perspiciatis quas sunt, similique modi facere a atque unde impedit assumenda accusantium vel animi iste omnis cupiditate amet quae ipsam repudiandae sint doloribus praesentium natus magnam et minima consequatur. Facilis corporis similique reiciendis officiis veritatis consectetur est rerum natus, hic illo molestiae voluptas numquam enim aut fugit possimus, ducimus ipsam quisquam, ab doloribus. Deleniti quam repudiandae eos, maxime commodi quas sit accusamus error eius. Ea temporibus eos, iusto!
+                @endslot
+
+                @slot('items.2.heading')
+                    <i class="fa fa-question-circle pr-10"></i> Molestiae hic, optio libero nobis praesentium amet delectus nihil.
+                @endslot
+
+                @slot('items.2.content')
+                    Excepturi illo labore architecto quasi maxime voluptas, laborum rerum non fuga. Sit rerum doloremque hic voluptas harum voluptatibus obcaecati ducimus atque magni, quod eius dolores commodi voluptates! Reiciendis porro magnam tempore ipsa obcaecati fuga earum unde libero, sapiente voluptatibus nemo exercitationem minus praesentium, itaque cupiditate qui assumenda quas quidem sed, nisi animi debitis quaerat. Quo magni incidunt enim aspernatur fugit rem blanditiis hic asperiores est. Dolor doloremque adipisci earum officiis soluta sapiente laboriosam! Optio aspernatur magni quas molestias temporibus quibusdam commodi ab, repellendus modi sapiente repudiandae perspiciatis molestiae, ea sint dolor consectetur aliquam delectus nisi minima officia vel tenetur quam pariatur, quidem? Voluptatem architecto quam nisi, molestiae saepe quo expedita odio corporis.
+                @endslot
+
+                @slot('items.3.heading')
+                    <i class="fa fa-question-circle pr-10"></i> Labore soluta aspernatur a optio incidunt molestias.
+                @endslot
+
+                @slot('items.3.content')
+                    Quam dolor ipsa rerum, quasi ipsam aperiam molestias corporis debitis voluptas magni vero assumenda quidem odit beatae ullam eaque et nesciunt saepe officia cupiditate expedita laboriosam quae. Ea suscipit eius repellat rem voluptate consectetur quaerat, similique architecto enim fugiat vitae dolorem expedita. Voluptatum, repellendus dolores iure sit, necessitatibus repellat nemo atque provident perferendis ducimus. Distinctio quisquam perspiciatis vero error quos cum, ea culpa similique magni, iure ipsam amet fuga voluptatem assumenda! Labore soluta aspernatur a optio incidunt molestias consequatur minus molestiae nisi, iusto officiis eaque ipsam magni doloremque cum pariatur delectus dolore quae vero nobis esse enim, iste. Molestias maxime, odit, ducimus ab libero architecto vel accusantium et beatae excepturi incidunt obcaecati?
+                @endslot
+
+                @slot('items.4.heading')
+                    <i class="fa fa-question-circle pr-10"></i> Quam dolor ipsa rerum, quasi ipsam aperiam molestias corporis debitis.
+                @endslot
+
+                @slot('items.4.content')
+                    Ipsam quod impedit, ea necessitatibus quasi, quis rem nemo laboriosam labore, temporibus fugit placeat, consectetur eaque qui amet! Cum ab nulla voluptatibus, velit eius tempore veniam, quos voluptate iusto commodi error, obcaecati debitis, qui ad reiciendis officiis cumque! Repudiandae quos distinctio dolor consequatur commodi quae iusto beatae, laborum saepe enim voluptates tempore tenetur expedita eveniet eius recusandae id eaque, sequi illo neque. Illo voluptate molestias harum quas, accusantium placeat consectetur dignissimos. Perspiciatis architecto accusamus pariatur similique porro expedita ad commodi delectus illum a consequuntur laboriosam fugit libero nisi non, amet fugiat, ducimus, quia? Maiores ex mollitia eos labore, cupiditate neque earum perferendis consequatur pariatur quis sunt repellendus dolores veritatis dicta nemo expedita. Impedit unde totam sint! Eius consequuntur ipsam dolorem, debitis, ea ipsa eum nulla ullam dolorum autem necessitatibus. Repudiandae vero incidunt at cum ipsa illum autem reprehenderit nisi, cupiditate modi ab voluptatum asperiores ullam? Nobis ipsum deleniti odio facilis pariatur omnis reiciendis expedita minima eveniet delectus quam assumenda modi nesciunt excepturi magni maxime, asperiores illum optio fugiat. Ullam sit, a et!
+                @endslot
+
+                @slot('items.5.heading')
+                    <i class="fa fa-question-circle pr-10"></i> Aliquam quas cumque officia ab laudantium corporis dolorem consequatur cupiditate.
+                @endslot
+
+                @slot('items.5.content')
+                    Vero odit est ullam. Velit distinctio, eligendi quo enim quaerat. Aliquam quas cumque officia ab laudantium corporis dolorem consequatur cupiditate quam quia delectus iusto ad non neque facere praesentium, odio a repellendus. Laudantium aliquam at maxime iure hic sapiente, est dicta accusamus numquam dolorum quasi saepe officiis vero nobis quo aut praesentium, fugit adipisci illo voluptatum quibusdam? Assumenda fuga explicabo aperiam, aspernatur! Sit dolore minus cumque quam commodi eaque impedit, nulla ex repellat tempora suscipit quaerat voluptates incidunt optio reiciendis illum voluptatum eveniet cum obcaecati ad saepe necessitatibus voluptas. Sunt ullam maxime eaque voluptatibus quia consequuntur, illum? Iure provident officiis animi, ratione minima at consequatur doloremque tenetur. Sapiente recusandae dolore reprehenderit velit autem consequuntur cumque eum illo tempora nobis praesentium laborum eius, provident vitae eveniet, porro in eligendi veniam magni dolorum rem quibusdam. Iure error, esse aliquam necessitatibus repellendus magnam nemo dolorum. Dolorem a veritatis iste provident, numquam ex, voluptates dolorum placeat.
+                @endslot
+
+                @slot('items.6.heading')
+                    <i class="fa fa-question-circle pr-10"></i> Veniam iure aspernatur quod possimus provident voluptate dolore.
+                @endslot
+
+                @slot('items.6.content')
+                    Doloribus perspiciatis quos dolore eum facere, id alias ipsam placeat corporis repudiandae adipisci, ratione ipsum odio culpa et laborum aut similique nulla voluptates velit optio mollitia, autem. Architecto ratione eligendi reprehenderit vitae, omnis eius dolorem nobis quaerat quo fugiat, quisquam, in itaque doloribus veniam tenetur ipsum atque totam fugit modi. Veniam iure aspernatur quod possimus provident voluptate dolore magnam voluptas architecto beatae assumenda, atque cumque voluptatum nam unde praesentium fugiat in dolores recusandae eveniet at quas. Incidunt fugit, velit earum in explicabo, voluptate quia iusto eveniet dicta odit reiciendis a! Molestiae quisquam ad, dolorum assumenda. Eaque ab aliquam consequuntur accusamus, quidem facilis similique veritatis tenetur perspiciatis natus corrupti laboriosam itaque magni fuga, nemo eos esse, molestias, quibusdam eius alias dolores magnam. Voluptatibus?
+                @endslot
+
+                @slot('items.7.heading')
+                    <i class="fa fa-question-circle pr-10"></i> Veritatis repellat aliquam labore adipisci, ut placeat libero in, consectetur beatae.
+                @endslot
+
+                @slot('items.7.content')
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis repellat aliquam labore adipisci, ut placeat libero in, consectetur beatae soluta mollitia quia vel amet nobis? Ipsa dolores ipsum laudantium perferendis placeat molestias libero aliquam officia obcaecati maiores sunt esse quisquam laboriosam impedit commodi rerum eius ipsam quaerat reiciendis quis tempora necessitatibus veniam beatae, ad architecto. Assumenda quia ipsum expedita veritatis facere magni error ullam, maiores numquam! Facilis repellat, iste maxime blanditiis vel ullam rerum! Velit numquam sint maxime illum aut porro, praesentium non quibusdam vel necessitatibus ullam omnis ad veniam libero autem, voluptatem voluptatibus, consequatur commodi harum. Dignissimos doloremque nihil dolores incidunt, at facilis corporis unde deserunt alias consequatur voluptatibus cupiditate sint quaerat reiciendis, culpa maiores dolorem ipsam ab ratione totam ut laboriosam eos magni? Laboriosam nisi, delectus earum soluta quam nemo aut, eveniet sapiente modi a est, nobis unde iure alias doloribus. Non laboriosam quasi placeat repudiandae temporibus delectus!
+                @endslot
+
+                @slot('items.8.heading')
+                    <i class="fa fa-question-circle pr-10"></i> Incidunt fugit, velit earum in explicabo, voluptate quia iusto eveniet dicta.
+                @endslot
+
+                @slot('items.8.content')
+                    Doloribus perspiciatis quos dolore eum facere, id alias ipsam placeat corporis repudiandae adipisci, ratione ipsum odio culpa et laborum aut similique nulla voluptates velit optio mollitia, autem. Architecto ratione eligendi reprehenderit vitae, omnis eius dolorem nobis quaerat quo fugiat, quisquam, in itaque doloribus veniam tenetur ipsum atque totam fugit modi. Veniam iure aspernatur quod possimus provident voluptate dolore magnam voluptas architecto beatae assumenda, atque cumque voluptatum nam unde praesentium fugiat in dolores recusandae eveniet at quas. Incidunt fugit, velit earum in explicabo, voluptate quia iusto eveniet dicta odit reiciendis a! Molestiae quisquam ad, dolorum assumenda. Eaque ab aliquam consequuntur accusamus, quidem facilis similique veritatis tenetur perspiciatis natus corrupti laboriosam itaque magni fuga, nemo eos esse, molestias, quibusdam eius alias dolores magnam. Voluptatibus?
+                @endslot
+
+                @slot('items.9.heading')
+                    <i class="fa fa-question-circle pr-10"></i> Assumenda reprehenderit minus quas odit obcaecati unde.
+                @endslot
+
+                @slot('items.9.content')
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda reprehenderit minus quas odit obcaecati unde, necessitatibus id sit corrupti dolore, pariatur, rem officiis sequi quasi molestiae magnam enim laudantium maxime vel commodi adipisci illo non quibusdam porro accusamus. Tempora ducimus ut quis pariatur ex quasi deserunt, voluptatum consectetur odit. Architecto magnam ipsa quam, repellat praesentium, minima dignissimos minus maxime expedita? Quam esse culpa ipsa. Sunt eveniet veniam expedita, voluptates veritatis. Quo natus officia porro perspiciatis, itaque est illo. Quod, laboriosam esse nostrum officia facere dolor quos nihil provident aliquid veritatis, sequi necessitatibus quasi at blanditiis illo omnis beatae ratione, voluptatem nemo voluptatibus mollitia cumque fugiat. Consectetur impedit porro hic corporis? Quod qui, similique cum eum deleniti omnis neque corrupti illum quibusdam incidunt, iure quisquam vero non asperiores debitis suscipit nobis delectus consequatur voluptatibus sapiente amet iusto magnam voluptate rerum. Repellat nam autem quidem temporibus natus quaerat facere porro! Rem, inventore.
+                @endslot
+
+                @slot('items.10.heading')
+                    <i class="fa fa-question-circle pr-10"></i> Architecto ratione eligendi reprehenderit vitae, omnis eius dolorem nobis quaerat.
+                @endslot
+
+                @slot('items.10.content')
+                    Eius repellendus voluptas molestiae, voluptatem, debitis ea iure quam repellat incidunt minus facere magnam, officiis consequuntur rerum. Ratione accusamus delectus quam nisi repellendus dolore quos incidunt officia asperiores, quisquam quis recusandae odit perspiciatis cumque eum modi dolorum velit tempore laboriosam totam! Veritatis similique beatae vel eum ad quidem, officia hic autem facilis et architecto reiciendis recusandae sint, ullam rerum quisquam voluptas ipsa alias ea excepturi a ab labore? Ipsum quod laboriosam vitae nostrum saepe nobis beatae ducimus rem tempore omnis et iste, illum reprehenderit maxime sequi aliquam atque, consequuntur corrupti libero debitis autem molestias. Cum vitae rerum autem libero ea? Culpa at voluptatem minus et, consequuntur blanditiis, similique aliquam dolorum quos accusantium atque. Temporibus neque aut libero unde, odit nihil architecto perferendis fugit molestiae laborum quod perspiciatis accusamus commodi dolorem illo nobis quis debitis asperiores, facilis dicta quos? Quam maxime laborum aut ratione fuga, esse sit quia rerum odio assumenda nobis magnam!
+                @endslot
+
+            @endcomponent
+
+        @endslot
+
+        @slot('items.1.content')
+
+            <!-- accordion start -->
+            <div class="collapse-style-1" role="tablist" aria-multiselectable="true">
+                <div class="card">
+                    <div class="card-header" role="tab" id="headingOne-2">
+                        <h4 class="mb-0">
+                            <a data-toggle="collapse" data-parent="#accordion-faq-2" href="#collapseOne-2" class="collapsed" aria-expanded="true" aria-controls="collapseOne-2">
+                                <i class="fa fa-question-circle pr-10"></i> Ipsum dolor sit amet, consectetur adipisicing elit.
+                            </a>
+                        </h4>
                     </div>
-                    <div class="card">
-                        <div class="card-header" role="tab" id="headingTwo">
-                            <h4 class="mb-0">
-                                <a data-toggle="collapse" data-parent="#accordion-faq" href="#collapseTwo" class="collapsed" aria-expanded="true" aria-controls="collapseTwo">
-                                    <i class="fa fa-question-circle pr-10"></i> Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor.
-                                </a>
-                            </h4>
-                        </div>
-                        <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
-                            <div class="card-block">
-                                Distinctio dolor assumenda optio a adipisci inventore culpa tempora molestias fuga cupiditate alias sint labore, quod minus iusto ad earum, vel nihil ipsum necessitatibus maxime facere? Corporis inventore, saepe placeat labore rerum assumenda repudiandae, eveniet aperiam dolor quibusdam porro nesciunt omnis voluptatum, perspiciatis. Doloremque perspiciatis quas sunt, similique modi facere a atque unde impedit assumenda accusantium vel animi iste omnis cupiditate amet quae ipsam repudiandae sint doloribus praesentium natus magnam et minima consequatur. Facilis corporis similique reiciendis officiis veritatis consectetur est rerum natus, hic illo molestiae voluptas numquam enim aut fugit possimus, ducimus ipsam quisquam, ab doloribus. Deleniti quam repudiandae eos, maxime commodi quas sit accusamus error eius. Ea temporibus eos, iusto!
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-header" role="tab" id="headingThree">
-                            <h4 class="mb-0">
-                                <a data-toggle="collapse" data-parent="#accordion-faq" href="#collapseThree" class="collapsed" aria-expanded="true" aria-controls="collapseThree">
-                                    <i class="fa fa-question-circle pr-10"></i> Molestiae hic, optio libero nobis praesentium amet delectus nihil.
-                                </a>
-                            </h4>
-                        </div>
-                        <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree">
-                            <div class="card-block">
-                                Excepturi illo labore architecto quasi maxime voluptas, laborum rerum non fuga. Sit rerum doloremque hic voluptas harum voluptatibus obcaecati ducimus atque magni, quod eius dolores commodi voluptates! Reiciendis porro magnam tempore ipsa obcaecati fuga earum unde libero, sapiente voluptatibus nemo exercitationem minus praesentium, itaque cupiditate qui assumenda quas quidem sed, nisi animi debitis quaerat. Quo magni incidunt enim aspernatur fugit rem blanditiis hic asperiores est. Dolor doloremque adipisci earum officiis soluta sapiente laboriosam! Optio aspernatur magni quas molestias temporibus quibusdam commodi ab, repellendus modi sapiente repudiandae perspiciatis molestiae, ea sint dolor consectetur aliquam delectus nisi minima officia vel tenetur quam pariatur, quidem? Voluptatem architecto quam nisi, molestiae saepe quo expedita odio corporis.
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-header" role="tab" id="headingFour">
-                            <h4 class="mb-0">
-                                <a data-toggle="collapse" data-parent="#accordion-faq" href="#collapseFour" class="collapsed" aria-expanded="true" aria-controls="collapseFour">
-                                    <i class="fa fa-question-circle pr-10"></i> Labore soluta aspernatur a optio incidunt molestias.
-                                </a>
-                            </h4>
-                        </div>
-                        <div id="collapseFour" class="collapse" role="tabpanel" aria-labelledby="headingFour">
-                            <div class="card-block">
-                                Quam dolor ipsa rerum, quasi ipsam aperiam molestias corporis debitis voluptas magni vero assumenda quidem odit beatae ullam eaque et nesciunt saepe officia cupiditate expedita laboriosam quae. Ea suscipit eius repellat rem voluptate consectetur quaerat, similique architecto enim fugiat vitae dolorem expedita. Voluptatum, repellendus dolores iure sit, necessitatibus repellat nemo atque provident perferendis ducimus. Distinctio quisquam perspiciatis vero error quos cum, ea culpa similique magni, iure ipsam amet fuga voluptatem assumenda! Labore soluta aspernatur a optio incidunt molestias consequatur minus molestiae nisi, iusto officiis eaque ipsam magni doloremque cum pariatur delectus dolore quae vero nobis esse enim, iste. Molestias maxime, odit, ducimus ab libero architecto vel accusantium et beatae excepturi incidunt obcaecati?
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-header" role="tab" id="headingFive">
-                            <h4 class="mb-0">
-                                <a data-toggle="collapse" data-parent="#accordion-faq" href="#collapseFive" class="collapsed" aria-expanded="true" aria-controls="collapseFive">
-                                    <i class="fa fa-question-circle pr-10"></i> Quam dolor ipsa rerum, quasi ipsam aperiam molestias corporis debitis.
-                                </a>
-                            </h4>
-                        </div>
-                        <div id="collapseFive" class="collapse" role="tabpanel" aria-labelledby="headingFive">
-                            <div class="card-block">
-                                Ipsam quod impedit, ea necessitatibus quasi, quis rem nemo laboriosam labore, temporibus fugit placeat, consectetur eaque qui amet! Cum ab nulla voluptatibus, velit eius tempore veniam, quos voluptate iusto commodi error, obcaecati debitis, qui ad reiciendis officiis cumque! Repudiandae quos distinctio dolor consequatur commodi quae iusto beatae, laborum saepe enim voluptates tempore tenetur expedita eveniet eius recusandae id eaque, sequi illo neque. Illo voluptate molestias harum quas, accusantium placeat consectetur dignissimos. Perspiciatis architecto accusamus pariatur similique porro expedita ad commodi delectus illum a consequuntur laboriosam fugit libero nisi non, amet fugiat, ducimus, quia? Maiores ex mollitia eos labore, cupiditate neque earum perferendis consequatur pariatur quis sunt repellendus dolores veritatis dicta nemo expedita. Impedit unde totam sint! Eius consequuntur ipsam dolorem, debitis, ea ipsa eum nulla ullam dolorum autem necessitatibus. Repudiandae vero incidunt at cum ipsa illum autem reprehenderit nisi, cupiditate modi ab voluptatum asperiores ullam? Nobis ipsum deleniti odio facilis pariatur omnis reiciendis expedita minima eveniet delectus quam assumenda modi nesciunt excepturi magni maxime, asperiores illum optio fugiat. Ullam sit, a et!
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-header" role="tab" id="headingSix">
-                            <h4 class="mb-0">
-                                <a data-toggle="collapse" data-parent="#accordion-faq" href="#collapseSix" class="collapsed" aria-expanded="true" aria-controls="collapseSix">
-                                    <i class="fa fa-question-circle pr-10"></i> Aliquam quas cumque officia ab laudantium corporis dolorem consequatur cupiditate.
-                                </a>
-                            </h4>
-                        </div>
-                        <div id="collapseSix" class="collapse" role="tabpanel" aria-labelledby="headingSix">
-                            <div class="card-block">
-                                Vero odit est ullam. Velit distinctio, eligendi quo enim quaerat. Aliquam quas cumque officia ab laudantium corporis dolorem consequatur cupiditate quam quia delectus iusto ad non neque facere praesentium, odio a repellendus. Laudantium aliquam at maxime iure hic sapiente, est dicta accusamus numquam dolorum quasi saepe officiis vero nobis quo aut praesentium, fugit adipisci illo voluptatum quibusdam? Assumenda fuga explicabo aperiam, aspernatur! Sit dolore minus cumque quam commodi eaque impedit, nulla ex repellat tempora suscipit quaerat voluptates incidunt optio reiciendis illum voluptatum eveniet cum obcaecati ad saepe necessitatibus voluptas. Sunt ullam maxime eaque voluptatibus quia consequuntur, illum? Iure provident officiis animi, ratione minima at consequatur doloremque tenetur. Sapiente recusandae dolore reprehenderit velit autem consequuntur cumque eum illo tempora nobis praesentium laborum eius, provident vitae eveniet, porro in eligendi veniam magni dolorum rem quibusdam. Iure error, esse aliquam necessitatibus repellendus magnam nemo dolorum. Dolorem a veritatis iste provident, numquam ex, voluptates dolorum placeat.
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-header" role="tab" id="headingSeven">
-                            <h4 class="mb-0">
-                                <a data-toggle="collapse" data-parent="#accordion-faq" href="#collapseSeven" class="collapsed" aria-expanded="true" aria-controls="collapseSeven">
-                                    <i class="fa fa-question-circle pr-10"></i> Veniam iure aspernatur quod possimus provident voluptate dolore.
-                                </a>
-                            </h4>
-                        </div>
-                        <div id="collapseSeven" class="collapse" role="tabpanel" aria-labelledby="headingSeven">
-                            <div class="card-block">
-                                Doloribus perspiciatis quos dolore eum facere, id alias ipsam placeat corporis repudiandae adipisci, ratione ipsum odio culpa et laborum aut similique nulla voluptates velit optio mollitia, autem. Architecto ratione eligendi reprehenderit vitae, omnis eius dolorem nobis quaerat quo fugiat, quisquam, in itaque doloribus veniam tenetur ipsum atque totam fugit modi. Veniam iure aspernatur quod possimus provident voluptate dolore magnam voluptas architecto beatae assumenda, atque cumque voluptatum nam unde praesentium fugiat in dolores recusandae eveniet at quas. Incidunt fugit, velit earum in explicabo, voluptate quia iusto eveniet dicta odit reiciendis a! Molestiae quisquam ad, dolorum assumenda. Eaque ab aliquam consequuntur accusamus, quidem facilis similique veritatis tenetur perspiciatis natus corrupti laboriosam itaque magni fuga, nemo eos esse, molestias, quibusdam eius alias dolores magnam. Voluptatibus?
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-header" role="tab" id="headingEight">
-                            <h4 class="mb-0">
-                                <a data-toggle="collapse" data-parent="#accordion-faq" href="#collapseEight" class="collapsed" aria-expanded="true" aria-controls="collapseEight">
-                                    <i class="fa fa-question-circle pr-10"></i> Veritatis repellat aliquam labore adipisci, ut placeat libero in, consectetur beatae.
-                                </a>
-                            </h4>
-                        </div>
-                        <div id="collapseEight" class="collapse" role="tabpanel" aria-labelledby="headingEight">
-                            <div class="card-block">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis repellat aliquam labore adipisci, ut placeat libero in, consectetur beatae soluta mollitia quia vel amet nobis? Ipsa dolores ipsum laudantium perferendis placeat molestias libero aliquam officia obcaecati maiores sunt esse quisquam laboriosam impedit commodi rerum eius ipsam quaerat reiciendis quis tempora necessitatibus veniam beatae, ad architecto. Assumenda quia ipsum expedita veritatis facere magni error ullam, maiores numquam! Facilis repellat, iste maxime blanditiis vel ullam rerum! Velit numquam sint maxime illum aut porro, praesentium non quibusdam vel necessitatibus ullam omnis ad veniam libero autem, voluptatem voluptatibus, consequatur commodi harum. Dignissimos doloremque nihil dolores incidunt, at facilis corporis unde deserunt alias consequatur voluptatibus cupiditate sint quaerat reiciendis, culpa maiores dolorem ipsam ab ratione totam ut laboriosam eos magni? Laboriosam nisi, delectus earum soluta quam nemo aut, eveniet sapiente modi a est, nobis unde iure alias doloribus. Non laboriosam quasi placeat repudiandae temporibus delectus!
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-header" role="tab" id="headingNine">
-                            <h4 class="mb-0">
-                                <a data-toggle="collapse" data-parent="#accordion-faq" href="#collapseNine" class="collapsed" aria-expanded="true" aria-controls="collapseNine">
-                                    <i class="fa fa-question-circle pr-10"></i> Incidunt fugit, velit earum in explicabo, voluptate quia iusto eveniet dicta.
-                                </a>
-                            </h4>
-                        </div>
-                        <div id="collapseNine" class="collapse" role="tabpanel" aria-labelledby="headingNine">
-                            <div class="card-block">
-                                Doloribus perspiciatis quos dolore eum facere, id alias ipsam placeat corporis repudiandae adipisci, ratione ipsum odio culpa et laborum aut similique nulla voluptates velit optio mollitia, autem. Architecto ratione eligendi reprehenderit vitae, omnis eius dolorem nobis quaerat quo fugiat, quisquam, in itaque doloribus veniam tenetur ipsum atque totam fugit modi. Veniam iure aspernatur quod possimus provident voluptate dolore magnam voluptas architecto beatae assumenda, atque cumque voluptatum nam unde praesentium fugiat in dolores recusandae eveniet at quas. Incidunt fugit, velit earum in explicabo, voluptate quia iusto eveniet dicta odit reiciendis a! Molestiae quisquam ad, dolorum assumenda. Eaque ab aliquam consequuntur accusamus, quidem facilis similique veritatis tenetur perspiciatis natus corrupti laboriosam itaque magni fuga, nemo eos esse, molestias, quibusdam eius alias dolores magnam. Voluptatibus?
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-header" role="tab" id="headingTen">
-                            <h4 class="mb-0">
-                                <a data-toggle="collapse" data-parent="#accordion-faq" href="#collapseTen" class="collapsed" aria-expanded="true" aria-controls="collapseTen">
-                                    <i class="fa fa-question-circle pr-10"></i> Assumenda reprehenderit minus quas odit obcaecati unde.
-                                </a>
-                            </h4>
-                        </div>
-                        <div id="collapseTen" class="collapse" role="tabpanel" aria-labelledby="headingTen">
-                            <div class="card-block">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda reprehenderit minus quas odit obcaecati unde, necessitatibus id sit corrupti dolore, pariatur, rem officiis sequi quasi molestiae magnam enim laudantium maxime vel commodi adipisci illo non quibusdam porro accusamus. Tempora ducimus ut quis pariatur ex quasi deserunt, voluptatum consectetur odit. Architecto magnam ipsa quam, repellat praesentium, minima dignissimos minus maxime expedita? Quam esse culpa ipsa. Sunt eveniet veniam expedita, voluptates veritatis. Quo natus officia porro perspiciatis, itaque est illo. Quod, laboriosam esse nostrum officia facere dolor quos nihil provident aliquid veritatis, sequi necessitatibus quasi at blanditiis illo omnis beatae ratione, voluptatem nemo voluptatibus mollitia cumque fugiat. Consectetur impedit porro hic corporis? Quod qui, similique cum eum deleniti omnis neque corrupti illum quibusdam incidunt, iure quisquam vero non asperiores debitis suscipit nobis delectus consequatur voluptatibus sapiente amet iusto magnam voluptate rerum. Repellat nam autem quidem temporibus natus quaerat facere porro! Rem, inventore.
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-header" role="tab" id="headingEleven">
-                            <h4 class="mb-0">
-                                <a data-toggle="collapse" data-parent="#accordion-faq" href="#collapseEleven" class="collapsed" aria-expanded="true" aria-controls="collapseEleven">
-                                    <i class="fa fa-question-circle pr-10"></i> Architecto ratione eligendi reprehenderit vitae, omnis eius dolorem nobis quaerat.
-                                </a>
-                            </h4>
-                        </div>
-                        <div id="collapseEleven" class="collapse" role="tabpanel" aria-labelledby="headingEleven">
-                            <div class="card-block">
-                                Eius repellendus voluptas molestiae, voluptatem, debitis ea iure quam repellat incidunt minus facere magnam, officiis consequuntur rerum. Ratione accusamus delectus quam nisi repellendus dolore quos incidunt officia asperiores, quisquam quis recusandae odit perspiciatis cumque eum modi dolorum velit tempore laboriosam totam! Veritatis similique beatae vel eum ad quidem, officia hic autem facilis et architecto reiciendis recusandae sint, ullam rerum quisquam voluptas ipsa alias ea excepturi a ab labore? Ipsum quod laboriosam vitae nostrum saepe nobis beatae ducimus rem tempore omnis et iste, illum reprehenderit maxime sequi aliquam atque, consequuntur corrupti libero debitis autem molestias. Cum vitae rerum autem libero ea? Culpa at voluptatem minus et, consequuntur blanditiis, similique aliquam dolorum quos accusantium atque. Temporibus neque aut libero unde, odit nihil architecto perferendis fugit molestiae laborum quod perspiciatis accusamus commodi dolorem illo nobis quis debitis asperiores, facilis dicta quos? Quam maxime laborum aut ratione fuga, esse sit quia rerum odio assumenda nobis magnam!
-                            </div>
+                    <div id="collapseOne-2" class="collapse" role="tabpanel" aria-labelledby="headingOne-2">
+                        <div class="card-block">
+                            Enim, deleniti atque error corporis, laudantium consequuntur et ipsum velit, laboriosam sint inventore nam quo dolorum. Totam, facilis. Unde nobis cumque quam modi quia doloribus nesciunt eveniet, reprehenderit iste blanditiis ipsa, dolor nemo nulla harum quibusdam ipsum expedita explicabo obcaecati ab amet labore tempore sequi. Sed nam quidem tempore laboriosam ipsa perferendis officiis quos sapiente mollitia facilis earum, reprehenderit corporis eum dolore, ratione reiciendis expedita. Iste tenetur eos molestias dicta itaque adipisci cum laudantium aperiam atque, consequuntur, inventore possimus accusamus nisi a quaerat totam est aliquid alias amet id nulla quia illum illo. Quibusdam expedita omnis est hic, ipsum quo impedit! Facere voluptates repudiandae sunt quos inventore exercitationem quas distinctio ducimus vitae iure eos est, natus voluptatum! Odio totam ipsam natus sed, a, vel, corrupti molestiae magnam dicta officia eveniet temporibus perspiciatis aperiam aliquid cumque mollitia, quibusdam! Consequuntur eum aut aspernatur reprehenderit.
                         </div>
                     </div>
                 </div>
-                <!-- accordion end -->
-
-            @endslot
-
-            @slot('items.1.content')
-
-                <!-- accordion start -->
-                <div class="collapse-style-1" role="tablist" aria-multiselectable="true">
-                    <div class="card">
-                        <div class="card-header" role="tab" id="headingOne-2">
-                            <h4 class="mb-0">
-                                <a data-toggle="collapse" data-parent="#accordion-faq-2" href="#collapseOne-2" class="collapsed" aria-expanded="true" aria-controls="collapseOne-2">
-                                    <i class="fa fa-question-circle pr-10"></i> Ipsum dolor sit amet, consectetur adipisicing elit.
-                                </a>
-                            </h4>
-                        </div>
-                        <div id="collapseOne-2" class="collapse" role="tabpanel" aria-labelledby="headingOne-2">
-                            <div class="card-block">
-                                Enim, deleniti atque error corporis, laudantium consequuntur et ipsum velit, laboriosam sint inventore nam quo dolorum. Totam, facilis. Unde nobis cumque quam modi quia doloribus nesciunt eveniet, reprehenderit iste blanditiis ipsa, dolor nemo nulla harum quibusdam ipsum expedita explicabo obcaecati ab amet labore tempore sequi. Sed nam quidem tempore laboriosam ipsa perferendis officiis quos sapiente mollitia facilis earum, reprehenderit corporis eum dolore, ratione reiciendis expedita. Iste tenetur eos molestias dicta itaque adipisci cum laudantium aperiam atque, consequuntur, inventore possimus accusamus nisi a quaerat totam est aliquid alias amet id nulla quia illum illo. Quibusdam expedita omnis est hic, ipsum quo impedit! Facere voluptates repudiandae sunt quos inventore exercitationem quas distinctio ducimus vitae iure eos est, natus voluptatum! Odio totam ipsam natus sed, a, vel, corrupti molestiae magnam dicta officia eveniet temporibus perspiciatis aperiam aliquid cumque mollitia, quibusdam! Consequuntur eum aut aspernatur reprehenderit.
-                            </div>
-                        </div>
+                <div class="card">
+                    <div class="card-header" role="tab" id="headingTwo-2">
+                        <h4 class="mb-0">
+                            <a data-toggle="collapse" data-parent="#accordion-faq-2" href="#collapseTwo-2" class="collapsed" aria-expanded="true" aria-controls="collapseTwo-2">
+                                <i class="fa fa-question-circle pr-10"></i> Truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor.
+                            </a>
+                        </h4>
                     </div>
-                    <div class="card">
-                        <div class="card-header" role="tab" id="headingTwo-2">
-                            <h4 class="mb-0">
-                                <a data-toggle="collapse" data-parent="#accordion-faq-2" href="#collapseTwo-2" class="collapsed" aria-expanded="true" aria-controls="collapseTwo-2">
-                                    <i class="fa fa-question-circle pr-10"></i> Truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor.
-                                </a>
-                            </h4>
-                        </div>
-                        <div id="collapseTwo-2" class="collapse" role="tabpanel" aria-labelledby="headingTwo-2">
-                            <div class="card-block">
-                                Distinctio dolor assumenda optio a adipisci inventore culpa tempora molestias fuga cupiditate alias sint labore, quod minus iusto ad earum, vel nihil ipsum necessitatibus maxime facere? Corporis inventore, saepe placeat labore rerum assumenda repudiandae, eveniet aperiam dolor quibusdam porro nesciunt omnis voluptatum, perspiciatis. Doloremque perspiciatis quas sunt, similique modi facere a atque unde impedit assumenda accusantium vel animi iste omnis cupiditate amet quae ipsam repudiandae sint doloribus praesentium natus magnam et minima consequatur. Facilis corporis similique reiciendis officiis veritatis consectetur est rerum natus, hic illo molestiae voluptas numquam enim aut fugit possimus, ducimus ipsam quisquam, ab doloribus. Deleniti quam repudiandae eos, maxime commodi quas sit accusamus error eius. Ea temporibus eos, iusto!
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-header" role="tab" id="headingThree-2">
-                            <h4 class="mb-0">
-                                <a data-toggle="collapse" data-parent="#accordion-faq-2" href="#collapseThree-2" class="collapsed" aria-expanded="true" aria-controls="collapseThree-2">
-                                    <i class="fa fa-question-circle pr-10"></i> Laborum molestiae hic, optio libero nobis praesentium amet delectus nihil.
-                                </a>
-                            </h4>
-                        </div>
-                        <div id="collapseThree-2" class="collapse" role="tabpanel" aria-labelledby="headingThree-2">
-                            <div class="card-block">
-                                Excepturi illo labore architecto quasi maxime voluptas, laborum rerum non fuga. Sit rerum doloremque hic voluptas harum voluptatibus obcaecati ducimus atque magni, quod eius dolores commodi voluptates! Reiciendis porro magnam tempore ipsa obcaecati fuga earum unde libero, sapiente voluptatibus nemo exercitationem minus praesentium, itaque cupiditate qui assumenda quas quidem sed, nisi animi debitis quaerat. Quo magni incidunt enim aspernatur fugit rem blanditiis hic asperiores est. Dolor doloremque adipisci earum officiis soluta sapiente laboriosam! Optio aspernatur magni quas molestias temporibus quibusdam commodi ab, repellendus modi sapiente repudiandae perspiciatis molestiae, ea sint dolor consectetur aliquam delectus nisi minima officia vel tenetur quam pariatur, quidem? Voluptatem architecto quam nisi, molestiae saepe quo expedita odio corporis.
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-header" role="tab" id="headingFour-2">
-                            <h4 class="mb-0">
-                                <a data-toggle="collapse" data-parent="#accordion-faq-2" href="#collapseFour-2" class="collapsed" aria-expanded="true" aria-controls="collapseFour-2">
-                                    <i class="fa fa-question-circle pr-10"></i> Quam labore soluta aspernatur a optio incidunt molestias.
-                                </a>
-                            </h4>
-                        </div>
-                        <div id="collapseFour-2" class="collapse" role="tabpanel" aria-labelledby="headingFour-2">
-                            <div class="card-block">
-                                Quam dolor ipsa rerum, quasi ipsam aperiam molestias corporis debitis voluptas magni vero assumenda quidem odit beatae ullam eaque et nesciunt saepe officia cupiditate expedita laboriosam quae. Ea suscipit eius repellat rem voluptate consectetur quaerat, similique architecto enim fugiat vitae dolorem expedita. Voluptatum, repellendus dolores iure sit, necessitatibus repellat nemo atque provident perferendis ducimus. Distinctio quisquam perspiciatis vero error quos cum, ea culpa similique magni, iure ipsam amet fuga voluptatem assumenda! Labore soluta aspernatur a optio incidunt molestias consequatur minus molestiae nisi, iusto officiis eaque ipsam magni doloremque cum pariatur delectus dolore quae vero nobis esse enim, iste. Molestias maxime, odit, ducimus ab libero architecto vel accusantium et beatae excepturi incidunt obcaecati?
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-header" role="tab" id="headingFive-2">
-                            <h4 class="mb-0">
-                                <a data-toggle="collapse" data-parent="#accordion-faq-2" href="#collapseFive-2" class="collapsed" aria-expanded="true" aria-controls="collapseFive-2">
-                                    <i class="fa fa-question-circle pr-10"></i> Dolor ipsa rerum, quasi ipsam aperiam molestias corporis debitis.
-                                </a>
-                            </h4>
-                        </div>
-                        <div id="collapseFive-2" class="collapse" role="tabpanel" aria-labelledby="headingFive-2">
-                            <div class="card-block">
-                                Ipsam quod impedit, ea necessitatibus quasi, quis rem nemo laboriosam labore, temporibus fugit placeat, consectetur eaque qui amet! Cum ab nulla voluptatibus, velit eius tempore veniam, quos voluptate iusto commodi error, obcaecati debitis, qui ad reiciendis officiis cumque! Repudiandae quos distinctio dolor consequatur commodi quae iusto beatae, laborum saepe enim voluptates tempore tenetur expedita eveniet eius recusandae id eaque, sequi illo neque. Illo voluptate molestias harum quas, accusantium placeat consectetur dignissimos. Perspiciatis architecto accusamus pariatur similique porro expedita ad commodi delectus illum a consequuntur laboriosam fugit libero nisi non, amet fugiat, ducimus, quia? Maiores ex mollitia eos labore, cupiditate neque earum perferendis consequatur pariatur quis sunt repellendus dolores veritatis dicta nemo expedita. Impedit unde totam sint! Eius consequuntur ipsam dolorem, debitis, ea ipsa eum nulla ullam dolorum autem necessitatibus. Repudiandae vero incidunt at cum ipsa illum autem reprehenderit nisi, cupiditate modi ab voluptatum asperiores ullam? Nobis ipsum deleniti odio facilis pariatur omnis reiciendis expedita minima eveniet delectus quam assumenda modi nesciunt excepturi magni maxime, asperiores illum optio fugiat. Ullam sit, a et!
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-header" role="tab" id="headingSix-2">
-                            <h4 class="mb-0">
-                                <a data-toggle="collapse" data-parent="#accordion-faq-2" href="#collapseSix-2" class="collapsed" aria-expanded="true" aria-controls="collapseSix-2">
-                                    <i class="fa fa-question-circle pr-10"></i> Aliquam quas cumque officia ab laudantium corporis dolorem consequatur cupiditate.
-                                </a>
-                            </h4>
-                        </div>
-                        <div id="collapseSix-2" class="collapse" role="tabpanel" aria-labelledby="headingSix-2">
-                            <div class="card-block">
-                                Vero odit est ullam. Velit distinctio, eligendi quo enim quaerat. Aliquam quas cumque officia ab laudantium corporis dolorem consequatur cupiditate quam quia delectus iusto ad non neque facere praesentium, odio a repellendus. Laudantium aliquam at maxime iure hic sapiente, est dicta accusamus numquam dolorum quasi saepe officiis vero nobis quo aut praesentium, fugit adipisci illo voluptatum quibusdam? Assumenda fuga explicabo aperiam, aspernatur! Sit dolore minus cumque quam commodi eaque impedit, nulla ex repellat tempora suscipit quaerat voluptates incidunt optio reiciendis illum voluptatum eveniet cum obcaecati ad saepe necessitatibus voluptas. Sunt ullam maxime eaque voluptatibus quia consequuntur, illum? Iure provident officiis animi, ratione minima at consequatur doloremque tenetur. Sapiente recusandae dolore reprehenderit velit autem consequuntur cumque eum illo tempora nobis praesentium laborum eius, provident vitae eveniet, porro in eligendi veniam magni dolorum rem quibusdam. Iure error, esse aliquam necessitatibus repellendus magnam nemo dolorum. Dolorem a veritatis iste provident, numquam ex, voluptates dolorum placeat.
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-header" role="tab" id="headingSeven-2">
-                            <h4 class="mb-0">
-                                <a data-toggle="collapse" data-parent="#accordion-faq-2" href="#collapseSeven-2" class="collapsed" aria-expanded="true" aria-controls="collapseSeven-2">
-                                    <i class="fa fa-question-circle pr-10"></i> Veniam iure aspernatur quod possimus provident voluptate dolore.
-                                </a>
-                            </h4>
-                        </div>
-                        <div id="collapseSeven-2" class="collapse" role="tabpanel" aria-labelledby="headingSeven-2">
-                            <div class="card-block">
-                                Doloribus perspiciatis quos dolore eum facere, id alias ipsam placeat corporis repudiandae adipisci, ratione ipsum odio culpa et laborum aut similique nulla voluptates velit optio mollitia, autem. Architecto ratione eligendi reprehenderit vitae, omnis eius dolorem nobis quaerat quo fugiat, quisquam, in itaque doloribus veniam tenetur ipsum atque totam fugit modi. Veniam iure aspernatur quod possimus provident voluptate dolore magnam voluptas architecto beatae assumenda, atque cumque voluptatum nam unde praesentium fugiat in dolores recusandae eveniet at quas. Incidunt fugit, velit earum in explicabo, voluptate quia iusto eveniet dicta odit reiciendis a! Molestiae quisquam ad, dolorum assumenda. Eaque ab aliquam consequuntur accusamus, quidem facilis similique veritatis tenetur perspiciatis natus corrupti laboriosam itaque magni fuga, nemo eos esse, molestias, quibusdam eius alias dolores magnam. Voluptatibus?
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-header" role="tab" id="headingEight-2">
-                            <h4 class="mb-0">
-                                <a data-toggle="collapse" data-parent="#accordion-faq-2" href="#collapseEight-2" class="collapsed" aria-expanded="true" aria-controls="collapseEight-2">
-                                    <i class="fa fa-question-circle pr-10"></i> Veritatis repellat aliquam labore adipisci, ut placeat libero in, consectetur beatae.
-                                </a>
-                            </h4>
-                        </div>
-                        <div id="collapseEight-2" class="collapse" role="tabpanel" aria-labelledby="headingEight-2">
-                            <div class="card-block">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis repellat aliquam labore adipisci, ut placeat libero in, consectetur beatae soluta mollitia quia vel amet nobis? Ipsa dolores ipsum laudantium perferendis placeat molestias libero aliquam officia obcaecati maiores sunt esse quisquam laboriosam impedit commodi rerum eius ipsam quaerat reiciendis quis tempora necessitatibus veniam beatae, ad architecto. Assumenda quia ipsum expedita veritatis facere magni error ullam, maiores numquam! Facilis repellat, iste maxime blanditiis vel ullam rerum! Velit numquam sint maxime illum aut porro, praesentium non quibusdam vel necessitatibus ullam omnis ad veniam libero autem, voluptatem voluptatibus, consequatur commodi harum. Dignissimos doloremque nihil dolores incidunt, at facilis corporis unde deserunt alias consequatur voluptatibus cupiditate sint quaerat reiciendis, culpa maiores dolorem ipsam ab ratione totam ut laboriosam eos magni? Laboriosam nisi, delectus earum soluta quam nemo aut, eveniet sapiente modi a est, nobis unde iure alias doloribus. Non laboriosam quasi placeat repudiandae temporibus delectus!
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-header" role="tab" id="headingNine-2">
-                            <h4 class="mb-0">
-                                <a data-toggle="collapse" data-parent="#accordion-faq-2" href="#collapseNine-2" class="collapsed" aria-expanded="true" aria-controls="collapseNine-2">
-                                    <i class="fa fa-question-circle pr-10"></i> Incidunt fugit, velit earum in explicabo, voluptate quia iusto eveniet dicta.
-                                </a>
-                            </h4>
-                        </div>
-                        <div id="collapseNine-2" class="collapse" role="tabpanel" aria-labelledby="headingNine-2">
-                            <div class="card-block">
-                                Doloribus perspiciatis quos dolore eum facere, id alias ipsam placeat corporis repudiandae adipisci, ratione ipsum odio culpa et laborum aut similique nulla voluptates velit optio mollitia, autem. Architecto ratione eligendi reprehenderit vitae, omnis eius dolorem nobis quaerat quo fugiat, quisquam, in itaque doloribus veniam tenetur ipsum atque totam fugit modi. Veniam iure aspernatur quod possimus provident voluptate dolore magnam voluptas architecto beatae assumenda, atque cumque voluptatum nam unde praesentium fugiat in dolores recusandae eveniet at quas. Incidunt fugit, velit earum in explicabo, voluptate quia iusto eveniet dicta odit reiciendis a! Molestiae quisquam ad, dolorum assumenda. Eaque ab aliquam consequuntur accusamus, quidem facilis similique veritatis tenetur perspiciatis natus corrupti laboriosam itaque magni fuga, nemo eos esse, molestias, quibusdam eius alias dolores magnam. Voluptatibus?
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-header" role="tab" id="headingTen-2">
-                            <h4 class="mb-0">
-                                <a data-toggle="collapse" data-parent="#accordion-faq-2" href="#collapseTen-2" class="collapsed" aria-expanded="true" aria-controls="collapseTen-2">
-                                    <i class="fa fa-question-circle pr-10"></i> Assumenda reprehenderit minus quas odit obcaecati unde.
-                                </a>
-                            </h4>
-                        </div>
-                        <div id="collapseTen-2" class="collapse" role="tabpanel" aria-labelledby="headingTen-2">
-                            <div class="card-block">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda reprehenderit minus quas odit obcaecati unde, necessitatibus id sit corrupti dolore, pariatur, rem officiis sequi quasi molestiae magnam enim laudantium maxime vel commodi adipisci illo non quibusdam porro accusamus. Tempora ducimus ut quis pariatur ex quasi deserunt, voluptatum consectetur odit. Architecto magnam ipsa quam, repellat praesentium, minima dignissimos minus maxime expedita? Quam esse culpa ipsa. Sunt eveniet veniam expedita, voluptates veritatis. Quo natus officia porro perspiciatis, itaque est illo. Quod, laboriosam esse nostrum officia facere dolor quos nihil provident aliquid veritatis, sequi necessitatibus quasi at blanditiis illo omnis beatae ratione, voluptatem nemo voluptatibus mollitia cumque fugiat. Consectetur impedit porro hic corporis? Quod qui, similique cum eum deleniti omnis neque corrupti illum quibusdam incidunt, iure quisquam vero non asperiores debitis suscipit nobis delectus consequatur voluptatibus sapiente amet iusto magnam voluptate rerum. Repellat nam autem quidem temporibus natus quaerat facere porro! Rem, inventore.
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-header" role="tab" id="headingEleven-2">
-                            <h4 class="mb-0">
-                                <a data-toggle="collapse" data-parent="#accordion-faq-2" href="#collapseEleven-2" class="collapsed" aria-expanded="true" aria-controls="collapseEleven-2">
-                                    <i class="fa fa-question-circle pr-10"></i> Architecto ratione eligendi reprehenderit vitae, omnis eius dolorem nobis quaerat.
-                                </a>
-                            </h4>
-                        </div>
-                        <div id="collapseEleven-2" class="collapse" role="tabpanel" aria-labelledby="headingEleven-2">
-                            <div class="card-block">
-                                Eius repellendus voluptas molestiae, voluptatem, debitis ea iure quam repellat incidunt minus facere magnam, officiis consequuntur rerum. Ratione accusamus delectus quam nisi repellendus dolore quos incidunt officia asperiores, quisquam quis recusandae odit perspiciatis cumque eum modi dolorum velit tempore laboriosam totam! Veritatis similique beatae vel eum ad quidem, officia hic autem facilis et architecto reiciendis recusandae sint, ullam rerum quisquam voluptas ipsa alias ea excepturi a ab labore? Ipsum quod laboriosam vitae nostrum saepe nobis beatae ducimus rem tempore omnis et iste, illum reprehenderit maxime sequi aliquam atque, consequuntur corrupti libero debitis autem molestias. Cum vitae rerum autem libero ea? Culpa at voluptatem minus et, consequuntur blanditiis, similique aliquam dolorum quos accusantium atque. Temporibus neque aut libero unde, odit nihil architecto perferendis fugit molestiae laborum quod perspiciatis accusamus commodi dolorem illo nobis quis debitis asperiores, facilis dicta quos? Quam maxime laborum aut ratione fuga, esse sit quia rerum odio assumenda nobis magnam!
-                            </div>
+                    <div id="collapseTwo-2" class="collapse" role="tabpanel" aria-labelledby="headingTwo-2">
+                        <div class="card-block">
+                            Distinctio dolor assumenda optio a adipisci inventore culpa tempora molestias fuga cupiditate alias sint labore, quod minus iusto ad earum, vel nihil ipsum necessitatibus maxime facere? Corporis inventore, saepe placeat labore rerum assumenda repudiandae, eveniet aperiam dolor quibusdam porro nesciunt omnis voluptatum, perspiciatis. Doloremque perspiciatis quas sunt, similique modi facere a atque unde impedit assumenda accusantium vel animi iste omnis cupiditate amet quae ipsam repudiandae sint doloribus praesentium natus magnam et minima consequatur. Facilis corporis similique reiciendis officiis veritatis consectetur est rerum natus, hic illo molestiae voluptas numquam enim aut fugit possimus, ducimus ipsam quisquam, ab doloribus. Deleniti quam repudiandae eos, maxime commodi quas sit accusamus error eius. Ea temporibus eos, iusto!
                         </div>
                     </div>
                 </div>
-                <!-- accordion end -->
-
-            @endslot
-
-            @slot('items.2.content')
-
-                <!-- accordion start -->
-                <div class="collapse-style-1" role="tablist" aria-multiselectable="true">
-                    <div class="card">
-                        <div class="card-header" role="tab" id="headingOne-3">
-                            <h4 class="mb-0">
-                                <a data-toggle="collapse" data-parent="#accordion-faq-3" href="#collapseOne-3" class="collapsed" aria-expanded="true" aria-controls="collapseOne-3">
-                                    <i class="fa fa-question-circle pr-10"></i> Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor.
-                                </a>
-                            </h4>
-                        </div>
-                        <div id="collapseOne-3" class="collapse" role="tabpanel" aria-labelledby="headingOne">
-                            <div class="card-block">
-                                Distinctio dolor assumenda optio a adipisci inventore culpa tempora molestias fuga cupiditate alias sint labore, quod minus iusto ad earum, vel nihil ipsum necessitatibus maxime facere? Corporis inventore, saepe placeat labore rerum assumenda repudiandae, eveniet aperiam dolor quibusdam porro nesciunt omnis voluptatum, perspiciatis. Doloremque perspiciatis quas sunt, similique modi facere a atque unde impedit assumenda accusantium vel animi iste omnis cupiditate amet quae ipsam repudiandae sint doloribus praesentium natus magnam et minima consequatur. Facilis corporis similique reiciendis officiis veritatis consectetur est rerum natus, hic illo molestiae voluptas numquam enim aut fugit possimus, ducimus ipsam quisquam, ab doloribus. Deleniti quam repudiandae eos, maxime commodi quas sit accusamus error eius. Ea temporibus eos, iusto!
-                            </div>
-                        </div>
+                <div class="card">
+                    <div class="card-header" role="tab" id="headingThree-2">
+                        <h4 class="mb-0">
+                            <a data-toggle="collapse" data-parent="#accordion-faq-2" href="#collapseThree-2" class="collapsed" aria-expanded="true" aria-controls="collapseThree-2">
+                                <i class="fa fa-question-circle pr-10"></i> Laborum molestiae hic, optio libero nobis praesentium amet delectus nihil.
+                            </a>
+                        </h4>
                     </div>
-                    <div class="card">
-                        <div class="card-header" role="tab" id="headingTwo-3">
-                            <h4 class="mb-0">
-                                <a data-toggle="collapse" data-parent="#accordion-faq-3" href="#collapseTwo-3" class="collapsed" aria-expanded="true" aria-controls="collapseTwo-3">
-                                    <i class="fa fa-question-circle pr-10"></i> Molestiae hic, optio libero nobis praesentium amet delectus nihil.
-                                </a>
-                            </h4>
-                        </div>
-                        <div id="collapseTwo-3" class="collapse" role="tabpanel" aria-labelledby="headingTwo-3">
-                            <div class="card-block">
-                                Excepturi illo labore architecto quasi maxime voluptas, laborum rerum non fuga. Sit rerum doloremque hic voluptas harum voluptatibus obcaecati ducimus atque magni, quod eius dolores commodi voluptates! Reiciendis porro magnam tempore ipsa obcaecati fuga earum unde libero, sapiente voluptatibus nemo exercitationem minus praesentium, itaque cupiditate qui assumenda quas quidem sed, nisi animi debitis quaerat. Quo magni incidunt enim aspernatur fugit rem blanditiis hic asperiores est. Dolor doloremque adipisci earum officiis soluta sapiente laboriosam! Optio aspernatur magni quas molestias temporibus quibusdam commodi ab, repellendus modi sapiente repudiandae perspiciatis molestiae, ea sint dolor consectetur aliquam delectus nisi minima officia vel tenetur quam pariatur, quidem? Voluptatem architecto quam nisi, molestiae saepe quo expedita odio corporis.
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-header" role="tab" id="headingThree-3">
-                            <h4 class="mb-0">
-                                <a data-toggle="collapse" data-parent="#accordion-faq-3" href="#collapseThree-3" class="collapsed" aria-expanded="true" aria-controls="collapseThree-3">
-                                    <i class="fa fa-question-circle pr-10"></i> Labore soluta aspernatur a optio incidunt molestias.
-                                </a>
-                            </h4>
-                        </div>
-                        <div id="collapseThree-3" class="collapse" role="tabpanel" aria-labelledby="headingThree-3">
-                            <div class="card-block">
-                                Quam dolor ipsa rerum, quasi ipsam aperiam molestias corporis debitis voluptas magni vero assumenda quidem odit beatae ullam eaque et nesciunt saepe officia cupiditate expedita laboriosam quae. Ea suscipit eius repellat rem voluptate consectetur quaerat, similique architecto enim fugiat vitae dolorem expedita. Voluptatum, repellendus dolores iure sit, necessitatibus repellat nemo atque provident perferendis ducimus. Distinctio quisquam perspiciatis vero error quos cum, ea culpa similique magni, iure ipsam amet fuga voluptatem assumenda! Labore soluta aspernatur a optio incidunt molestias consequatur minus molestiae nisi, iusto officiis eaque ipsam magni doloremque cum pariatur delectus dolore quae vero nobis esse enim, iste. Molestias maxime, odit, ducimus ab libero architecto vel accusantium et beatae excepturi incidunt obcaecati?
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-header" role="tab" id="headingFour-3">
-                            <h4 class="mb-0">
-                                <a data-toggle="collapse" data-parent="#accordion-faq-3" href="#collapseFour-3" class="collapsed" aria-expanded="true" aria-controls="collapseFour-3">
-                                    <i class="fa fa-question-circle pr-10"></i> Quam dolor ipsa rerum, quasi ipsam aperiam molestias corporis debitis.
-                                </a>
-                            </h4>
-                        </div>
-                        <div id="collapseFour-3" class="collapse" role="tabpanel" aria-labelledby="headingFour-3">
-                            <div class="card-block">
-                                Ipsam quod impedit, ea necessitatibus quasi, quis rem nemo laboriosam labore, temporibus fugit placeat, consectetur eaque qui amet! Cum ab nulla voluptatibus, velit eius tempore veniam, quos voluptate iusto commodi error, obcaecati debitis, qui ad reiciendis officiis cumque! Repudiandae quos distinctio dolor consequatur commodi quae iusto beatae, laborum saepe enim voluptates tempore tenetur expedita eveniet eius recusandae id eaque, sequi illo neque. Illo voluptate molestias harum quas, accusantium placeat consectetur dignissimos. Perspiciatis architecto accusamus pariatur similique porro expedita ad commodi delectus illum a consequuntur laboriosam fugit libero nisi non, amet fugiat, ducimus, quia? Maiores ex mollitia eos labore, cupiditate neque earum perferendis consequatur pariatur quis sunt repellendus dolores veritatis dicta nemo expedita. Impedit unde totam sint! Eius consequuntur ipsam dolorem, debitis, ea ipsa eum nulla ullam dolorum autem necessitatibus. Repudiandae vero incidunt at cum ipsa illum autem reprehenderit nisi, cupiditate modi ab voluptatum asperiores ullam? Nobis ipsum deleniti odio facilis pariatur omnis reiciendis expedita minima eveniet delectus quam assumenda modi nesciunt excepturi magni maxime, asperiores illum optio fugiat. Ullam sit, a et!
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-header" role="tab" id="headingFive-3">
-                            <h4 class="mb-0">
-                                <a data-toggle="collapse" data-parent="#accordion-faq-3" href="#collapseFive-3" class="collapsed" aria-expanded="true" aria-controls="collapseFive-3">
-                                    <i class="fa fa-question-circle pr-10"></i> Aliquam quas cumque officia ab laudantium corporis dolorem consequatur cupiditate.
-                                </a>
-                            </h4>
-                        </div>
-                        <div id="collapseFive-3" class="collapse" role="tabpanel" aria-labelledby="headingFive-3">
-                            <div class="card-block">
-                                Vero odit est ullam. Velit distinctio, eligendi quo enim quaerat. Aliquam quas cumque officia ab laudantium corporis dolorem consequatur cupiditate quam quia delectus iusto ad non neque facere praesentium, odio a repellendus. Laudantium aliquam at maxime iure hic sapiente, est dicta accusamus numquam dolorum quasi saepe officiis vero nobis quo aut praesentium, fugit adipisci illo voluptatum quibusdam? Assumenda fuga explicabo aperiam, aspernatur! Sit dolore minus cumque quam commodi eaque impedit, nulla ex repellat tempora suscipit quaerat voluptates incidunt optio reiciendis illum voluptatum eveniet cum obcaecati ad saepe necessitatibus voluptas. Sunt ullam maxime eaque voluptatibus quia consequuntur, illum? Iure provident officiis animi, ratione minima at consequatur doloremque tenetur. Sapiente recusandae dolore reprehenderit velit autem consequuntur cumque eum illo tempora nobis praesentium laborum eius, provident vitae eveniet, porro in eligendi veniam magni dolorum rem quibusdam. Iure error, esse aliquam necessitatibus repellendus magnam nemo dolorum. Dolorem a veritatis iste provident, numquam ex, voluptates dolorum placeat.
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-header" role="tab" id="headingSix-3">
-                            <h4 class="mb-0">
-                                <a data-toggle="collapse" data-parent="#accordion-faq-3" href="#collapseSix-3" class="collapsed" aria-expanded="true" aria-controls="collapseSix-3">
-                                    <i class="fa fa-question-circle pr-10"></i> Veniam iure aspernatur quod possimus provident voluptate dolore.
-                                </a>
-                            </h4>
-                        </div>
-                        <div id="collapseSix-3" class="collapse" role="tabpanel" aria-labelledby="headingSix-3">
-                            <div class="card-block">
-                                Doloribus perspiciatis quos dolore eum facere, id alias ipsam placeat corporis repudiandae adipisci, ratione ipsum odio culpa et laborum aut similique nulla voluptates velit optio mollitia, autem. Architecto ratione eligendi reprehenderit vitae, omnis eius dolorem nobis quaerat quo fugiat, quisquam, in itaque doloribus veniam tenetur ipsum atque totam fugit modi. Veniam iure aspernatur quod possimus provident voluptate dolore magnam voluptas architecto beatae assumenda, atque cumque voluptatum nam unde praesentium fugiat in dolores recusandae eveniet at quas. Incidunt fugit, velit earum in explicabo, voluptate quia iusto eveniet dicta odit reiciendis a! Molestiae quisquam ad, dolorum assumenda. Eaque ab aliquam consequuntur accusamus, quidem facilis similique veritatis tenetur perspiciatis natus corrupti laboriosam itaque magni fuga, nemo eos esse, molestias, quibusdam eius alias dolores magnam. Voluptatibus?
-                            </div>
+                    <div id="collapseThree-2" class="collapse" role="tabpanel" aria-labelledby="headingThree-2">
+                        <div class="card-block">
+                            Excepturi illo labore architecto quasi maxime voluptas, laborum rerum non fuga. Sit rerum doloremque hic voluptas harum voluptatibus obcaecati ducimus atque magni, quod eius dolores commodi voluptates! Reiciendis porro magnam tempore ipsa obcaecati fuga earum unde libero, sapiente voluptatibus nemo exercitationem minus praesentium, itaque cupiditate qui assumenda quas quidem sed, nisi animi debitis quaerat. Quo magni incidunt enim aspernatur fugit rem blanditiis hic asperiores est. Dolor doloremque adipisci earum officiis soluta sapiente laboriosam! Optio aspernatur magni quas molestias temporibus quibusdam commodi ab, repellendus modi sapiente repudiandae perspiciatis molestiae, ea sint dolor consectetur aliquam delectus nisi minima officia vel tenetur quam pariatur, quidem? Voluptatem architecto quam nisi, molestiae saepe quo expedita odio corporis.
                         </div>
                     </div>
                 </div>
-                <!-- accordion end -->
+                <div class="card">
+                    <div class="card-header" role="tab" id="headingFour-2">
+                        <h4 class="mb-0">
+                            <a data-toggle="collapse" data-parent="#accordion-faq-2" href="#collapseFour-2" class="collapsed" aria-expanded="true" aria-controls="collapseFour-2">
+                                <i class="fa fa-question-circle pr-10"></i> Quam labore soluta aspernatur a optio incidunt molestias.
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseFour-2" class="collapse" role="tabpanel" aria-labelledby="headingFour-2">
+                        <div class="card-block">
+                            Quam dolor ipsa rerum, quasi ipsam aperiam molestias corporis debitis voluptas magni vero assumenda quidem odit beatae ullam eaque et nesciunt saepe officia cupiditate expedita laboriosam quae. Ea suscipit eius repellat rem voluptate consectetur quaerat, similique architecto enim fugiat vitae dolorem expedita. Voluptatum, repellendus dolores iure sit, necessitatibus repellat nemo atque provident perferendis ducimus. Distinctio quisquam perspiciatis vero error quos cum, ea culpa similique magni, iure ipsam amet fuga voluptatem assumenda! Labore soluta aspernatur a optio incidunt molestias consequatur minus molestiae nisi, iusto officiis eaque ipsam magni doloremque cum pariatur delectus dolore quae vero nobis esse enim, iste. Molestias maxime, odit, ducimus ab libero architecto vel accusantium et beatae excepturi incidunt obcaecati?
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" role="tab" id="headingFive-2">
+                        <h4 class="mb-0">
+                            <a data-toggle="collapse" data-parent="#accordion-faq-2" href="#collapseFive-2" class="collapsed" aria-expanded="true" aria-controls="collapseFive-2">
+                                <i class="fa fa-question-circle pr-10"></i> Dolor ipsa rerum, quasi ipsam aperiam molestias corporis debitis.
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseFive-2" class="collapse" role="tabpanel" aria-labelledby="headingFive-2">
+                        <div class="card-block">
+                            Ipsam quod impedit, ea necessitatibus quasi, quis rem nemo laboriosam labore, temporibus fugit placeat, consectetur eaque qui amet! Cum ab nulla voluptatibus, velit eius tempore veniam, quos voluptate iusto commodi error, obcaecati debitis, qui ad reiciendis officiis cumque! Repudiandae quos distinctio dolor consequatur commodi quae iusto beatae, laborum saepe enim voluptates tempore tenetur expedita eveniet eius recusandae id eaque, sequi illo neque. Illo voluptate molestias harum quas, accusantium placeat consectetur dignissimos. Perspiciatis architecto accusamus pariatur similique porro expedita ad commodi delectus illum a consequuntur laboriosam fugit libero nisi non, amet fugiat, ducimus, quia? Maiores ex mollitia eos labore, cupiditate neque earum perferendis consequatur pariatur quis sunt repellendus dolores veritatis dicta nemo expedita. Impedit unde totam sint! Eius consequuntur ipsam dolorem, debitis, ea ipsa eum nulla ullam dolorum autem necessitatibus. Repudiandae vero incidunt at cum ipsa illum autem reprehenderit nisi, cupiditate modi ab voluptatum asperiores ullam? Nobis ipsum deleniti odio facilis pariatur omnis reiciendis expedita minima eveniet delectus quam assumenda modi nesciunt excepturi magni maxime, asperiores illum optio fugiat. Ullam sit, a et!
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" role="tab" id="headingSix-2">
+                        <h4 class="mb-0">
+                            <a data-toggle="collapse" data-parent="#accordion-faq-2" href="#collapseSix-2" class="collapsed" aria-expanded="true" aria-controls="collapseSix-2">
+                                <i class="fa fa-question-circle pr-10"></i> Aliquam quas cumque officia ab laudantium corporis dolorem consequatur cupiditate.
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseSix-2" class="collapse" role="tabpanel" aria-labelledby="headingSix-2">
+                        <div class="card-block">
+                            Vero odit est ullam. Velit distinctio, eligendi quo enim quaerat. Aliquam quas cumque officia ab laudantium corporis dolorem consequatur cupiditate quam quia delectus iusto ad non neque facere praesentium, odio a repellendus. Laudantium aliquam at maxime iure hic sapiente, est dicta accusamus numquam dolorum quasi saepe officiis vero nobis quo aut praesentium, fugit adipisci illo voluptatum quibusdam? Assumenda fuga explicabo aperiam, aspernatur! Sit dolore minus cumque quam commodi eaque impedit, nulla ex repellat tempora suscipit quaerat voluptates incidunt optio reiciendis illum voluptatum eveniet cum obcaecati ad saepe necessitatibus voluptas. Sunt ullam maxime eaque voluptatibus quia consequuntur, illum? Iure provident officiis animi, ratione minima at consequatur doloremque tenetur. Sapiente recusandae dolore reprehenderit velit autem consequuntur cumque eum illo tempora nobis praesentium laborum eius, provident vitae eveniet, porro in eligendi veniam magni dolorum rem quibusdam. Iure error, esse aliquam necessitatibus repellendus magnam nemo dolorum. Dolorem a veritatis iste provident, numquam ex, voluptates dolorum placeat.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" role="tab" id="headingSeven-2">
+                        <h4 class="mb-0">
+                            <a data-toggle="collapse" data-parent="#accordion-faq-2" href="#collapseSeven-2" class="collapsed" aria-expanded="true" aria-controls="collapseSeven-2">
+                                <i class="fa fa-question-circle pr-10"></i> Veniam iure aspernatur quod possimus provident voluptate dolore.
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseSeven-2" class="collapse" role="tabpanel" aria-labelledby="headingSeven-2">
+                        <div class="card-block">
+                            Doloribus perspiciatis quos dolore eum facere, id alias ipsam placeat corporis repudiandae adipisci, ratione ipsum odio culpa et laborum aut similique nulla voluptates velit optio mollitia, autem. Architecto ratione eligendi reprehenderit vitae, omnis eius dolorem nobis quaerat quo fugiat, quisquam, in itaque doloribus veniam tenetur ipsum atque totam fugit modi. Veniam iure aspernatur quod possimus provident voluptate dolore magnam voluptas architecto beatae assumenda, atque cumque voluptatum nam unde praesentium fugiat in dolores recusandae eveniet at quas. Incidunt fugit, velit earum in explicabo, voluptate quia iusto eveniet dicta odit reiciendis a! Molestiae quisquam ad, dolorum assumenda. Eaque ab aliquam consequuntur accusamus, quidem facilis similique veritatis tenetur perspiciatis natus corrupti laboriosam itaque magni fuga, nemo eos esse, molestias, quibusdam eius alias dolores magnam. Voluptatibus?
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" role="tab" id="headingEight-2">
+                        <h4 class="mb-0">
+                            <a data-toggle="collapse" data-parent="#accordion-faq-2" href="#collapseEight-2" class="collapsed" aria-expanded="true" aria-controls="collapseEight-2">
+                                <i class="fa fa-question-circle pr-10"></i> Veritatis repellat aliquam labore adipisci, ut placeat libero in, consectetur beatae.
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseEight-2" class="collapse" role="tabpanel" aria-labelledby="headingEight-2">
+                        <div class="card-block">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis repellat aliquam labore adipisci, ut placeat libero in, consectetur beatae soluta mollitia quia vel amet nobis? Ipsa dolores ipsum laudantium perferendis placeat molestias libero aliquam officia obcaecati maiores sunt esse quisquam laboriosam impedit commodi rerum eius ipsam quaerat reiciendis quis tempora necessitatibus veniam beatae, ad architecto. Assumenda quia ipsum expedita veritatis facere magni error ullam, maiores numquam! Facilis repellat, iste maxime blanditiis vel ullam rerum! Velit numquam sint maxime illum aut porro, praesentium non quibusdam vel necessitatibus ullam omnis ad veniam libero autem, voluptatem voluptatibus, consequatur commodi harum. Dignissimos doloremque nihil dolores incidunt, at facilis corporis unde deserunt alias consequatur voluptatibus cupiditate sint quaerat reiciendis, culpa maiores dolorem ipsam ab ratione totam ut laboriosam eos magni? Laboriosam nisi, delectus earum soluta quam nemo aut, eveniet sapiente modi a est, nobis unde iure alias doloribus. Non laboriosam quasi placeat repudiandae temporibus delectus!
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" role="tab" id="headingNine-2">
+                        <h4 class="mb-0">
+                            <a data-toggle="collapse" data-parent="#accordion-faq-2" href="#collapseNine-2" class="collapsed" aria-expanded="true" aria-controls="collapseNine-2">
+                                <i class="fa fa-question-circle pr-10"></i> Incidunt fugit, velit earum in explicabo, voluptate quia iusto eveniet dicta.
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseNine-2" class="collapse" role="tabpanel" aria-labelledby="headingNine-2">
+                        <div class="card-block">
+                            Doloribus perspiciatis quos dolore eum facere, id alias ipsam placeat corporis repudiandae adipisci, ratione ipsum odio culpa et laborum aut similique nulla voluptates velit optio mollitia, autem. Architecto ratione eligendi reprehenderit vitae, omnis eius dolorem nobis quaerat quo fugiat, quisquam, in itaque doloribus veniam tenetur ipsum atque totam fugit modi. Veniam iure aspernatur quod possimus provident voluptate dolore magnam voluptas architecto beatae assumenda, atque cumque voluptatum nam unde praesentium fugiat in dolores recusandae eveniet at quas. Incidunt fugit, velit earum in explicabo, voluptate quia iusto eveniet dicta odit reiciendis a! Molestiae quisquam ad, dolorum assumenda. Eaque ab aliquam consequuntur accusamus, quidem facilis similique veritatis tenetur perspiciatis natus corrupti laboriosam itaque magni fuga, nemo eos esse, molestias, quibusdam eius alias dolores magnam. Voluptatibus?
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" role="tab" id="headingTen-2">
+                        <h4 class="mb-0">
+                            <a data-toggle="collapse" data-parent="#accordion-faq-2" href="#collapseTen-2" class="collapsed" aria-expanded="true" aria-controls="collapseTen-2">
+                                <i class="fa fa-question-circle pr-10"></i> Assumenda reprehenderit minus quas odit obcaecati unde.
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseTen-2" class="collapse" role="tabpanel" aria-labelledby="headingTen-2">
+                        <div class="card-block">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda reprehenderit minus quas odit obcaecati unde, necessitatibus id sit corrupti dolore, pariatur, rem officiis sequi quasi molestiae magnam enim laudantium maxime vel commodi adipisci illo non quibusdam porro accusamus. Tempora ducimus ut quis pariatur ex quasi deserunt, voluptatum consectetur odit. Architecto magnam ipsa quam, repellat praesentium, minima dignissimos minus maxime expedita? Quam esse culpa ipsa. Sunt eveniet veniam expedita, voluptates veritatis. Quo natus officia porro perspiciatis, itaque est illo. Quod, laboriosam esse nostrum officia facere dolor quos nihil provident aliquid veritatis, sequi necessitatibus quasi at blanditiis illo omnis beatae ratione, voluptatem nemo voluptatibus mollitia cumque fugiat. Consectetur impedit porro hic corporis? Quod qui, similique cum eum deleniti omnis neque corrupti illum quibusdam incidunt, iure quisquam vero non asperiores debitis suscipit nobis delectus consequatur voluptatibus sapiente amet iusto magnam voluptate rerum. Repellat nam autem quidem temporibus natus quaerat facere porro! Rem, inventore.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" role="tab" id="headingEleven-2">
+                        <h4 class="mb-0">
+                            <a data-toggle="collapse" data-parent="#accordion-faq-2" href="#collapseEleven-2" class="collapsed" aria-expanded="true" aria-controls="collapseEleven-2">
+                                <i class="fa fa-question-circle pr-10"></i> Architecto ratione eligendi reprehenderit vitae, omnis eius dolorem nobis quaerat.
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseEleven-2" class="collapse" role="tabpanel" aria-labelledby="headingEleven-2">
+                        <div class="card-block">
+                            Eius repellendus voluptas molestiae, voluptatem, debitis ea iure quam repellat incidunt minus facere magnam, officiis consequuntur rerum. Ratione accusamus delectus quam nisi repellendus dolore quos incidunt officia asperiores, quisquam quis recusandae odit perspiciatis cumque eum modi dolorum velit tempore laboriosam totam! Veritatis similique beatae vel eum ad quidem, officia hic autem facilis et architecto reiciendis recusandae sint, ullam rerum quisquam voluptas ipsa alias ea excepturi a ab labore? Ipsum quod laboriosam vitae nostrum saepe nobis beatae ducimus rem tempore omnis et iste, illum reprehenderit maxime sequi aliquam atque, consequuntur corrupti libero debitis autem molestias. Cum vitae rerum autem libero ea? Culpa at voluptatem minus et, consequuntur blanditiis, similique aliquam dolorum quos accusantium atque. Temporibus neque aut libero unde, odit nihil architecto perferendis fugit molestiae laborum quod perspiciatis accusamus commodi dolorem illo nobis quis debitis asperiores, facilis dicta quos? Quam maxime laborum aut ratione fuga, esse sit quia rerum odio assumenda nobis magnam!
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- accordion end -->
 
-            @endslot
+        @endslot
+
+        @slot('items.2.content')
+
+            <!-- accordion start -->
+            <div class="collapse-style-1" role="tablist" aria-multiselectable="true">
+                <div class="card">
+                    <div class="card-header" role="tab" id="headingOne-3">
+                        <h4 class="mb-0">
+                            <a data-toggle="collapse" data-parent="#accordion-faq-3" href="#collapseOne-3" class="collapsed" aria-expanded="true" aria-controls="collapseOne-3">
+                                <i class="fa fa-question-circle pr-10"></i> Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor.
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseOne-3" class="collapse" role="tabpanel" aria-labelledby="headingOne">
+                        <div class="card-block">
+                            Distinctio dolor assumenda optio a adipisci inventore culpa tempora molestias fuga cupiditate alias sint labore, quod minus iusto ad earum, vel nihil ipsum necessitatibus maxime facere? Corporis inventore, saepe placeat labore rerum assumenda repudiandae, eveniet aperiam dolor quibusdam porro nesciunt omnis voluptatum, perspiciatis. Doloremque perspiciatis quas sunt, similique modi facere a atque unde impedit assumenda accusantium vel animi iste omnis cupiditate amet quae ipsam repudiandae sint doloribus praesentium natus magnam et minima consequatur. Facilis corporis similique reiciendis officiis veritatis consectetur est rerum natus, hic illo molestiae voluptas numquam enim aut fugit possimus, ducimus ipsam quisquam, ab doloribus. Deleniti quam repudiandae eos, maxime commodi quas sit accusamus error eius. Ea temporibus eos, iusto!
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" role="tab" id="headingTwo-3">
+                        <h4 class="mb-0">
+                            <a data-toggle="collapse" data-parent="#accordion-faq-3" href="#collapseTwo-3" class="collapsed" aria-expanded="true" aria-controls="collapseTwo-3">
+                                <i class="fa fa-question-circle pr-10"></i> Molestiae hic, optio libero nobis praesentium amet delectus nihil.
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseTwo-3" class="collapse" role="tabpanel" aria-labelledby="headingTwo-3">
+                        <div class="card-block">
+                            Excepturi illo labore architecto quasi maxime voluptas, laborum rerum non fuga. Sit rerum doloremque hic voluptas harum voluptatibus obcaecati ducimus atque magni, quod eius dolores commodi voluptates! Reiciendis porro magnam tempore ipsa obcaecati fuga earum unde libero, sapiente voluptatibus nemo exercitationem minus praesentium, itaque cupiditate qui assumenda quas quidem sed, nisi animi debitis quaerat. Quo magni incidunt enim aspernatur fugit rem blanditiis hic asperiores est. Dolor doloremque adipisci earum officiis soluta sapiente laboriosam! Optio aspernatur magni quas molestias temporibus quibusdam commodi ab, repellendus modi sapiente repudiandae perspiciatis molestiae, ea sint dolor consectetur aliquam delectus nisi minima officia vel tenetur quam pariatur, quidem? Voluptatem architecto quam nisi, molestiae saepe quo expedita odio corporis.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" role="tab" id="headingThree-3">
+                        <h4 class="mb-0">
+                            <a data-toggle="collapse" data-parent="#accordion-faq-3" href="#collapseThree-3" class="collapsed" aria-expanded="true" aria-controls="collapseThree-3">
+                                <i class="fa fa-question-circle pr-10"></i> Labore soluta aspernatur a optio incidunt molestias.
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseThree-3" class="collapse" role="tabpanel" aria-labelledby="headingThree-3">
+                        <div class="card-block">
+                            Quam dolor ipsa rerum, quasi ipsam aperiam molestias corporis debitis voluptas magni vero assumenda quidem odit beatae ullam eaque et nesciunt saepe officia cupiditate expedita laboriosam quae. Ea suscipit eius repellat rem voluptate consectetur quaerat, similique architecto enim fugiat vitae dolorem expedita. Voluptatum, repellendus dolores iure sit, necessitatibus repellat nemo atque provident perferendis ducimus. Distinctio quisquam perspiciatis vero error quos cum, ea culpa similique magni, iure ipsam amet fuga voluptatem assumenda! Labore soluta aspernatur a optio incidunt molestias consequatur minus molestiae nisi, iusto officiis eaque ipsam magni doloremque cum pariatur delectus dolore quae vero nobis esse enim, iste. Molestias maxime, odit, ducimus ab libero architecto vel accusantium et beatae excepturi incidunt obcaecati?
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" role="tab" id="headingFour-3">
+                        <h4 class="mb-0">
+                            <a data-toggle="collapse" data-parent="#accordion-faq-3" href="#collapseFour-3" class="collapsed" aria-expanded="true" aria-controls="collapseFour-3">
+                                <i class="fa fa-question-circle pr-10"></i> Quam dolor ipsa rerum, quasi ipsam aperiam molestias corporis debitis.
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseFour-3" class="collapse" role="tabpanel" aria-labelledby="headingFour-3">
+                        <div class="card-block">
+                            Ipsam quod impedit, ea necessitatibus quasi, quis rem nemo laboriosam labore, temporibus fugit placeat, consectetur eaque qui amet! Cum ab nulla voluptatibus, velit eius tempore veniam, quos voluptate iusto commodi error, obcaecati debitis, qui ad reiciendis officiis cumque! Repudiandae quos distinctio dolor consequatur commodi quae iusto beatae, laborum saepe enim voluptates tempore tenetur expedita eveniet eius recusandae id eaque, sequi illo neque. Illo voluptate molestias harum quas, accusantium placeat consectetur dignissimos. Perspiciatis architecto accusamus pariatur similique porro expedita ad commodi delectus illum a consequuntur laboriosam fugit libero nisi non, amet fugiat, ducimus, quia? Maiores ex mollitia eos labore, cupiditate neque earum perferendis consequatur pariatur quis sunt repellendus dolores veritatis dicta nemo expedita. Impedit unde totam sint! Eius consequuntur ipsam dolorem, debitis, ea ipsa eum nulla ullam dolorum autem necessitatibus. Repudiandae vero incidunt at cum ipsa illum autem reprehenderit nisi, cupiditate modi ab voluptatum asperiores ullam? Nobis ipsum deleniti odio facilis pariatur omnis reiciendis expedita minima eveniet delectus quam assumenda modi nesciunt excepturi magni maxime, asperiores illum optio fugiat. Ullam sit, a et!
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" role="tab" id="headingFive-3">
+                        <h4 class="mb-0">
+                            <a data-toggle="collapse" data-parent="#accordion-faq-3" href="#collapseFive-3" class="collapsed" aria-expanded="true" aria-controls="collapseFive-3">
+                                <i class="fa fa-question-circle pr-10"></i> Aliquam quas cumque officia ab laudantium corporis dolorem consequatur cupiditate.
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseFive-3" class="collapse" role="tabpanel" aria-labelledby="headingFive-3">
+                        <div class="card-block">
+                            Vero odit est ullam. Velit distinctio, eligendi quo enim quaerat. Aliquam quas cumque officia ab laudantium corporis dolorem consequatur cupiditate quam quia delectus iusto ad non neque facere praesentium, odio a repellendus. Laudantium aliquam at maxime iure hic sapiente, est dicta accusamus numquam dolorum quasi saepe officiis vero nobis quo aut praesentium, fugit adipisci illo voluptatum quibusdam? Assumenda fuga explicabo aperiam, aspernatur! Sit dolore minus cumque quam commodi eaque impedit, nulla ex repellat tempora suscipit quaerat voluptates incidunt optio reiciendis illum voluptatum eveniet cum obcaecati ad saepe necessitatibus voluptas. Sunt ullam maxime eaque voluptatibus quia consequuntur, illum? Iure provident officiis animi, ratione minima at consequatur doloremque tenetur. Sapiente recusandae dolore reprehenderit velit autem consequuntur cumque eum illo tempora nobis praesentium laborum eius, provident vitae eveniet, porro in eligendi veniam magni dolorum rem quibusdam. Iure error, esse aliquam necessitatibus repellendus magnam nemo dolorum. Dolorem a veritatis iste provident, numquam ex, voluptates dolorum placeat.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" role="tab" id="headingSix-3">
+                        <h4 class="mb-0">
+                            <a data-toggle="collapse" data-parent="#accordion-faq-3" href="#collapseSix-3" class="collapsed" aria-expanded="true" aria-controls="collapseSix-3">
+                                <i class="fa fa-question-circle pr-10"></i> Veniam iure aspernatur quod possimus provident voluptate dolore.
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseSix-3" class="collapse" role="tabpanel" aria-labelledby="headingSix-3">
+                        <div class="card-block">
+                            Doloribus perspiciatis quos dolore eum facere, id alias ipsam placeat corporis repudiandae adipisci, ratione ipsum odio culpa et laborum aut similique nulla voluptates velit optio mollitia, autem. Architecto ratione eligendi reprehenderit vitae, omnis eius dolorem nobis quaerat quo fugiat, quisquam, in itaque doloribus veniam tenetur ipsum atque totam fugit modi. Veniam iure aspernatur quod possimus provident voluptate dolore magnam voluptas architecto beatae assumenda, atque cumque voluptatum nam unde praesentium fugiat in dolores recusandae eveniet at quas. Incidunt fugit, velit earum in explicabo, voluptate quia iusto eveniet dicta odit reiciendis a! Molestiae quisquam ad, dolorum assumenda. Eaque ab aliquam consequuntur accusamus, quidem facilis similique veritatis tenetur perspiciatis natus corrupti laboriosam itaque magni fuga, nemo eos esse, molestias, quibusdam eius alias dolores magnam. Voluptatibus?
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- accordion end -->
+
+        @endslot
 
     @endcomponent
 

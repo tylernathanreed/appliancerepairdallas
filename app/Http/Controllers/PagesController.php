@@ -120,6 +120,16 @@ class PagesController extends Controller
 	}
 
 	/**
+	 * Displays the resources content sliders page.
+	 *
+	 * @return \Illuminate\Http\Response
+	 */
+	public function resourcesManufacturerNumbers()
+	{
+		return view('pages.resources.manufacturer-numbers');
+	}
+
+	/**
 	 * Displays the services page.
 	 *
 	 * @return \Illuminate\Http\Response

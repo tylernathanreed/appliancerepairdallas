@@ -4,7 +4,7 @@
 	</li>
 
 	<li class="nav-item dropdown">
-		<a id="first-dropdown" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">About Us</a>
+		<a id="first-dropdown" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">About</a>
 		<ul class="dropdown-menu" aria-labelledby="first-dropdown">
 			<li><a href="{{ route('pages.about.style-1') }}">Style 1</a></li>
 			<li><a href="{{ route('pages.about.style-2') }}">Style 2</a></li>
@@ -22,22 +22,29 @@
 		</ul>
 	</li>
 
-	<li class="nav-item dropdowne">
+	<li class="nav-item dropdown">
 		<a id="third-dropdown" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Resources</a>
 		<ul class="dropdown-menu" aria-labelledby="third-dropdown">
-			<li><a href="{{ route('pages.pricing') }}">Pricing</a></li>
+			<li><a href="#">Appliances</a></li>
+			<li><a href="#">Testimonials</a></li>
+			<li><a href="{{ route('pages.resources.manufacturer-numbers') }}">Manufacturer Numbers</a></li>
 			<li><a href="{{ route('pages.resources.content-sliders') }}">Content Sliders</a></li>
-			<li><a href="#">FAQ</a></li>
 		</ul>
 	</li>
 
-	<li class="nav-item mega-menu mega-menu--wide">
-		<a href="{{ config('app.url') }}/news" class="nav-link">News</a>
+	<li class="nav-item dropdown">
+		<a id="fourth-dropdown" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Tips &amp; Tricks</a>
+		<ul class="dropdown-menu" aria-labelledby="fourth-dropdown">
+			<li><a href="#">Installation Tips</a></li>
+			<li><a href="#">Repair Tips</a></li>
+			<li><a href="#">Maintenance Tips</a></li>
+			<li><a href="{{ route('pages.faq') }}">FAQ</a></li>
+		</ul>
 	</li>
 
 	<li class="nav-item dropdown">
-		<a id="fourth-dropdown" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Contact Us</a>
-		<ul class="dropdown-menu" aria-labelledby="fourth-dropdown">
+		<a id="fifth-dropdown" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Contact</a>
+		<ul class="dropdown-menu" aria-labelledby="fifth-dropdown">
 			<li><a href="{{ route('pages.contact.style-1') }}">Style 1</a></li>
 			<li><a href="{{ route('pages.contact.style-2') }}">Style 2</a></li>
 			<li><a href="{{ route('pages.contact.style-3') }}">Style 3</a></li>

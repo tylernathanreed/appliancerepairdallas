@@ -23,7 +23,7 @@
 				<div class="col-lg-8 text-center pv-20">
 					<h2 class="title object-non-visible" data-animation-effect="fadeIn" data-effect-delay="100">We Provide You The Best Solutions</h2>
 					<div class="separator object-non-visible mt-10" data-animation-effect="fadeIn" data-effect-delay="100"></div>
-					<p class="text-center object-non-visible" data-animation-effect="fadeIn" data-effect-delay="100">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi perferendis magnam ea necessitatibus, officiis voluptas odit! Aperiam omnis, cupiditate laudantium velit nostrum, exercitationem accusamus, possimus soluta illo deserunt tempora qui.</p>
+					<p class="text-center object-non-visible" data-animation-effect="fadeIn" data-effect-delay="100">We offer a six month warranty on both parts and labor.</p>
 				</div>
 			</div>
 		</div>

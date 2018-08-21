@@ -109,5 +109,10 @@ Route::group(['prefix' => 'resources'], function() {
 		'uses' => 'PagesController@resourcesContentSliders'
 	]);
 
+	// Manufacturer Numbers
+	Route::get('manufacturer-numbers', [
+		'as' => 'pages.resources.manufacturer-numbers',
+		'uses' => 'PagesController@resourcesManufacturerNumbers'
+	]);
 
 });
