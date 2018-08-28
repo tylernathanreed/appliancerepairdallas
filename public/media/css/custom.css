@@ -20,8 +20,17 @@
     padding-left: 24px;
 }
 
+.lh-2 {
+	line-height: 1.5em;
+	display: block;
+}
+
 ::placeholder {
     font-style: italic;
     color: #ccc !important;
     opacity: 1;
+}
+
+.full-width {
+	width: 100%;
 }

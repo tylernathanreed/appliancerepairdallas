@@ -115,4 +115,11 @@ Route::group(['prefix' => 'resources'], function() {
 		'uses' => 'PagesController@resourcesManufacturerNumbers'
 	]);
 
+	// Coverage
+	Route::get('coverage', [
+		'as' => 'pages.resources.coverage',
+		'uses' => 'PagesController@resourcesCoverage'
+	]);
+
+
 });

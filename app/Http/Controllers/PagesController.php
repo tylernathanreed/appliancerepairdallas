@@ -120,13 +120,23 @@ class PagesController extends Controller
 	}
 
 	/**
-	 * Displays the resources content sliders page.
+	 * Displays the manufacturer numbers page.
 	 *
 	 * @return \Illuminate\Http\Response
 	 */
 	public function resourcesManufacturerNumbers()
 	{
 		return view('pages.resources.manufacturer-numbers');
+	}
+
+	/**
+	 * Displays the coverage page.
+	 *
+	 * @return \Illuminate\Http\Response
+	 */
+	public function resourcesCoverage()
+	{
+		return view('pages.resources.coverage');
 	}
 
 	/**

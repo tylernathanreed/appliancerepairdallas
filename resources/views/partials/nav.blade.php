@@ -28,6 +28,7 @@
 			<li><a href="#">Appliances</a></li>
 			<li><a href="#">Testimonials</a></li>
 			<li><a href="{{ route('pages.resources.manufacturer-numbers') }}">Manufacturer Numbers</a></li>
+			<li><a href="{{ route('pages.resources.coverage') }}">Coverage</a></li>
 			<li><a href="{{ route('pages.resources.content-sliders') }}">Content Sliders</a></li>
 		</ul>
 	</li>
