@@ -32,6 +32,9 @@
 				<div class="overlay-bottom hidden-xs" style="z-index: 15">
 					<small class="lh-2">Texas Towns and Cities We Service</small>
 				</div>
+				<a href="{{ route('pages.resources.coverage') }}" class="overlay-link">
+					<i class="fa fa-link"></i>
+				</a>
 			</div>
 		</div>
 
