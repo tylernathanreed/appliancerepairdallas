@@ -22,76 +22,143 @@ function initializeGoogleMaps() {
 	});
 
 	var section1 = new google.maps.Polygon({
-	    strokeColor: '#FF0000',
-	    strokeOpacity: 1,
-	    strokeWeight: 1,
-	    fillColor: '#FF0000',
-	    fillOpacity: 0.1,
-	    map: map,
-	    paths: [
-	    	{'lat': 32.738079, 'lng': -97.481701}, // I820 @ I30
-	    	{'lat': 32.826600, 'lng': -97.479787}, // H199 @ Buffalo Rd
-	    	{'lat': 32.968057, 'lng': -97.420441}, // H287 @ Avondale Haslet Rd
-	    	{'lat': 33.035367, 'lng': -97.341450}, // H114 @ Train Tracks
-	    	{'lat': 33.095249, 'lng': -97.391053}, // Median of S County Line Rd between Illinois St and FM407
-	    	{'lat': 33.136116, 'lng': -97.289642}, // FM156 @ Eakin Cemetery Rd
-	    	{'lat': 33.315024, 'lng': -97.179700}, // FM156 @ I35
-	    	{'lat': 33.366840, 'lng': -97.179110}, // I35 @ W Chapman Rd
-	    	{'lat': 33.372471, 'lng': -97.157653}, // W Chapman Rd becomes FM455 W @ Marion Rd
-	    	{'lat': 33.369264, 'lng': -97.115360}, // FM455 W becomes FM455 E @ FM2164
-	    	{'lat': 33.368125, 'lng': -96.964353}, // FM455 E @ H377
-	    	{'lat': 33.298755, 'lng': -96.982682}, // H377 @ Spring Hill Rd
-	    	{'lat': 33.299251, 'lng': -96.936764}, // Spring Hill Rd becomes FM428 @ FM2931
-	    	{'lat': 33.295142, 'lng': -96.891918}, // FM428 @ FM1385 (N)
-	    	{'lat': 33.279877, 'lng': -96.892761}, // FM428 @ FM1385 (S)
-	    	{'lat': 33.307039, 'lng': -96.812793}, // FM428 @ Dallas Pkwy (1 & 2)
-	    	{'lat': 33.219069, 'lng': -96.819522}, // Dallas Pkwy @ H380 (1 & 2)
-	    	{'lat': 33.219097, 'lng': -96.880371}, // H380 @ FM423 (1 & 2)
-	    	{'lat': 33.109588, 'lng': -96.891926}, // FM423 becomes Main St @ Lewisvill Lakee (Bridge) (1 & 2)
-	    	{'lat': 33.065816, 'lng': -96.889150}, // Main St @ H121 (1 & 2)
-	    	{'lat': 32.999652, 'lng': -96.959225}, // H121 @ I35E
-	    	{'lat': 32.982107, 'lng': -96.930815}, // I35E @ PGBT
-	    	{'lat': 32.912052, 'lng': -96.943334}, // PGBT @ I635
-	    	{'lat': 32.836997, 'lng': -97.016883}, // I635 @ H183
-	    	{'lat': 32.831531, 'lng': -97.205943}, // H183 @ I820
-	    	{'lat': 32.839307, 'lng': -97.264200}, // I820 @ H377
-	    	{'lat': 32.839831, 'lng': -97.312953}, // I820 @ I35W
-	    	{'lat': 32.808896, 'lng': -97.418526}, // I820 @ H199
-	    	// {'lat': 32.738079, 'lng': -97.481701}, // I820 @ I30
-	    ]
+		strokeColor: '#FF0000',
+		strokeOpacity: 1,
+		strokeWeight: 1,
+		fillColor: '#FF0000',
+		fillOpacity: 0.1,
+		map: map,
+		paths: [
+			{'lat': 32.738079, 'lng': -97.481701}, // I820 @ I30
+			{'lat': 32.826600, 'lng': -97.479787}, // H199 @ Buffalo Rd
+			{'lat': 32.968057, 'lng': -97.420441}, // H287 @ Avondale Haslet Rd
+			{'lat': 33.035367, 'lng': -97.341450}, // H114 @ Train Tracks
+			{'lat': 33.095249, 'lng': -97.391053}, // Median of S County Line Rd between Illinois St and FM407
+			{'lat': 33.136116, 'lng': -97.289642}, // FM156 @ Eakin Cemetery Rd
+			{'lat': 33.315024, 'lng': -97.179700}, // FM156 @ I35
+			{'lat': 33.366840, 'lng': -97.179110}, // I35 @ W Chapman Rd
+			{'lat': 33.372471, 'lng': -97.157653}, // W Chapman Rd becomes FM455 W @ Marion Rd
+			{'lat': 33.369264, 'lng': -97.115360}, // FM455 W becomes FM455 E @ FM2164
+			{'lat': 33.368125, 'lng': -96.964353}, // FM455 E @ H377
+			{'lat': 33.298755, 'lng': -96.982682}, // H377 @ Spring Hill Rd
+			{'lat': 33.299251, 'lng': -96.936764}, // Spring Hill Rd becomes FM428 @ FM2931
+			{'lat': 33.295142, 'lng': -96.891918}, // FM428 @ FM1385 (N)
+			{'lat': 33.279877, 'lng': -96.892761}, // FM428 @ FM1385 (S)
+			{'lat': 33.307039, 'lng': -96.812793}, // FM428 @ Dallas Pkwy (1 & 2)
+			{'lat': 33.219069, 'lng': -96.819522}, // Dallas Pkwy @ H380 (1 & 2)
+			{'lat': 33.219097, 'lng': -96.880371}, // H380 @ FM423 (1 & 2)
+			{'lat': 33.109588, 'lng': -96.891926}, // FM423 becomes Main St @ Lewisvill Lakee (Bridge) (1 & 2)
+			{'lat': 33.065816, 'lng': -96.889150}, // Main St @ H121 (1 & 2)
+			{'lat': 32.999652, 'lng': -96.959225}, // H121 @ I35E
+			{'lat': 32.982107, 'lng': -96.930815}, // I35E @ PGBT
+			{'lat': 32.912052, 'lng': -96.943334}, // PGBT @ I635
+			{'lat': 32.836997, 'lng': -97.016883}, // I635 @ H183
+			{'lat': 32.831531, 'lng': -97.205943}, // H183 @ I820
+			{'lat': 32.839307, 'lng': -97.264200}, // I820 @ H377
+			{'lat': 32.839831, 'lng': -97.312953}, // I820 @ I35W
+			{'lat': 32.808896, 'lng': -97.418526}, // I820 @ H199
+			// {'lat': 32.738079, 'lng': -97.481701}, // I820 @ I30
+		]
 	});
 
 	var section2 = new google.maps.Polygon({
-	    strokeColor: '#FF8800',
-	    strokeOpacity: 0.8,
-	    strokeWeight: 1,
-	    fillColor: '#FF8800',
-	    fillOpacity: 0.2,
-	    map: map,
-	    paths: [
-	    	{'lat': 33.307039, 'lng': -96.812793}, // FM428 @ Dallas Pkwy (1 & 2)
-	    	{'lat': 33.219069, 'lng': -96.819522}, // Dallas Pkwy @ H380 (1 & 2)
-	    	{'lat': 33.219097, 'lng': -96.880371}, // H380 @ FM423 (1 & 2)
-	    	{'lat': 33.109588, 'lng': -96.891926}, // FM423 becomes Main St @ Lewisvill Lakee (Bridge) (1 & 2)
-	    	{'lat': 33.065816, 'lng': -96.889150}, // Main St @ H121 (1 & 2)
-	    	{'lat': 33.090969, 'lng': -96.822943}, // H121 @ DNT
-	    	{'lat': 33.012673, 'lng': -96.829302}, // DNT @ PGBT
-	    	{'lat': 33.004098, 'lng': -96.708141}, // PGBT @ H75
-	    	{'lat': 32.950663, 'lng': -96.619147}, // PGBT @ H78
-	    	{'lat': 33.022318, 'lng': -96.456469}, // H78 @ H205
-	    	{'lat': 33.157979, 'lng': -96.376628}, // H78 @ H308
-	    	{'lat': 33.376147, 'lng': -96.398933}, // H78 @ H160
-	    	{'lat': 33.383647, 'lng': -96.401345}, // H160 @ H121
-	    	{'lat': 33.438947, 'lng': -96.402369}, // H160 @ FM121
-	    	{'lat': 33.421605, 'lng': -96.588840}, // FM121 @ H75
-	    	{'lat': 33.437095, 'lng': -96.714343}, // FM121 becomes E Main St @ Jc Maples Rd
-	    	{'lat': 33.446776, 'lng': -96.742786}, // E Main becomes W Main St @ Preston Rd / H289
-	    	{'lat': 33.304816, 'lng': -96.783617}, // Preston Rd / H289 @ W Glendenning Pkwy
-	    	{'lat': 33.304978, 'lng': -96.799817}, // W Glendenning Pkwy @ FM55
-	    	{'lat': 33.306977, 'lng': -96.799835}, // FM55 @ FM1214
-	    	{'lat': 33.307008, 'lng': -96.801900}, // FM1214 @ FM428
-	    	// {'lat': 33.307039, 'lng': -96.812793}, // FM428 @ Dallas Pkwy (1 & 2)
-	    ]
+		strokeColor: '#FF8800',
+		strokeOpacity: 0.8,
+		strokeWeight: 1,
+		fillColor: '#FF8800',
+		fillOpacity: 0.2,
+		map: map,
+		paths: [
+			{'lat': 33.307039, 'lng': -96.812793}, // FM428 @ Dallas Pkwy (1 & 2)
+			{'lat': 33.219069, 'lng': -96.819522}, // Dallas Pkwy @ H380 (1 & 2)
+			{'lat': 33.219097, 'lng': -96.880371}, // H380 @ FM423 (1 & 2)
+			{'lat': 33.109588, 'lng': -96.891926}, // FM423 becomes Main St @ Lewisvill Lakee (Bridge) (1 & 2)
+			{'lat': 33.065816, 'lng': -96.889150}, // Main St @ H121 (1 & 2)
+			{'lat': 33.090969, 'lng': -96.822943}, // H121 @ DNT
+			{'lat': 33.012673, 'lng': -96.829302}, // DNT @ PGBT (2 & 3)
+			{'lat': 33.004098, 'lng': -96.708141}, // PGBT @ H75 (2 & 3)
+			{'lat': 32.950663, 'lng': -96.619147}, // PGBT @ H78 (2 & 3)
+			{'lat': 33.022318, 'lng': -96.456469}, // H78 @ H205 (2 & 3)
+			{'lat': 33.157979, 'lng': -96.376628}, // H78 @ H308
+			{'lat': 33.376147, 'lng': -96.398933}, // H78 @ H160
+			{'lat': 33.383647, 'lng': -96.401345}, // H160 @ H121
+			{'lat': 33.438947, 'lng': -96.402369}, // H160 @ FM121
+			{'lat': 33.421605, 'lng': -96.588840}, // FM121 @ H75
+			{'lat': 33.437095, 'lng': -96.714343}, // FM121 becomes E Main St @ Jc Maples Rd
+			{'lat': 33.446776, 'lng': -96.742786}, // E Main becomes W Main St @ Preston Rd / H289
+			{'lat': 33.304816, 'lng': -96.783617}, // Preston Rd / H289 @ W Glendenning Pkwy
+			{'lat': 33.304978, 'lng': -96.799817}, // W Glendenning Pkwy @ FM55
+			{'lat': 33.306977, 'lng': -96.799835}, // FM55 @ FM1214
+			{'lat': 33.307008, 'lng': -96.801900}, // FM1214 @ FM428
+			// {'lat': 33.307039, 'lng': -96.812793}, // FM428 @ Dallas Pkwy (1 & 2)
+		]
+	});
+
+	var section3 = new google.maps.Polygon({
+		strokeColor: '#99AA00',
+		strokeOpacity: 0.8,
+		strokeWeight: 1,
+		fillColor: '#99AA00',
+		fillOpacity: 0.2,
+		map: map,
+		paths: [
+			{'lat': 33.012673, 'lng': -96.829302}, // DNT @ PGBT (2 & 3)
+			{'lat': 33.004098, 'lng': -96.708141}, // PGBT @ H75 (2 & 3)
+			{'lat': 32.950663, 'lng': -96.619147}, // PGBT @ H78 (2 & 3)
+			{'lat': 33.022318, 'lng': -96.456469}, // H78 @ H205 (2 & 3)
+			{'lat': 32.998038, 'lng': -96.465410}, // H205 @ FM483
+			{'lat': 32.979665, 'lng': -96.466601}, // H205 @ John King Blvd
+			{'lat': 32.965571, 'lng': -96.452484}, // John King Blvd @ FM552
+			{'lat': 32.965724, 'lng': -96.433427}, // FM552 @ FM1141
+			{'lat': 32.967277, 'lng': -96.416342}, // FM552 @ N Stodghill Rd
+			{'lat': 32.967258, 'lng': -96.404808}, // FM552 becomes E FM552 @ N Smith Rd
+			{'lat': 32.967067, 'lng': -96.385721}, // E FM552 @ N King Rd
+			{'lat': 32.966731, 'lng': -96.373076}, // E FM552 @ H66
+			{'lat': 32.966922, 'lng': -96.369192}, // H66 @ Farm Rd 1138
+			{'lat': 32.968913, 'lng': -96.357362}, // H66 @ N Sorrells Rd / S Floyd Rd
+			{'lat': 32.973212, 'lng': -96.340539}, // H66 @ Erby Campbell Rd
+			{'lat': 32.975119, 'lng': -96.332485}, // H66 @ S Elm St
+			{'lat': 32.972750, 'lng': -96.332007}, // S Elm St @ W Lamar St
+			{'lat': 32.969246, 'lng': -96.331944}, // S Elm St becomes S FM 548 @ I30
+			{'lat': 32.955421, 'lng': -96.332125}, // S FM 548 @ Cookston Ln
+			{'lat': 32.951663, 'lng': -96.334205}, // S FM 548 @ Starlight Ln
+			{'lat': 32.938463, 'lng': -96.334282}, // S FM 548 @ Crenshaw Rd
+			{'lat': 32.938463, 'lng': -96.334282}, // S FM 548 @ Crenshaw Rd
+			{'lat': 32.913494, 'lng': -96.339803}, // S FM 548 @ N Munson Rd
+			{'lat': 32.899722, 'lng': -96.339931}, // S FM 548 @ TX276
+			{'lat': 32.899822, 'lng': -96.360395}, // TX276 @ Remington Dr
+			{'lat': 32.904547, 'lng': -96.379274}, // TX276 @ Sun Dr
+			{'lat': 32.904723, 'lng': -96.400564}, // TX276 @ Rochelle Rd
+			{'lat': 32.906606, 'lng': -96.418310}, // TX276 @ Corperate Crossing / S FM 549
+			{'lat': 32.906650, 'lng': -96.431072}, // TX276 @ John King Blvd
+			{'lat': 32.907118, 'lng': -96.448604}, // TX276 @ S Goliad St / TX205
+			{'lat': 32.909197, 'lng': -96.450067}, // S Goliad St / TX205 @ I30
+			{'lat': 32.901132, 'lng': -96.457802}, // I30 @ Greencast Bldv / Mims Rd
+			{'lat': 32.897171, 'lng': -96.469886}, // I30 @ Ridge Rd
+			{'lat': 32.876355, 'lng': -96.518425}, // I30 @ Dalrock Rd
+			{'lat': 32.864752, 'lng': -96.543930}, // I30 @ Bass Pro Dr
+			{'lat': 32.853565, 'lng': -96.562029}, // I30 @ Zion Rd
+			{'lat': 32.840086, 'lng': -96.595631}, // I30 @ Broadway
+			{'lat': 32.832954, 'lng': -96.612718}, // I30 @ Northwest Dr
+			{'lat': 32.823146, 'lng': -96.629736}, // I30 @ I635
+			{'lat': 32.799830, 'lng': -96.676302}, // I30 @ HWY 80
+			{'lat': 32.793972, 'lng': -96.699968}, // I30 @ N Jim Miller Rd
+			{'lat': 32.790992, 'lng': -96.755995}, // I30 @ Barry Ave
+			{'lat': 32.778931, 'lng': -96.782065}, // I30 @ I375
+			{'lat': 32.770008, 'lng': -96.808471}, // I30 @ I35E
+			{'lat': 32.782245, 'lng': -96.811811}, // I35E @ TX366
+			{'lat': 32.798591, 'lng': -96.815443}, // I35E @ DNT
+			{'lat': 32.807417, 'lng': -96.817824}, // DNT @ Maple Ave
+			{'lat': 32.815983, 'lng': -96.817469}, // DNT @ Cedar Springs Rd
+			{'lat': 32.886600, 'lng': -96.808921}, // DNT @ Meaders Ln
+			{'lat': 32.864897, 'lng': -96.809350}, // DNT @ Royal Ln
+			{'lat': 32.926032, 'lng': -96.820704}, // DNT @ I635
+			{'lat': 32.932920, 'lng': -96.822067}, // DNT @ Alpha Rd
+			{'lat': 32.954045, 'lng': -96.821968}, // DNT @ Belt Ln Rd
+			{'lat': 32.968634, 'lng': -96.821504}, // DNT @ Keller Springs Rd
+			{'lat': 32.990265, 'lng': -96.829156}, // DNT @ E Trinity Mills Rd
+			// {'lat': 33.012673, 'lng': -96.829302}, // DNT @ PGBT (2 & 3)
+		]
 	});
 
 	// var dallas = new google.maps.Polygon({
