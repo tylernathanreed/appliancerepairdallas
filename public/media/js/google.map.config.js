@@ -29,7 +29,7 @@ function initializeGoogleMaps() {
 		fillOpacity: 0.1,
 		map: map,
 		paths: [
-			{'lat': 32.738079, 'lng': -97.481701}, // I820 @ I30
+			{'lat': 32.738079, 'lng': -97.481701}, // I820 @ I30 (1 & 4)
 			{'lat': 32.826600, 'lng': -97.479787}, // H199 @ Buffalo Rd
 			{'lat': 32.968057, 'lng': -97.420441}, // H287 @ Avondale Haslet Rd
 			{'lat': 33.035367, 'lng': -97.341450}, // H114 @ Train Tracks
@@ -48,16 +48,16 @@ function initializeGoogleMaps() {
 			{'lat': 33.219069, 'lng': -96.819522}, // Dallas Pkwy @ H380 (1 & 2)
 			{'lat': 33.219097, 'lng': -96.880371}, // H380 @ FM423 (1 & 2)
 			{'lat': 33.109588, 'lng': -96.891926}, // FM423 becomes Main St @ Lewisvill Lakee (Bridge) (1 & 2)
-			{'lat': 33.065816, 'lng': -96.889150}, // Main St @ H121 (1 & 2)
-			{'lat': 32.999652, 'lng': -96.959225}, // H121 @ I35E
-			{'lat': 32.982107, 'lng': -96.930815}, // I35E @ PGBT
-			{'lat': 32.912052, 'lng': -96.943334}, // PGBT @ I635
-			{'lat': 32.836997, 'lng': -97.016883}, // I635 @ H183
-			{'lat': 32.831531, 'lng': -97.205943}, // H183 @ I820
-			{'lat': 32.839307, 'lng': -97.264200}, // I820 @ H377
-			{'lat': 32.839831, 'lng': -97.312953}, // I820 @ I35W
-			{'lat': 32.808896, 'lng': -97.418526}, // I820 @ H199
-			// {'lat': 32.738079, 'lng': -97.481701}, // I820 @ I30
+			{'lat': 33.065816, 'lng': -96.889150}, // Main St @ H121 (1, 2, 4)
+			{'lat': 32.999652, 'lng': -96.959225}, // H121 @ I35E (1 & 4)
+			{'lat': 32.982107, 'lng': -96.930815}, // I35E @ PGBT (1 & 4)
+			{'lat': 32.912052, 'lng': -96.943334}, // PGBT @ I635 (1 & 4)
+			{'lat': 32.836997, 'lng': -97.016883}, // I635 @ H183 (1 & 4)
+			{'lat': 32.831531, 'lng': -97.205943}, // H183 @ I820 (1 & 4)
+			{'lat': 32.839307, 'lng': -97.264200}, // I820 @ H377 (1 & 4)
+			{'lat': 32.839831, 'lng': -97.312953}, // I820 @ I35W (1 & 4)
+			{'lat': 32.808896, 'lng': -97.418526}, // I820 @ H199 (1 & 4)
+			// {'lat': 32.738079, 'lng': -97.481701}, // I820 @ I30 (1 & 4)
 		]
 	});
 
@@ -73,9 +73,9 @@ function initializeGoogleMaps() {
 			{'lat': 33.219069, 'lng': -96.819522}, // Dallas Pkwy @ H380 (1 & 2)
 			{'lat': 33.219097, 'lng': -96.880371}, // H380 @ FM423 (1 & 2)
 			{'lat': 33.109588, 'lng': -96.891926}, // FM423 becomes Main St @ Lewisvill Lakee (Bridge) (1 & 2)
-			{'lat': 33.065816, 'lng': -96.889150}, // Main St @ H121 (1 & 2)
-			{'lat': 33.090969, 'lng': -96.822943}, // H121 @ DNT
-			{'lat': 33.012673, 'lng': -96.829302}, // DNT @ PGBT (2 & 3)
+			{'lat': 33.065816, 'lng': -96.889150}, // Main St @ H121 (1, 2, 4)
+			{'lat': 33.090969, 'lng': -96.822943}, // H121 @ DNT (2 & 4)
+			{'lat': 33.012673, 'lng': -96.829302}, // DNT @ PGBT (2, 3, 4)
 			{'lat': 33.004098, 'lng': -96.708141}, // PGBT @ H75 (2 & 3)
 			{'lat': 32.950663, 'lng': -96.619147}, // PGBT @ H78 (2 & 3)
 			{'lat': 33.022318, 'lng': -96.456469}, // H78 @ H205 (2 & 3)
@@ -145,20 +145,104 @@ function initializeGoogleMaps() {
 			{'lat': 32.793972, 'lng': -96.699968}, // I30 @ N Jim Miller Rd
 			{'lat': 32.790992, 'lng': -96.755995}, // I30 @ Barry Ave
 			{'lat': 32.778931, 'lng': -96.782065}, // I30 @ I375
-			{'lat': 32.770008, 'lng': -96.808471}, // I30 @ I35E
-			{'lat': 32.782245, 'lng': -96.811811}, // I35E @ TX366
-			{'lat': 32.798591, 'lng': -96.815443}, // I35E @ DNT
-			{'lat': 32.807417, 'lng': -96.817824}, // DNT @ Maple Ave
-			{'lat': 32.815983, 'lng': -96.817469}, // DNT @ Cedar Springs Rd
-			{'lat': 32.886600, 'lng': -96.808921}, // DNT @ Meaders Ln
-			{'lat': 32.864897, 'lng': -96.809350}, // DNT @ Royal Ln
-			{'lat': 32.926032, 'lng': -96.820704}, // DNT @ I635
-			{'lat': 32.932920, 'lng': -96.822067}, // DNT @ Alpha Rd
-			{'lat': 32.954045, 'lng': -96.821968}, // DNT @ Belt Ln Rd
-			{'lat': 32.968634, 'lng': -96.821504}, // DNT @ Keller Springs Rd
-			{'lat': 32.990265, 'lng': -96.829156}, // DNT @ E Trinity Mills Rd
+			{'lat': 32.770008, 'lng': -96.808471}, // I30 @ I35E (3 & 4)
+			{'lat': 32.782245, 'lng': -96.811811}, // I35E @ TX366 (3 & 4)
+			{'lat': 32.798591, 'lng': -96.815443}, // I35E @ DNT (3 & 4)
+			{'lat': 32.807417, 'lng': -96.817824}, // DNT @ Maple Ave (3 & 4)
+			{'lat': 32.815983, 'lng': -96.817469}, // DNT @ Cedar Springs Rd (3 & 4)
+			{'lat': 32.886600, 'lng': -96.808921}, // DNT @ Meaders Ln (3 & 4)
+			{'lat': 32.894799, 'lng': -96.809358}, // DNT @ Royal Ln (3 & 4)
+			{'lat': 32.926032, 'lng': -96.820704}, // DNT @ I635 (3 & 4)
+			{'lat': 32.932920, 'lng': -96.822067}, // DNT @ Alpha Rd (3 & 4)
+			{'lat': 32.954045, 'lng': -96.821968}, // DNT @ Belt Ln Rd (3 & 4)
+			{'lat': 32.968634, 'lng': -96.821504}, // DNT @ Keller Springs Rd (3 & 4)
+			{'lat': 32.990265, 'lng': -96.829156}, // DNT @ E Trinity Mills Rd (3 & 4)
 			// {'lat': 33.012673, 'lng': -96.829302}, // DNT @ PGBT (2 & 3)
 		]
+	});
+
+	var section4 = new google.maps.Polygon({
+	    strokeColor: '#00AA00',
+	    strokeOpacity: 0.8,
+	    strokeWeight: 1,
+	    fillColor: '#00AA00',
+	    fillOpacity: 0.1,
+	    map: map,
+	    paths: [
+	    	{'lat': 32.738079, 'lng': -97.481701}, // I820 @ I30 (1 & 4)
+			{'lat': 32.808896, 'lng': -97.418526}, // I820 @ H199 (1 & 4)
+			{'lat': 32.839831, 'lng': -97.312953}, // I820 @ I35W (1 & 4)
+			{'lat': 32.839307, 'lng': -97.264200}, // I820 @ H377 (1 & 4)
+			{'lat': 32.831531, 'lng': -97.205943}, // H183 @ I820 (1 & 4)
+			{'lat': 32.836997, 'lng': -97.016883}, // I635 @ H183 (1 & 4)
+			{'lat': 32.912052, 'lng': -96.943334}, // PGBT @ I635 (1 & 4)
+			{'lat': 32.982107, 'lng': -96.930815}, // I35E @ PGBT (1 & 4)
+			{'lat': 32.999652, 'lng': -96.959225}, // H121 @ I35E (1 & 4)
+			{'lat': 33.065816, 'lng': -96.889150}, // Main St @ H121 (1, 2, 4)
+			{'lat': 33.090969, 'lng': -96.822943}, // H121 @ DNT (2 & 4)
+			{'lat': 33.012673, 'lng': -96.829302}, // DNT @ PGBT (2, 3, 4)
+			{'lat': 32.990265, 'lng': -96.829156}, // DNT @ E Trinity Mills Rd (3 & 4)
+			{'lat': 32.968634, 'lng': -96.821504}, // DNT @ Keller Springs Rd (3 & 4)
+			{'lat': 32.954045, 'lng': -96.821968}, // DNT @ Belt Ln Rd (3 & 4)
+			{'lat': 32.932920, 'lng': -96.822067}, // DNT @ Alpha Rd (3 & 4)
+			{'lat': 32.926032, 'lng': -96.820704}, // DNT @ I635 (3 & 4)
+			{'lat': 32.894799, 'lng': -96.809358}, // DNT @ Royal Ln (3 & 4)
+			{'lat': 32.886600, 'lng': -96.808921}, // DNT @ Meaders Ln (3 & 4)
+			{'lat': 32.815983, 'lng': -96.817469}, // DNT @ Cedar Springs Rd (3 & 4)
+			{'lat': 32.807417, 'lng': -96.817824}, // DNT @ Maple Ave (3 & 4)
+			{'lat': 32.798591, 'lng': -96.815443}, // I35E @ DNT (3 & 4)
+			{'lat': 32.782245, 'lng': -96.811811}, // I35E @ TX366 (3 & 4)
+			{'lat': 32.770008, 'lng': -96.808471}, // I30 @ I35E (3 & 4)
+			{'lat': 32.769185, 'lng': -96.822894}, // I30 @ N Beckley Ave
+			{'lat': 32.767372, 'lng': -96.835662}, // I30 @ Sylvan Ave
+			{'lat': 32.764537, 'lng': -96.850610}, // I30 @ Fort Worth Ave
+			{'lat': 32.766329, 'lng': -96.856684}, // I30 @ N Hampton Rd
+			{'lat': 32.767119, 'lng': -96.862509}, // I30 @ Postal Way
+			{'lat': 32.767469, 'lng': -96.873892}, // I30 @ N Westmoreland Rd
+			{'lat': 32.766593, 'lng': -96.895781}, // I30 @ N Cockerell Hill Rd
+			{'lat': 32.766470, 'lng': -96.902472}, // I30 @ Chalk Hill Rd
+			{'lat': 32.766227, 'lng': -96.914707}, // I30 @ N Walton Walker Blvd
+			{'lat': 32.762192, 'lng': -96.960150}, // I30 @ MacArthur Blvd
+			{'lat': 32.758685, 'lng': -96.994945}, // I30 @ S Belt Line Rd
+			{'lat': 32.759506, 'lng': -97.012295}, // I30 @ NW 7th St
+			{'lat': 32.759537, 'lng': -97.019891}, // I30 @ N Carrier Pkwy
+			{'lat': 32.759547, 'lng': -97.029015}, // I30 @ PGBT
+			{'lat': 32.759635, 'lng': -97.063333}, // I30 @ TX-360
+			{'lat': 32.759768, 'lng': -97.097136}, // I30 @ N Collins St
+			{'lat': 32.759768, 'lng': -97.114497}, // I30 @ N Cooper St
+			{'lat': 32.759790, 'lng': -97.131622}, // I30 @ N Fielder Rd
+			{'lat': 32.760077, 'lng': -97.149089}, // I30 @ NW Gree Oaks Blvd
+			{'lat': 32.760121, 'lng': -97.167159}, // I30 @ Eastchase Pkwy
+			{'lat': 32.759900, 'lng': -97.183259}, // I30 @ Cooks Ln
+			{'lat': 32.759756, 'lng': -97.197540}, // I30 @ Sandy Ln
+			{'lat': 32.759830, 'lng': -97.214083}, // I30 @ I820 (East Intersection)
+			{'lat': 32.757994, 'lng': -97.261768}, // I30 @ Oakland Blvd
+			{'lat': 32.749578, 'lng': -97.289433}, // I30 @ Beach St / S Beach St
+			{'lat': 32.748487, 'lng': -97.303290}, // I30 @ Riverside Dr
+			{'lat': 32.746616, 'lng': -97.319511}, // I30 @ I35W
+			{'lat': 32.744695, 'lng': -97.325924}, // I30 @ Main St / S Main St
+			{'lat': 32.744789, 'lng': -97.330082}, // I30 @ Jennings Ave
+			{'lat': 32.743745, 'lng': -97.337582}, // I30 @ Henderson St
+			{'lat': 32.742304, 'lng': -97.341813}, // I30 @ Summit Ave / 8th Ave
+			{'lat': 32.737130, 'lng': -97.353259}, // I30 @ N Forest Park Blvd / Forest Part Blvd
+			{'lat': 32.733679, 'lng': -97.361469}, // I30 @ University Dr / S University Dr
+			{'lat': 32.732773, 'lng': -97.370001}, // I30 @ Montgomery St
+			{'lat': 32.732817, 'lng': -97.378649}, // I30 @ Clover Ln
+			{'lat': 32.732974, 'lng': -97.387752}, // I30 @ Hulen St
+			{'lat': 32.733055, 'lng': -97.398745}, // I30 @ Merrik St
+			{'lat': 32.733718, 'lng': -97.404048}, // I30 @ Camp Bowie Blvd
+			{'lat': 32.734238, 'lng': -97.407904}, // I30 @ Horne St
+			{'lat': 32.734552, 'lng': -97.413547}, // I30 @ Guliford Rd / Bryant Irvin Rd
+			{'lat': 32.734698, 'lng': -97.418673}, // I30 @ Westridge Ave
+			{'lat': 32.734676, 'lng': -97.424161}, // I30 @ Ridgemar Blvd
+			{'lat': 32.735560, 'lng': -97.434367}, // I30 @ Green Oaks Rd
+			{'lat': 32.736531, 'lng': -97.440762}, // I30 @ Alta Mere Dr
+			{'lat': 32.737650, 'lng': -97.445468}, // I30 @ Lockheed Blvd
+			{'lat': 32.738126, 'lng': -97.451770}, // I30 @ S Cherry Ln
+			{'lat': 32.738180, 'lng': -97.466921}, // I30 @ S Las Vegas Trail / Las Vegas Trail
+			{'lat': 32.738241, 'lng': -97.475944}, // I30 @ Dale Ln
+	    	// {'lat': 32.738079, 'lng': -97.481701}, // I820 @ I30 (1 & 4)
+	    ]
 	});
 
 	// var dallas = new google.maps.Polygon({
