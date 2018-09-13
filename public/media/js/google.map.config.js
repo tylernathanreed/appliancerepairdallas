@@ -29,7 +29,7 @@ function initializeGoogleMaps() {
 		fillOpacity: 0.1,
 		map: map,
 		paths: [
-			{'lat': 32.738079, 'lng': -97.481701}, // I820 @ I30 (1 & 4)
+			{'lat': 32.738079, 'lng': -97.481701}, // I820 @ I30 (1, 4, 5)
 			{'lat': 32.826600, 'lng': -97.479787}, // H199 @ Buffalo Rd
 			{'lat': 32.968057, 'lng': -97.420441}, // H287 @ Avondale Haslet Rd
 			{'lat': 33.035367, 'lng': -97.341450}, // H114 @ Train Tracks
@@ -57,7 +57,7 @@ function initializeGoogleMaps() {
 			{'lat': 32.839307, 'lng': -97.264200}, // I820 @ H377 (1 & 4)
 			{'lat': 32.839831, 'lng': -97.312953}, // I820 @ I35W (1 & 4)
 			{'lat': 32.808896, 'lng': -97.418526}, // I820 @ H199 (1 & 4)
-			// {'lat': 32.738079, 'lng': -97.481701}, // I820 @ I30 (1 & 4)
+			// {'lat': 32.738079, 'lng': -97.481701}, // I820 @ I30 (1, 4, 5)
 		]
 	});
 
@@ -125,27 +125,27 @@ function initializeGoogleMaps() {
 			{'lat': 32.938463, 'lng': -96.334282}, // S FM 548 @ Crenshaw Rd
 			{'lat': 32.938463, 'lng': -96.334282}, // S FM 548 @ Crenshaw Rd
 			{'lat': 32.913494, 'lng': -96.339803}, // S FM 548 @ N Munson Rd
-			{'lat': 32.899722, 'lng': -96.339931}, // S FM 548 @ TX276
-			{'lat': 32.899822, 'lng': -96.360395}, // TX276 @ Remington Dr
-			{'lat': 32.904547, 'lng': -96.379274}, // TX276 @ Sun Dr
-			{'lat': 32.904723, 'lng': -96.400564}, // TX276 @ Rochelle Rd
-			{'lat': 32.906606, 'lng': -96.418310}, // TX276 @ Corperate Crossing / S FM 549
-			{'lat': 32.906650, 'lng': -96.431072}, // TX276 @ John King Blvd
-			{'lat': 32.907118, 'lng': -96.448604}, // TX276 @ S Goliad St / TX205
-			{'lat': 32.909197, 'lng': -96.450067}, // S Goliad St / TX205 @ I30
-			{'lat': 32.901132, 'lng': -96.457802}, // I30 @ Greencast Bldv / Mims Rd
-			{'lat': 32.897171, 'lng': -96.469886}, // I30 @ Ridge Rd
-			{'lat': 32.876355, 'lng': -96.518425}, // I30 @ Dalrock Rd
-			{'lat': 32.864752, 'lng': -96.543930}, // I30 @ Bass Pro Dr
-			{'lat': 32.853565, 'lng': -96.562029}, // I30 @ Zion Rd
-			{'lat': 32.840086, 'lng': -96.595631}, // I30 @ Broadway
-			{'lat': 32.832954, 'lng': -96.612718}, // I30 @ Northwest Dr
-			{'lat': 32.823146, 'lng': -96.629736}, // I30 @ I635
-			{'lat': 32.799830, 'lng': -96.676302}, // I30 @ HWY 80
-			{'lat': 32.793972, 'lng': -96.699968}, // I30 @ N Jim Miller Rd
-			{'lat': 32.790992, 'lng': -96.755995}, // I30 @ Barry Ave
-			{'lat': 32.778931, 'lng': -96.782065}, // I30 @ I375
-			{'lat': 32.770008, 'lng': -96.808471}, // I30 @ I35E (3 & 4)
+			{'lat': 32.899722, 'lng': -96.339931}, // S FM 548 @ TX276 (3 & 5)
+			{'lat': 32.899822, 'lng': -96.360395}, // TX276 @ Remington Dr (3 & 5)
+			{'lat': 32.904547, 'lng': -96.379274}, // TX276 @ Sun Dr (3 & 5)
+			{'lat': 32.904723, 'lng': -96.400564}, // TX276 @ Rochelle Rd (3 & 5)
+			{'lat': 32.906606, 'lng': -96.418310}, // TX276 @ Corperate Crossing / S FM 549 (3 & 5)
+			{'lat': 32.906650, 'lng': -96.431072}, // TX276 @ John King Blvd (3 & 5)
+			{'lat': 32.907118, 'lng': -96.448604}, // TX276 @ S Goliad St / TX205 (3 & 5)
+			{'lat': 32.909197, 'lng': -96.450067}, // S Goliad St / TX205 @ I30 (3 & 5)
+			{'lat': 32.901132, 'lng': -96.457802}, // I30 @ Greencast Bldv / Mims Rd (3 & 5)
+			{'lat': 32.897171, 'lng': -96.469886}, // I30 @ Ridge Rd (3 & 5)
+			{'lat': 32.876355, 'lng': -96.518425}, // I30 @ Dalrock Rd (3 & 5)
+			{'lat': 32.864752, 'lng': -96.543930}, // I30 @ Bass Pro Dr (3 & 5)
+			{'lat': 32.853565, 'lng': -96.562029}, // I30 @ Zion Rd (3 & 5)
+			{'lat': 32.840086, 'lng': -96.595631}, // I30 @ Broadway (3 & 5)
+			{'lat': 32.832954, 'lng': -96.612718}, // I30 @ Northwest Dr (3 & 5)
+			{'lat': 32.823146, 'lng': -96.629736}, // I30 @ I635 (3 & 5)
+			{'lat': 32.799830, 'lng': -96.676302}, // I30 @ HWY 80 (3 & 5)
+			{'lat': 32.793972, 'lng': -96.699968}, // I30 @ N Jim Miller Rd (3 & 5)
+			{'lat': 32.790992, 'lng': -96.755995}, // I30 @ Barry Ave (3 & 5)
+			{'lat': 32.778931, 'lng': -96.782065}, // I30 @ I375 (3 & 5)
+			{'lat': 32.770008, 'lng': -96.808471}, // I30 @ I35E (3, 4, 5)
 			{'lat': 32.782245, 'lng': -96.811811}, // I35E @ TX366 (3 & 4)
 			{'lat': 32.798591, 'lng': -96.815443}, // I35E @ DNT (3 & 4)
 			{'lat': 32.807417, 'lng': -96.817824}, // DNT @ Maple Ave (3 & 4)
@@ -169,7 +169,7 @@ function initializeGoogleMaps() {
 	    fillOpacity: 0.1,
 	    map: map,
 	    paths: [
-	    	{'lat': 32.738079, 'lng': -97.481701}, // I820 @ I30 (1 & 4)
+	    	{'lat': 32.738079, 'lng': -97.481701}, // I820 @ I30 (1, 4, 5)
 			{'lat': 32.808896, 'lng': -97.418526}, // I820 @ H199 (1 & 4)
 			{'lat': 32.839831, 'lng': -97.312953}, // I820 @ I35W (1 & 4)
 			{'lat': 32.839307, 'lng': -97.264200}, // I820 @ H377 (1 & 4)
@@ -192,56 +192,186 @@ function initializeGoogleMaps() {
 			{'lat': 32.807417, 'lng': -96.817824}, // DNT @ Maple Ave (3 & 4)
 			{'lat': 32.798591, 'lng': -96.815443}, // I35E @ DNT (3 & 4)
 			{'lat': 32.782245, 'lng': -96.811811}, // I35E @ TX366 (3 & 4)
-			{'lat': 32.770008, 'lng': -96.808471}, // I30 @ I35E (3 & 4)
-			{'lat': 32.769185, 'lng': -96.822894}, // I30 @ N Beckley Ave
-			{'lat': 32.767372, 'lng': -96.835662}, // I30 @ Sylvan Ave
-			{'lat': 32.764537, 'lng': -96.850610}, // I30 @ Fort Worth Ave
-			{'lat': 32.766329, 'lng': -96.856684}, // I30 @ N Hampton Rd
-			{'lat': 32.767119, 'lng': -96.862509}, // I30 @ Postal Way
-			{'lat': 32.767469, 'lng': -96.873892}, // I30 @ N Westmoreland Rd
-			{'lat': 32.766593, 'lng': -96.895781}, // I30 @ N Cockerell Hill Rd
-			{'lat': 32.766470, 'lng': -96.902472}, // I30 @ Chalk Hill Rd
-			{'lat': 32.766227, 'lng': -96.914707}, // I30 @ N Walton Walker Blvd
-			{'lat': 32.762192, 'lng': -96.960150}, // I30 @ MacArthur Blvd
-			{'lat': 32.758685, 'lng': -96.994945}, // I30 @ S Belt Line Rd
-			{'lat': 32.759506, 'lng': -97.012295}, // I30 @ NW 7th St
-			{'lat': 32.759537, 'lng': -97.019891}, // I30 @ N Carrier Pkwy
-			{'lat': 32.759547, 'lng': -97.029015}, // I30 @ PGBT
-			{'lat': 32.759635, 'lng': -97.063333}, // I30 @ TX-360
-			{'lat': 32.759768, 'lng': -97.097136}, // I30 @ N Collins St
-			{'lat': 32.759768, 'lng': -97.114497}, // I30 @ N Cooper St
-			{'lat': 32.759790, 'lng': -97.131622}, // I30 @ N Fielder Rd
-			{'lat': 32.760077, 'lng': -97.149089}, // I30 @ NW Gree Oaks Blvd
-			{'lat': 32.760121, 'lng': -97.167159}, // I30 @ Eastchase Pkwy
-			{'lat': 32.759900, 'lng': -97.183259}, // I30 @ Cooks Ln
-			{'lat': 32.759756, 'lng': -97.197540}, // I30 @ Sandy Ln
-			{'lat': 32.759830, 'lng': -97.214083}, // I30 @ I820 (East Intersection)
-			{'lat': 32.757994, 'lng': -97.261768}, // I30 @ Oakland Blvd
-			{'lat': 32.749578, 'lng': -97.289433}, // I30 @ Beach St / S Beach St
-			{'lat': 32.748487, 'lng': -97.303290}, // I30 @ Riverside Dr
-			{'lat': 32.746616, 'lng': -97.319511}, // I30 @ I35W
-			{'lat': 32.744695, 'lng': -97.325924}, // I30 @ Main St / S Main St
-			{'lat': 32.744789, 'lng': -97.330082}, // I30 @ Jennings Ave
-			{'lat': 32.743745, 'lng': -97.337582}, // I30 @ Henderson St
-			{'lat': 32.742304, 'lng': -97.341813}, // I30 @ Summit Ave / 8th Ave
-			{'lat': 32.737130, 'lng': -97.353259}, // I30 @ N Forest Park Blvd / Forest Part Blvd
-			{'lat': 32.733679, 'lng': -97.361469}, // I30 @ University Dr / S University Dr
-			{'lat': 32.732773, 'lng': -97.370001}, // I30 @ Montgomery St
-			{'lat': 32.732817, 'lng': -97.378649}, // I30 @ Clover Ln
-			{'lat': 32.732974, 'lng': -97.387752}, // I30 @ Hulen St
-			{'lat': 32.733055, 'lng': -97.398745}, // I30 @ Merrik St
-			{'lat': 32.733718, 'lng': -97.404048}, // I30 @ Camp Bowie Blvd
-			{'lat': 32.734238, 'lng': -97.407904}, // I30 @ Horne St
-			{'lat': 32.734552, 'lng': -97.413547}, // I30 @ Guliford Rd / Bryant Irvin Rd
-			{'lat': 32.734698, 'lng': -97.418673}, // I30 @ Westridge Ave
-			{'lat': 32.734676, 'lng': -97.424161}, // I30 @ Ridgemar Blvd
-			{'lat': 32.735560, 'lng': -97.434367}, // I30 @ Green Oaks Rd
-			{'lat': 32.736531, 'lng': -97.440762}, // I30 @ Alta Mere Dr
-			{'lat': 32.737650, 'lng': -97.445468}, // I30 @ Lockheed Blvd
-			{'lat': 32.738126, 'lng': -97.451770}, // I30 @ S Cherry Ln
-			{'lat': 32.738180, 'lng': -97.466921}, // I30 @ S Las Vegas Trail / Las Vegas Trail
-			{'lat': 32.738241, 'lng': -97.475944}, // I30 @ Dale Ln
-	    	// {'lat': 32.738079, 'lng': -97.481701}, // I820 @ I30 (1 & 4)
+			{'lat': 32.770008, 'lng': -96.808471}, // I30 @ I35E (3, 4, 5)
+			{'lat': 32.769185, 'lng': -96.822894}, // I30 @ N Beckley Ave (4 & 5)
+			{'lat': 32.767372, 'lng': -96.835662}, // I30 @ Sylvan Ave (4 & 5)
+			{'lat': 32.764537, 'lng': -96.850610}, // I30 @ Fort Worth Ave (4 & 5)
+			{'lat': 32.766329, 'lng': -96.856684}, // I30 @ N Hampton Rd (4 & 5)
+			{'lat': 32.767119, 'lng': -96.862509}, // I30 @ Postal Way (4 & 5)
+			{'lat': 32.767469, 'lng': -96.873892}, // I30 @ N Westmoreland Rd (4 & 5)
+			{'lat': 32.766593, 'lng': -96.895781}, // I30 @ N Cockerell Hill Rd (4 & 5)
+			{'lat': 32.766470, 'lng': -96.902472}, // I30 @ Chalk Hill Rd (4 & 5)
+			{'lat': 32.766227, 'lng': -96.914707}, // I30 @ N Walton Walker Blvd (4 & 5)
+			{'lat': 32.762192, 'lng': -96.960150}, // I30 @ MacArthur Blvd (4 & 5)
+			{'lat': 32.758685, 'lng': -96.994945}, // I30 @ S Belt Line Rd (4 & 5)
+			{'lat': 32.759506, 'lng': -97.012295}, // I30 @ NW 7th St (4 & 5)
+			{'lat': 32.759537, 'lng': -97.019891}, // I30 @ N Carrier Pkwy (4 & 5)
+			{'lat': 32.759547, 'lng': -97.029015}, // I30 @ PGBT (4 & 5)
+			{'lat': 32.759635, 'lng': -97.063333}, // I30 @ TX-360 (4 & 5)
+			{'lat': 32.759768, 'lng': -97.097136}, // I30 @ N Collins St (4 & 5)
+			{'lat': 32.759768, 'lng': -97.114497}, // I30 @ N Cooper St (4 & 5)
+			{'lat': 32.759790, 'lng': -97.131622}, // I30 @ N Fielder Rd (4 & 5)
+			{'lat': 32.760077, 'lng': -97.149089}, // I30 @ NW Gree Oaks Blvd (4 & 5)
+			{'lat': 32.760121, 'lng': -97.167159}, // I30 @ Eastchase Pkwy (4 & 5)
+			{'lat': 32.759900, 'lng': -97.183259}, // I30 @ Cooks Ln (4 & 5)
+			{'lat': 32.759756, 'lng': -97.197540}, // I30 @ Sandy Ln (4 & 5)
+			{'lat': 32.759830, 'lng': -97.214083}, // I30 @ I820 (East Intersection) (4 & 5)
+			{'lat': 32.757994, 'lng': -97.261768}, // I30 @ Oakland Blvd (4 & 5)
+			{'lat': 32.749578, 'lng': -97.289433}, // I30 @ Beach St / S Beach St (4 & 5)
+			{'lat': 32.748487, 'lng': -97.303290}, // I30 @ Riverside Dr (4 & 5)
+			{'lat': 32.746616, 'lng': -97.319511}, // I30 @ I35W (4 & 5)
+			{'lat': 32.744695, 'lng': -97.325924}, // I30 @ Main St / S Main St (4 & 5)
+			{'lat': 32.744789, 'lng': -97.330082}, // I30 @ Jennings Ave (4 & 5)
+			{'lat': 32.743745, 'lng': -97.337582}, // I30 @ Henderson St (4 & 5)
+			{'lat': 32.742304, 'lng': -97.341813}, // I30 @ Summit Ave / 8th Ave (4 & 5)
+			{'lat': 32.737130, 'lng': -97.353259}, // I30 @ N Forest Park Blvd / Forest Part Blvd (4 & 5)
+			{'lat': 32.733679, 'lng': -97.361469}, // I30 @ University Dr / S University Dr (4 & 5)
+			{'lat': 32.732773, 'lng': -97.370001}, // I30 @ Montgomery St (4 & 5)
+			{'lat': 32.732817, 'lng': -97.378649}, // I30 @ Clover Ln (4 & 5)
+			{'lat': 32.732974, 'lng': -97.387752}, // I30 @ Hulen St (4 & 5)
+			{'lat': 32.733055, 'lng': -97.398745}, // I30 @ Merrik St (4 & 5)
+			{'lat': 32.733718, 'lng': -97.404048}, // I30 @ Camp Bowie Blvd (4 & 5)
+			{'lat': 32.734238, 'lng': -97.407904}, // I30 @ Horne St (4 & 5)
+			{'lat': 32.734552, 'lng': -97.413547}, // I30 @ Guliford Rd / Bryant Irvin Rd (4 & 5)
+			{'lat': 32.734698, 'lng': -97.418673}, // I30 @ Westridge Ave (4 & 5)
+			{'lat': 32.734676, 'lng': -97.424161}, // I30 @ Ridgemar Blvd (4 & 5)
+			{'lat': 32.735560, 'lng': -97.434367}, // I30 @ Green Oaks Rd (4 & 5)
+			{'lat': 32.736531, 'lng': -97.440762}, // I30 @ Alta Mere Dr (4 & 5)
+			{'lat': 32.737650, 'lng': -97.445468}, // I30 @ Lockheed Blvd (4 & 5)
+			{'lat': 32.738126, 'lng': -97.451770}, // I30 @ S Cherry Ln (4 & 5)
+			{'lat': 32.738180, 'lng': -97.466921}, // I30 @ S Las Vegas Trail / Las Vegas Trail (4 & 5)
+			{'lat': 32.738241, 'lng': -97.475944}, // I30 @ Dale Ln (4 & 5)
+	    	// {'lat': 32.738079, 'lng': -97.481701}, // I820 @ I30 (1, 4, 5)
+	    ]
+	});
+
+	var section5 = new google.maps.Polygon({
+	    strokeColor: '#00AAAA',
+	    strokeOpacity: 0.8,
+	    strokeWeight: 1,
+	    fillColor: '#00AAAA',
+	    fillOpacity: 0.2,
+	    map: map,
+	    paths: [
+			{'lat': 32.899722, 'lng': -96.339931}, // S FM 548 @ TX276 (3 & 5)
+			{'lat': 32.899822, 'lng': -96.360395}, // TX276 @ Remington Dr (3 & 5)
+			{'lat': 32.904547, 'lng': -96.379274}, // TX276 @ Sun Dr (3 & 5)
+			{'lat': 32.904723, 'lng': -96.400564}, // TX276 @ Rochelle Rd (3 & 5)
+			{'lat': 32.906606, 'lng': -96.418310}, // TX276 @ Corperate Crossing / S FM 549 (3 & 5)
+			{'lat': 32.906650, 'lng': -96.431072}, // TX276 @ John King Blvd (3 & 5)
+			{'lat': 32.907118, 'lng': -96.448604}, // TX276 @ S Goliad St / TX205 (3 & 5)
+			{'lat': 32.909197, 'lng': -96.450067}, // S Goliad St / TX205 @ I30 (3 & 5)
+			{'lat': 32.901132, 'lng': -96.457802}, // I30 @ Greencast Bldv / Mims Rd (3 & 5)
+			{'lat': 32.897171, 'lng': -96.469886}, // I30 @ Ridge Rd (3 & 5)
+			{'lat': 32.876355, 'lng': -96.518425}, // I30 @ Dalrock Rd (3 & 5)
+			{'lat': 32.864752, 'lng': -96.543930}, // I30 @ Bass Pro Dr (3 & 5)
+			{'lat': 32.853565, 'lng': -96.562029}, // I30 @ Zion Rd (3 & 5)
+			{'lat': 32.840086, 'lng': -96.595631}, // I30 @ Broadway (3 & 5)
+			{'lat': 32.832954, 'lng': -96.612718}, // I30 @ Northwest Dr (3 & 5)
+			{'lat': 32.823146, 'lng': -96.629736}, // I30 @ I635 (3 & 5)
+			{'lat': 32.799830, 'lng': -96.676302}, // I30 @ HWY 80 (3 & 5)
+			{'lat': 32.793972, 'lng': -96.699968}, // I30 @ N Jim Miller Rd (3 & 5)
+			{'lat': 32.790992, 'lng': -96.755995}, // I30 @ Barry Ave (3 & 5)
+			{'lat': 32.778931, 'lng': -96.782065}, // I30 @ I375 (3 & 5)
+			{'lat': 32.770008, 'lng': -96.808471}, // I30 @ I35E (3, 4, 5)
+			{'lat': 32.770008, 'lng': -96.808471}, // I30 @ I35E (3, 4, 5)
+			{'lat': 32.769185, 'lng': -96.822894}, // I30 @ N Beckley Ave (4 & 5)
+			{'lat': 32.767372, 'lng': -96.835662}, // I30 @ Sylvan Ave (4 & 5)
+			{'lat': 32.764537, 'lng': -96.850610}, // I30 @ Fort Worth Ave (4 & 5)
+			{'lat': 32.766329, 'lng': -96.856684}, // I30 @ N Hampton Rd (4 & 5)
+			{'lat': 32.767119, 'lng': -96.862509}, // I30 @ Postal Way (4 & 5)
+			{'lat': 32.767469, 'lng': -96.873892}, // I30 @ N Westmoreland Rd (4 & 5)
+			{'lat': 32.766593, 'lng': -96.895781}, // I30 @ N Cockerell Hill Rd (4 & 5)
+			{'lat': 32.766470, 'lng': -96.902472}, // I30 @ Chalk Hill Rd (4 & 5)
+			{'lat': 32.766227, 'lng': -96.914707}, // I30 @ N Walton Walker Blvd (4 & 5)
+			{'lat': 32.762192, 'lng': -96.960150}, // I30 @ MacArthur Blvd (4 & 5)
+			{'lat': 32.758685, 'lng': -96.994945}, // I30 @ S Belt Line Rd (4 & 5)
+			{'lat': 32.759506, 'lng': -97.012295}, // I30 @ NW 7th St (4 & 5)
+			{'lat': 32.759537, 'lng': -97.019891}, // I30 @ N Carrier Pkwy (4 & 5)
+			{'lat': 32.759547, 'lng': -97.029015}, // I30 @ PGBT (4 & 5)
+			{'lat': 32.759635, 'lng': -97.063333}, // I30 @ TX-360 (4 & 5)
+			{'lat': 32.759768, 'lng': -97.097136}, // I30 @ N Collins St (4 & 5)
+			{'lat': 32.759768, 'lng': -97.114497}, // I30 @ N Cooper St (4 & 5)
+			{'lat': 32.759790, 'lng': -97.131622}, // I30 @ N Fielder Rd (4 & 5)
+			{'lat': 32.760077, 'lng': -97.149089}, // I30 @ NW Gree Oaks Blvd (4 & 5)
+			{'lat': 32.760121, 'lng': -97.167159}, // I30 @ Eastchase Pkwy (4 & 5)
+			{'lat': 32.759900, 'lng': -97.183259}, // I30 @ Cooks Ln (4 & 5)
+			{'lat': 32.759756, 'lng': -97.197540}, // I30 @ Sandy Ln (4 & 5)
+			{'lat': 32.759830, 'lng': -97.214083}, // I30 @ I820 (East Intersection) (4 & 5)
+			{'lat': 32.757994, 'lng': -97.261768}, // I30 @ Oakland Blvd (4 & 5)
+			{'lat': 32.749578, 'lng': -97.289433}, // I30 @ Beach St / S Beach St (4 & 5)
+			{'lat': 32.748487, 'lng': -97.303290}, // I30 @ Riverside Dr (4 & 5)
+			{'lat': 32.746616, 'lng': -97.319511}, // I30 @ I35W (4 & 5)
+			{'lat': 32.744695, 'lng': -97.325924}, // I30 @ Main St / S Main St (4 & 5)
+			{'lat': 32.744789, 'lng': -97.330082}, // I30 @ Jennings Ave (4 & 5)
+			{'lat': 32.743745, 'lng': -97.337582}, // I30 @ Henderson St (4 & 5)
+			{'lat': 32.742304, 'lng': -97.341813}, // I30 @ Summit Ave / 8th Ave (4 & 5)
+			{'lat': 32.737130, 'lng': -97.353259}, // I30 @ N Forest Park Blvd / Forest Part Blvd (4 & 5)
+			{'lat': 32.733679, 'lng': -97.361469}, // I30 @ University Dr / S University Dr (4 & 5)
+			{'lat': 32.732773, 'lng': -97.370001}, // I30 @ Montgomery St (4 & 5)
+			{'lat': 32.732817, 'lng': -97.378649}, // I30 @ Clover Ln (4 & 5)
+			{'lat': 32.732974, 'lng': -97.387752}, // I30 @ Hulen St (4 & 5)
+			{'lat': 32.733055, 'lng': -97.398745}, // I30 @ Merrik St (4 & 5)
+			{'lat': 32.733718, 'lng': -97.404048}, // I30 @ Camp Bowie Blvd (4 & 5)
+			{'lat': 32.734238, 'lng': -97.407904}, // I30 @ Horne St (4 & 5)
+			{'lat': 32.734552, 'lng': -97.413547}, // I30 @ Guliford Rd / Bryant Irvin Rd (4 & 5)
+			{'lat': 32.734698, 'lng': -97.418673}, // I30 @ Westridge Ave (4 & 5)
+			{'lat': 32.734676, 'lng': -97.424161}, // I30 @ Ridgemar Blvd (4 & 5)
+			{'lat': 32.735560, 'lng': -97.434367}, // I30 @ Green Oaks Rd (4 & 5)
+			{'lat': 32.736531, 'lng': -97.440762}, // I30 @ Alta Mere Dr (4 & 5)
+			{'lat': 32.737650, 'lng': -97.445468}, // I30 @ Lockheed Blvd (4 & 5)
+			{'lat': 32.738126, 'lng': -97.451770}, // I30 @ S Cherry Ln (4 & 5)
+			{'lat': 32.738180, 'lng': -97.466921}, // I30 @ S Las Vegas Trail / Las Vegas Trail (4 & 5)
+			{'lat': 32.738241, 'lng': -97.475944}, // I30 @ Dale Ln (4 & 5)
+	    	{'lat': 32.738079, 'lng': -97.481701}, // I820 @ I30 (1, 4, 5)
+	    	{'lat': 32.724555, 'lng': -97.480371}, // I820 @ TX-580
+	    	{'lat': 32.702189, 'lng': -97.472930}, // I820 @ Team Ranch Rd
+	    	{'lat': 32.684466, 'lng': -97.459603}, // I820 @ HW377
+	    	{'lat': 32.682993, 'lng': -97.460629}, // HW377 @ Interstate 820 Loop
+	    	{'lat': 32.671268, 'lng': -97.471294}, // HW377 @ Westpark Dr
+	    	{'lat': 32.668677, 'lng': -97.474570}, // HW377 @ Winscott Rd
+	    	{'lat': 32.663974, 'lng': -97.471227}, // Winscott Rd @ Beach Rd
+	    	{'lat': 32.662337, 'lng': -97.463404}, // Winscott Rd @ Lakeside Dr
+	    	{'lat': 32.646476, 'lng': -97.441605}, // Lakeside Dr @ Benbrook Lake Dr / Driks Rd
+	    	{'lat': 32.645476, 'lng': -97.416190}, // Driks Rd @ Chrisholm Trail Pkwy
+	    	{'lat': 32.629695, 'lng': -97.412935}, // Chrisholm Trail Pkwy @ Sycamore School Rd
+	    	{'lat': 32.631779, 'lng': -97.407479}, // Sycamore School Rd @ Summer Creek Dr
+	    	{'lat': 32.632878, 'lng': -97.401288}, // Sycamore School Rd @ Fallen Trail / Meadowlark Dr
+	    	{'lat': 32.632055, 'lng': -97.396836}, // Sycamore School Rd @ Star Ridge Rd / Creekmoor Dr
+	    	{'lat': 32.631784, 'lng': -97.394716}, // Sycamore School Rd @ Silveridge Dr
+	    	{'lat': 32.633832, 'lng': -97.390331}, // Sycamore School Rd @ S Hulen St
+	    	{'lat': 32.636057, 'lng': -97.385613}, // Sycamore School Rd @ Parkwood Ln
+	    	{'lat': 32.636052, 'lng': -97.382734}, // Sycamore School Rd @ 4 Winds Dr
+	    	{'lat': 32.634842, 'lng': -97.379766}, // Sycamore School Rd @ W Cleburne Rd
+	    	{'lat': 32.634234, 'lng': -97.376366}, // Sycamore School Rd @ Biscayn Ln
+	    	{'lat': 32.634921, 'lng': -97.369765}, // Sycamore School Rd @ McCart Ave
+	    	{'lat': 32.634929, 'lng': -97.348555}, // Sycamore School Rd / W Everman Pkwy @ Crowley Rd
+	    	{'lat': 32.634153, 'lng': -97.345808}, // W Everman Pkwy @ Sycamore School Rd
+	    	{'lat': 32.635049, 'lng': -97.343422}, // Sycamore School Rd @ Gladwater Dr
+	    	{'lat': 32.635114, 'lng': -97.321505}, // Sycamore School Rd @ I35W
+	    	{'lat': 32.614001, 'lng': -97.321632}, // I35W @ W Risinger Rd / E Risinger Rd
+	    	{'lat': 32.609327, 'lng': -97.321158}, // I35W @ Rustic View Rd
+	    	{'lat': 32.599133, 'lng': -97.319501}, // I35W @ Garden Acres Dr
+	    	{'lat': 32.577720, 'lng': -97.319585}, // I35W @ FM1187
+	    	{'lat': 32.579963, 'lng': -97.305437}, // FM1187 @ Wildcat Way N
+	    	{'lat': 32.579820, 'lng': -97.292754}, // FM1187 @ Oak Grove Rd S
+	    	{'lat': 32.579572, 'lng': -97.263355}, // FM1187 @ Stephenson Levy Rd
+	    	{'lat': 32.580130, 'lng': -97.252593}, // FM1187 @ Oak Grove Rendon Rd / J Rendon Rd
+	    	{'lat': 32.579892, 'lng': -97.241481}, // FM1187 @ Rendon Rd
+	    	{'lat': 32.576192, 'lng': -97.232941}, // FM1187 @ Rendon New Hope Rd
+	    	{'lat': 32.576128, 'lng': -97.226472}, // FM1187 @ Roberts Ln
+	    	{'lat': 32.576393, 'lng': -97.224199}, // FM1187 @ Teague Rd
+	    	{'lat': 32.575297, 'lng': -97.215773}, // FM1187 @ Drury Cross Rd
+	    	{'lat': 32.574168, 'lng': -97.210398}, // FM1187 @ Wooded Acres Trail
+	    	{'lat': 32.573945, 'lng': -97.206847}, // FM1187 @ Cabot Estates Dr
+	    	{'lat': 32.574081, 'lng': -97.205181}, // FM1187 @ Willow Creek Cr / Skyview
+	    	{'lat': 32.576382, 'lng': -97.199290}, // FM1187 @ Bennet Lawson Rd
+	    	{'lat': 32.577100, 'lng': -97.191088}, // FM1187 @ Exchange Dr
+	    	{'lat': 32.590698, 'lng': -97.162199}, // FM1187 / W Debbie Ln @ N Main St
+	    	{'lat': 32.591757, 'lng': -97.153955}, // W Debbie Ln @ Russell Ln
+	    	{'lat': 32.591951, 'lng': -97.146515}, // W Debbie Ln @ Town Crossing Blvd
+	    	{'lat': 32.591951, 'lng': -97.146515}, // W Debbie Ln / E Debbie Ln @ US-287
+	    	// {'lat': 32.899722, 'lng': -96.339931}, // S FM 548 @ TX276 (3 & 5)
 	    ]
 	});
 
