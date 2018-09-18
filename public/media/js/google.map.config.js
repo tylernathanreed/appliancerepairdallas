@@ -370,7 +370,80 @@ function initializeGoogleMaps() {
 	    	{'lat': 32.590698, 'lng': -97.162199}, // FM1187 / W Debbie Ln @ N Main St
 	    	{'lat': 32.591757, 'lng': -97.153955}, // W Debbie Ln @ Russell Ln
 	    	{'lat': 32.591951, 'lng': -97.146515}, // W Debbie Ln @ Town Crossing Blvd
-	    	{'lat': 32.591951, 'lng': -97.146515}, // W Debbie Ln / E Debbie Ln @ US-287
+	    	{'lat': 32.593132, 'lng': -97.143657}, // W Debbie Ln / E Debbie Ln @ US-287
+	    	{'lat': 32.581659, 'lng': -97.132138}, // US-287 @ N Walnut Creek Dr
+	    	{'lat': 32.568030, 'lng': -97.117425}, // US-287 @ E Broad St
+	    	{'lat': 32.571517, 'lng': -97.108995}, // E Broad St @ Cannon Dr
+	    	{'lat': 32.568546, 'lng': -97.097349}, // E Broad St @ Matlock Rd
+	    	{'lat': 32.577589, 'lng': -97.080300}, // E Broad St @ TX-360
+	    	{'lat': 32.579662, 'lng': -97.075490}, // E Broad St @ N Holland Rd
+	    	{'lat': 32.581136, 'lng': -97.069496}, // E Broad St @ Lowes Farm Pkwy
+	    	{'lat': 32.583372, 'lng': -97.064917}, // E Broad St @ Genesis Dr
+	    	{'lat': 32.584999, 'lng': -97.061395}, // E Broad St / England Pkwy (S) @ Day Miar Rd
+	    	{'lat': 32.586313, 'lng': -97.058179}, // England Pkwy (S) @ Medina
+	    	{'lat': 32.588930, 'lng': -97.053790}, // England Pkwy (S) @ S Grand Peninsula Dr
+	    	{'lat': 32.590660, 'lng': -97.049359}, // England Pkwy (S) @ S Camino Lagos
+	    	{'lat': 32.591959, 'lng': -97.044765}, // England Pkwy (S) @ Arlington Webb Britton Rd
+	    	{'lat': 32.592944, 'lng': -97.040290}, // England Pkwy (S) @ Magellan
+	    	{'lat': 32.593822, 'lng': -97.035570}, // England Pkwy (S) @ Lake Ridge Pkwy
+	    	{'lat': 32.591399, 'lng': -97.034101}, // Lake Ridge Pkwy @ S Grand Peninsula Dr
+	    	{'lat': 32.589502, 'lng': -97.032004}, // Lake Ridge Pkwy @ Villa Di Lago Dr
+	    	{'lat': 32.582177, 'lng': -97.021302}, // Lake Ridge Pkwy becomes Mansfield Rd
+	    	{'lat': 32.581824, 'lng': -97.010309}, // Mansfield Rd @ Anderson Rd
+	    	{'lat': 32.582919, 'lng': -97.006511}, // Mansfield Rd @ Lake Ridge Pkwy
+	    	{'lat': 32.586894, 'lng': -96.997151}, // Mansfield Rd @ Mystic Shore Dr
+	    	{'lat': 32.588255, 'lng': -96.993251}, // Mansfield Rd @ S Lakeview Dr
+	    	{'lat': 32.589671, 'lng': -96.987996}, // Mansfield Rd @ Royal Vista Dr
+	    	{'lat': 32.590999, 'lng': -96.977509}, // Mansfield Rd @ W Belt Line Rd
+	    	{'lat': 32.589987, 'lng': -96.962713}, // W Belt Line Rd @ Carrell St
+	    	{'lat': 32.589937, 'lng': -96.961289}, // W Belt Line Rd @ Ramsey St
+	    	{'lat': 32.589954, 'lng': -96.958524}, // W Belt Line Rd @ N Roberts Rd / S Roberts Rd
+	    	{'lat': 32.589871, 'lng': -96.954217}, // W Belt Line Rd @ Church St
+	    	{'lat': 32.589998, 'lng': -96.950915}, // W Belt Line Rd @ Merrifield Dr
+	    	{'lat': 32.589939, 'lng': -96.946217}, // W Belt Line Rd @ FWY-67
+	    	{'lat': 32.589939, 'lng': -96.942446}, // W Belt Line Rd / E Belt Line Rd @ N Clark Rd / S Clark Rd
+	    	{'lat': 32.589860, 'lng': -96.908320}, // E Belt Line Rd / W Belt Line Rd @ N Ducanville Rd / S Ducanville Rd
+	    	{'lat': 32.589706, 'lng': -96.826642}, // E Belt Line Rd @ Alpine Dr / Honey Tree Ln
+	    	{'lat': 32.589706, 'lng': -96.826642}, // E Belt Line Rd / W Belt Line Rd @ I-35E
+	    	{'lat': 32.592634, 'lng': -96.805601}, // W Belt Line Rd @ N Houston School Rd
+	    	{'lat': 32.592242, 'lng': -96.787536}, // W Belt Line Rd @ N Bluegrove Rd
+	    	{'lat': 32.592174, 'lng': -96.775709}, // W Belt Line Rd @ Quail Hollow Dr
+	    	{'lat': 32.589956, 'lng': -96.772489}, // W Belt Line Rd @ W Main St
+	    	{'lat': 32.587584, 'lng': -96.770261}, // W Belt Line Rd @ Homestead Dr
+	    	{'lat': 32.587584, 'lng': -96.770261}, // W Belt Line Rd @ Homestead Dr
+	    	{'lat': 32.585280, 'lng': -96.762221}, // W Belt Line Rd @ S Stewart Ave
+	    	{'lat': 32.584990, 'lng': -96.756672}, // W Belt Line Rd / E Belt Line Rd @ S Dallas Ave
+	    	{'lat': 32.585137, 'lng': -96.751186}, // E Belt Line Rd @ Nokomis Rd
+	    	{'lat': 32.587592, 'lng': -96.726133}, // E Belt Line Rd @ S Alba Rd
+	    	{'lat': 32.587015, 'lng': -96.706499}, // E Belt Line Rd / W Belt Line Rd @ Sunrise Rd
+	    	{'lat': 32.586504, 'lng': -96.692573}, // W Belt Line Rd @ Mason Rd
+	    	{'lat': 32.587882, 'lng': -96.687660}, // W Belt Line Rd / E Belt Line Rd @ Summers St
+	    	{'lat': 32.591340, 'lng': -96.679188}, // E Belt Line Rd @ I-45
+	    	{'lat': 32.608316, 'lng': -96.642396}, // E Belt Line Rd / S Beltline Rd @ Post Oak Rd
+	    	{'lat': 32.623602, 'lng': -96.615638}, // S Beltline Rd @ Bilindsay Rd
+	    	{'lat': 32.627160, 'lng': -96.613406}, // S Beltline Rd @ W Simonds Rd
+	    	{'lat': 32.635343, 'lng': -96.615277}, // S Beltline Rd @ Wilmer Kleberg Rd
+	    	{'lat': 32.639775, 'lng': -96.617216}, // S Beltline Rd @ Pin Oak St
+	    	{'lat': 32.652549, 'lng': -96.617218}, // S Beltline Rd @ Beckett Rd
+	    	{'lat': 32.655750, 'lng': -96.618315}, // S Beltline Rd @ Log Cabin Rd
+	    	{'lat': 32.657448, 'lng': -96.618252}, // S Beltline Rd @ Zamora St
+	    	{'lat': 32.660729, 'lng': -96.617907}, // S Beltline Rd @ Foothill Dr
+	    	{'lat': 32.662796, 'lng': -96.616089}, // S Beltline Rd @ Pecan Lake Dr
+	    	{'lat': 32.663597, 'lng': -96.615107}, // S Beltline Rd @ Great Oaks
+	    	{'lat': 32.667603, 'lng': -96.612561}, // S Beltline Rd @ Kleberg Rd
+	    	{'lat': 32.672153, 'lng': -96.607286}, // S Beltline Rd @ Cabrillo Ln
+	    	{'lat': 32.691664, 'lng': -96.583709}, // S Beltline Rd @ Sarah Ln
+	    	{'lat': 32.692598, 'lng': -96.582573}, // S Beltline Rd @ Lawson Rd
+	    	{'lat': 32.703692, 'lng': -96.569110}, // Lawson Rd @ I-20
+	    	{'lat': 32.708690, 'lng': -96.557235}, // Lawson Rd @ Milam Rd
+	    	{'lat': 32.720716, 'lng': -96.542759}, // Lawson Rd @ E Cartwright Rd
+	    	{'lat': 32.725846, 'lng': -96.536493}, // Lawson Rd @ Clay Mathis Rd
+	    	{'lat': 32.730527, 'lng': -96.531107}, // Lawson Rd @ Berry Rd
+	    	{'lat': 32.735312, 'lng': -96.525889}, // Lawson Rd near Gibson's Outpost Conceled
+	    	{'lat': 32.737837, 'lng': -96.523346}, // Lawson Rd near Batfish Corner
+	    	{'lat': 32.745678, 'lng': -96.519703}, // Lawson Rd left curve
+	    	{'lat': 32.754302, 'lng': -96.519621}, // Lawson Rd @ E Scyene Rd
+	    	{'lat': 32.777741, 'lng': -96.519323}, // Lawson Rd @ US-80
 	    	// {'lat': 32.899722, 'lng': -96.339931}, // S FM 548 @ TX276 (3 & 5)
 	    ]
 	});
