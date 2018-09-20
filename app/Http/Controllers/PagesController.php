@@ -110,6 +110,16 @@ class PagesController extends Controller
 	}
 
 	/**
+	 * Displays the resources appliances page.
+	 *
+	 * @return \Illuminate\Http\Response
+	 */
+	public function resourcesAppliances()
+	{
+		return view('pages.resources.appliances');
+	}
+
+	/**
 	 * Displays the resources content sliders page.
 	 *
 	 * @return \Illuminate\Http\Response

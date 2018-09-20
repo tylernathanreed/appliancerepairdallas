@@ -125,15 +125,15 @@ function initializeGoogleMaps() {
 			{'lat': 32.938463, 'lng': -96.334282}, // S FM 548 @ Crenshaw Rd
 			{'lat': 32.938463, 'lng': -96.334282}, // S FM 548 @ Crenshaw Rd
 			{'lat': 32.913494, 'lng': -96.339803}, // S FM 548 @ N Munson Rd
-			{'lat': 32.899722, 'lng': -96.339931}, // S FM 548 @ TX276 (3 & 5)
-			{'lat': 32.899822, 'lng': -96.360395}, // TX276 @ Remington Dr (3 & 5)
-			{'lat': 32.904547, 'lng': -96.379274}, // TX276 @ Sun Dr (3 & 5)
-			{'lat': 32.904723, 'lng': -96.400564}, // TX276 @ Rochelle Rd (3 & 5)
-			{'lat': 32.906606, 'lng': -96.418310}, // TX276 @ Corperate Crossing / S FM 549 (3 & 5)
-			{'lat': 32.906650, 'lng': -96.431072}, // TX276 @ John King Blvd (3 & 5)
-			{'lat': 32.907118, 'lng': -96.448604}, // TX276 @ S Goliad St / TX205 (3 & 5)
-			{'lat': 32.909197, 'lng': -96.450067}, // S Goliad St / TX205 @ I30 (3 & 5)
-			{'lat': 32.901132, 'lng': -96.457802}, // I30 @ Greencast Bldv / Mims Rd (3 & 5)
+			{'lat': 32.899722, 'lng': -96.339931}, // S FM 548 @ TX276
+			{'lat': 32.899822, 'lng': -96.360395}, // TX276 @ Remington Dr
+			{'lat': 32.904547, 'lng': -96.379274}, // TX276 @ Sun Dr
+			{'lat': 32.904723, 'lng': -96.400564}, // TX276 @ Rochelle Rd
+			{'lat': 32.906606, 'lng': -96.418310}, // TX276 @ Corperate Crossing / S FM 549
+			{'lat': 32.906650, 'lng': -96.431072}, // TX276 @ John King Blvd
+			{'lat': 32.907118, 'lng': -96.448604}, // TX276 @ S Goliad St / TX205
+			{'lat': 32.909197, 'lng': -96.450067}, // S Goliad St / TX205 @ I30
+			{'lat': 32.901132, 'lng': -96.457802}, // I30 @ Greencast Bldv / Mims Rd
 			{'lat': 32.897171, 'lng': -96.469886}, // I30 @ Ridge Rd (3 & 5)
 			{'lat': 32.876355, 'lng': -96.518425}, // I30 @ Dalrock Rd (3 & 5)
 			{'lat': 32.864752, 'lng': -96.543930}, // I30 @ Bass Pro Dr (3 & 5)
@@ -253,15 +253,6 @@ function initializeGoogleMaps() {
 	    fillOpacity: 0.2,
 	    map: map,
 	    paths: [
-			{'lat': 32.899722, 'lng': -96.339931}, // S FM 548 @ TX276 (3 & 5)
-			{'lat': 32.899822, 'lng': -96.360395}, // TX276 @ Remington Dr (3 & 5)
-			{'lat': 32.904547, 'lng': -96.379274}, // TX276 @ Sun Dr (3 & 5)
-			{'lat': 32.904723, 'lng': -96.400564}, // TX276 @ Rochelle Rd (3 & 5)
-			{'lat': 32.906606, 'lng': -96.418310}, // TX276 @ Corperate Crossing / S FM 549 (3 & 5)
-			{'lat': 32.906650, 'lng': -96.431072}, // TX276 @ John King Blvd (3 & 5)
-			{'lat': 32.907118, 'lng': -96.448604}, // TX276 @ S Goliad St / TX205 (3 & 5)
-			{'lat': 32.909197, 'lng': -96.450067}, // S Goliad St / TX205 @ I30 (3 & 5)
-			{'lat': 32.901132, 'lng': -96.457802}, // I30 @ Greencast Bldv / Mims Rd (3 & 5)
 			{'lat': 32.897171, 'lng': -96.469886}, // I30 @ Ridge Rd (3 & 5)
 			{'lat': 32.876355, 'lng': -96.518425}, // I30 @ Dalrock Rd (3 & 5)
 			{'lat': 32.864752, 'lng': -96.543930}, // I30 @ Bass Pro Dr (3 & 5)
@@ -444,7 +435,42 @@ function initializeGoogleMaps() {
 	    	{'lat': 32.745678, 'lng': -96.519703}, // Lawson Rd left curve
 	    	{'lat': 32.754302, 'lng': -96.519621}, // Lawson Rd @ E Scyene Rd
 	    	{'lat': 32.777741, 'lng': -96.519323}, // Lawson Rd @ US-80
-	    	// {'lat': 32.899722, 'lng': -96.339931}, // S FM 548 @ TX276 (3 & 5)
+	    	{'lat': 32.769577, 'lng': -96.488639}, // US-80 @ Clements Dr
+	    	{'lat': 32.780293, 'lng': -96.475416}, // Clements Dr @ FM740
+	    	{'lat': 32.781762, 'lng': -96.476761}, // FM740 @ Lake Ray Hubbard Dr
+	    	{'lat': 32.786604, 'lng': -96.476759}, // FM740 @ Rainbow Dr
+	    	{'lat': 32.790174, 'lng': -96.476587}, // FM740 @ San Marcos Drive
+	    	{'lat': 32.792551, 'lng': -96.475815}, // FM740 @ Rains County Rd
+	    	{'lat': 32.798220, 'lng': -96.471722}, // FM740 @ Travis Ranch Blvd
+	    	{'lat': 32.801658, 'lng': -96.470032}, // FM740 @ Johnson City Ave
+	    	{'lat': 32.804641, 'lng': -96.468556}, // FM740 @ Coolwater Circle
+	    	{'lat': 32.809899, 'lng': -96.465366}, // FM740 @ Saddle Club Dr
+	    	{'lat': 32.812372, 'lng': -96.464260}, // FM740 Curve
+	    	{'lat': 32.815208, 'lng': -96.465704}, // FM740 @ Trophy Drive
+	    	{'lat': 32.816187, 'lng': -96.466610}, // FM740 Right Turn
+	    	{'lat': 32.817903, 'lng': -96.465036}, // FM740 Left Turn
+	    	{'lat': 32.820705, 'lng': -96.466731}, // FM740 @ Paradise Ct
+	    	{'lat': 32.822756, 'lng': -96.467910}, // FM740 Right Turn
+	    	{'lat': 32.826637, 'lng': -96.463754}, // FM740 @ S King Rd
+	    	{'lat': 32.836551, 'lng': -96.475271}, // FM740 / Smirl Dr @ Hubbard Dr / Laurence Dr
+	    	{'lat': 32.840523, 'lng': -96.470281}, // Laurence Dr @ FM550
+	    	{'lat': 32.844076, 'lng': -96.470478}, // Laurence Dr @ Health Hawk Drive
+	    	{'lat': 32.853151, 'lng': -96.470169}, // Laurence Dr @ Las Lomas Dr
+	    	{'lat': 32.860272, 'lng': -96.470196}, // Laurence Dr / Ridge Rd @ Smirl Dr / Heathland Crossing
+	    	{'lat': 32.863675, 'lng': -96.472717}, // Ridge Rd @ Old Ridge Rd
+	    	{'lat': 32.866841, 'lng': -96.473249}, // Ridge Rd @ Green Pasture Rd
+	    	{'lat': 32.868650, 'lng': -96.474319}, // Ridge Rd @ Shephards Glen Rd
+	    	{'lat': 32.870790, 'lng': -96.474726}, // Ridge Rd @ Lafayette Landing
+	    	{'lat': 32.874505, 'lng': -96.474858}, // Ridge Rd @ Lakeway Dr / Wellington Ln
+	    	{'lat': 32.875774, 'lng': -96.474654}, // Ridge Rd @ Henry M Chandler Dr
+	    	{'lat': 32.876834, 'lng': -96.473773}, // Ridge Rd @ White Rd
+	    	{'lat': 32.877593, 'lng': -96.473420}, // Ridge Rd @ Buckingham Dr
+	    	{'lat': 32.881890, 'lng': -96.472829}, // Ridge Rd @ Shady Dale Ln
+	    	{'lat': 32.884095, 'lng': -96.473210}, // Ridge Rd @ Foxchase Ln
+	    	{'lat': 32.886811, 'lng': -96.473875}, // Ridge Rd @ Summer Lee Dr
+	    	{'lat': 32.889356, 'lng': -96.473027}, // Ridge Rd @ Glen Hill Way
+	    	{'lat': 32.891831, 'lng': -96.471358}, // Ridge Rd @ Horizon Rd
+			// {'lat': 32.897171, 'lng': -96.469886}, // I30 @ Ridge Rd (3 & 5)
 	    ]
 	});
 

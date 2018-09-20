@@ -103,6 +103,12 @@ Route::get('contact/style-3', [
 // Resources
 Route::group(['prefix' => 'resources'], function() {
 
+	// Appliances
+	Route::get('appliances', [
+		'as' => 'pages.resources.appliances',
+		'uses' => 'PagesController@resourcesAppliances'
+	]);
+
 	// Content Sliders
 	Route::get('content-sliders', [
 		'as' => 'pages.resources.content-sliders',
