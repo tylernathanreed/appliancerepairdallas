@@ -44,6 +44,13 @@
 				]
 			});
 
+			$("*[dir='ltr'] .slick-carousel.testimonials").slick({
+				autoplay: true,
+				autoplaySpeed: 10000,
+				speed: 750,
+				pauseOnHover: true
+			});
+
 		}
 
 	});

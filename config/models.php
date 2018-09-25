@@ -54,6 +54,51 @@ return [
 	            ]
 			]
 		]
+	],
+
+	'testimonials' => [
+		'records' => [
+			[
+	            'title' => 'They came out fast!',
+	            'name' => 'Jonathan',
+	            'info2' => 'Farmers Branch',
+	            'body' => 'When my dryer went out, I called E&M Home Service. They came out fast, fixed it, and it\'s still working. They did a great job, I was very happy with them. If you have any problems with your appliances, call them!',
+	            'image' => asset('media/images/testimonial-1.jpg'),
+	            'video' => 'https://www.youtube.com/watch?v=kwiEVbDZ6kU'
+			],
+			[
+	            'title' => 'They\'re very reasonable!',
+	            'name' => 'Randall',
+	            'info2' => 'Farmers Branch',
+	            'body' => 'I\'ve used E&M Home Service three times at my home. They\'ve installed a garbage disposal and a dishwasher, and they\'ve worked on my washing machine. Their rates are very reasonable, and I appreciate all they\'ve done. If you need help, give them a call!',
+	            'image' => asset('media/images/testimonial-2.jpg'),
+	            'video' => 'https://www.youtube.com/watch?v=6Fim0tTFaB8'
+			],
+			[
+	            'title' => 'They do a great job!',
+	            'name' => 'Edna',
+	            'info2' => 'Farmers Branch',
+	            'body' => 'I appreciate E&M Home Service for coming out and fixing our washer. They did a real good job!',
+	            'image' => asset('media/images/testimonial-3.jpg'),
+	            'video' => 'https://www.youtube.com/watch?v=WA2HoyMJqcc'
+			],
+			[
+	            'title' => 'They knew the problem right away!',
+	            // 'name' => 'Unknown',
+	            // 'info2' => 'Farmers Branch',
+	            'body' => 'Thanks for coming out! They did a very good job with my refrigerator. They knew right away what was wrong. They fixed it, and gave me a six month warranty!',
+	            'image' => asset('media/images/testimonial-4.jpg'),
+	            'video' => 'https://www.youtube.com/watch?v=o8Kg6Ikdbds'
+			],
+			[
+	            'title' => 'We\'re always satisfied!',
+	            // 'name' => 'Unknown',
+	            // 'info2' => 'Farmers Branch',
+	            'body' => 'They\'ve been out here several times, and every time we\'re well satisfied.',
+	            'image' => asset('media/images/testimonial-5.jpg'),
+	            'video' => 'https://www.youtube.com/watch?v=eIkh92uml5I'
+			]
+		]
 	]
 
 ];

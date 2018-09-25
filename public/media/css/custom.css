@@ -34,3 +34,21 @@
 .full-width {
 	width: 100%;
 }
+
+.testimonial-video {
+	display: block;
+	text-decoration: none !important;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.testimonial-video span {
+    border: 1px white solid;
+    padding: 5px 10px;
+    border-radius: 9999px;
+    transition: all 0.2s ease-in-out;
+}
+
+.testimonial-video span:hover {
+	background-color: rgba(255, 255, 255, 0.1);
+}

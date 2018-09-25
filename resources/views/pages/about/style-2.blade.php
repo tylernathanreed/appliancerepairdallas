@@ -186,13 +186,15 @@
 		<div class="container">
 			<div class="row justify-content-lg-center">
 				<div class="col-lg-8">
-					@include('components.testimony', [
-						'image' => asset('media/images/testimonial-1.jpg'),
-						'title' => 'Just Perfect!',
-						'body' => 'Sed ut perspiciatis unde omnis iste natu error sit voluptatem accusan tium dolore laud antium, totam rem dolor sit amet tristique pulvinar, turpis arcu rutrum nunc, ac laoreet turpis augue a justo.',
-						'name' => 'John Doe',
-						'organization' => 'Company'
-					])
+					<div class="slick-carousel testimonials">
+
+						<?php $testimonials = App\Models\Testimonial::all(); ?>
+
+						@foreach($testimonials as $testimony)
+							@include('components.testimony', $testimony->getAttributes())
+						@endforeach
+
+					</div>
 				</div>
 			</div>
 		</div>

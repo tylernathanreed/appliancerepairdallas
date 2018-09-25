@@ -14,59 +14,60 @@
 
 @section('page.main')
 
-	<h3 class="title">Appliances <strong>We Service</strong></h3>
-	<div class="separator-2"></div>
+	<section class="mb-20">
+		<h3 class="title">Appliances <strong>We Service</strong></h3>
+		<div class="separator-2"></div>
 
-	<div class="row">
-		<div class="col-lg-6">
-			<p>The E&amp;M Home Service team will repair or install appliances for your residence, rental property, or property being prepared for sale in the Dallas / Fort Worth Metroplex. We specialize in superior customer service. We have a female technician on staff that works exclusively with seniors and women who live alone.</p>
-			<p>We service the following types of appliances:</p>
+		<div class="row">
+			<div class="col-lg-6">
+				<p>We service the following types of appliances:</p>
 
-			<div class="row">
-				<div class="col-lg-6">
-					<ul class="list-icons">
-						<li><i class="fa fa-check-square-o"></i>Cook Tops</i>
-						<li><i class="fa fa-check-square-o"></i>Dishwashers</i>
-						<li><i class="fa fa-check-square-o"></i>Disposals</i>
-						<li><i class="fa fa-check-square-o"></i>Dryers</i>
-						<li><i class="fa fa-check-square-o"></i>Freezers</i>
-						<li><i class="fa fa-check-square-o"></i>And Others!</i>
-					</ul>
-				</div>
+				<div class="row">
+					<div class="col-lg-6">
+						<ul class="list-icons">
+							<li><i class="fa fa-check-square-o"></i>Cook Tops</i>
+							<li><i class="fa fa-check-square-o"></i>Dishwashers</i>
+							<li><i class="fa fa-check-square-o"></i>Disposals</i>
+							<li><i class="fa fa-check-square-o"></i>Dryers</i>
+							<li><i class="fa fa-check-square-o"></i>Freezers</i>
+							<li><i class="fa fa-check-square-o"></i>And Others!</i>
+						</ul>
+					</div>
 
-				<div class="col-lg-6">
-					<ul class="list-icons">
-						<li><i class="fa fa-check-square-o"></i>Ice Makers</i>
-						<li><i class="fa fa-check-square-o"></i>Ovens</i>
-						<li><i class="fa fa-check-square-o"></i>Ranges</i>
-						<li><i class="fa fa-check-square-o"></i>Refrigerators</i>
-						<li><i class="fa fa-check-square-o"></i>Washers</i>
-					</ul>
+					<div class="col-lg-6">
+						<ul class="list-icons">
+							<li><i class="fa fa-check-square-o"></i>Ice Makers</i>
+							<li><i class="fa fa-check-square-o"></i>Ovens</i>
+							<li><i class="fa fa-check-square-o"></i>Ranges</i>
+							<li><i class="fa fa-check-square-o"></i>Refrigerators</i>
+							<li><i class="fa fa-check-square-o"></i>Washers</i>
+						</ul>
+					</div>
 				</div>
 			</div>
-		</div>
 
-		<div class="col-lg-6">
-            @include('components.carousels.content-slider', [
-                'controls' => true,
-                'autoplay' => false,
-                'items' => [
-                    [
-                        'image' => asset('media/images/page-about-1.jpg'),
-                        'title' => 'We Can Do It'
-                    ],
-                    [
-                        'image' => asset('media/images/page-about-2.jpg'),
-                        'title' => 'You Can Trust Us'
-                    ],
-                    [
-                        'image' =>asset('media/images/page-about-3.jpg'),
-                        'title' => 'We Love What We Do'
-                    ]
-                ]
-            ])
+			<div class="col-lg-6">
+	            @include('components.carousels.content-slider', [
+	                'controls' => true,
+	                'autoplay' => false,
+	                'items' => [
+	                    [
+	                        'image' => asset('media/images/page-about-1.jpg'),
+	                        'title' => 'We Can Do It'
+	                    ],
+	                    [
+	                        'image' => asset('media/images/page-about-2.jpg'),
+	                        'title' => 'You Can Trust Us'
+	                    ],
+	                    [
+	                        'image' =>asset('media/images/page-about-3.jpg'),
+	                        'title' => 'We Love What We Do'
+	                    ]
+	                ]
+	            ])
+			</div>
 		</div>
-	</div>
+	</section>
 
 @endsection
 
@@ -132,7 +133,7 @@
 				'Whirlpool'
 			]; ?>
 
-            <div class="row">
+            <div class="row mb-20">
             	@foreach($appliances as $appliance)
             		<div class="col-lg-3 col-md-4 col-sm-6 col-xs-6">
             			<i class="fa fa-check-square-o"></i> {{ $appliance }}
