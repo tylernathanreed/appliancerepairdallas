@@ -45,6 +45,7 @@
 			});
 
 			$("*[dir='ltr'] .slick-carousel.testimonials").slick({
+				arrows: false,
 				autoplay: true,
 				autoplaySpeed: 10000,
 				speed: 750,

@@ -97,6 +97,16 @@ class PagesController extends Controller
 	}
 
 	/**
+	 * Displays the repair tips page.
+	 *
+	 * @return \Illuminate\Http\Response
+	 */
+	public function repairTips()
+	{
+		return view('pages.repair-tips');
+	}
+
+	/**
 	 * Displays the pricing page.
 	 *
 	 * @return \Illuminate\Http\Response
@@ -147,6 +157,16 @@ class PagesController extends Controller
 	public function resourcesCoverage()
 	{
 		return view('pages.resources.coverage');
+	}
+
+	/**
+	 * Displays the testimonials page.
+	 *
+	 * @return \Illuminate\Http\Response
+	 */
+	public function resourcesTestimonials()
+	{
+		return view('pages.resources.testimonials');
 	}
 
 	/**

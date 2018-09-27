@@ -4,7 +4,15 @@
 <?php $video = $video ?? null; ?>
 <?php $name = $name ?? null; ?>
 
-<div class="testimonial text-center padding-ver-clear">
+<?php $class = 'testimonial text-center'; ?>
+
+@if($border ?? false)
+	<?php $class .= ' border p-3 h-100'; ?>
+@else
+	<?php $class .= ' padding-ver-clear'; ?>
+@endif
+
+<div class="{{ $class }}">
 
 	@if(isset($image))
 		<div class="testimonial-image">
@@ -40,4 +48,5 @@
 			</a>
 		@endif
 	</div>
+
 </div>

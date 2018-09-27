@@ -26,7 +26,7 @@
 		<a id="third-dropdown" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Resources</a>
 		<ul class="dropdown-menu" aria-labelledby="third-dropdown">
 			<li><a href="{{ route('pages.resources.appliances') }}">Appliances</a></li>
-			<li><a href="#">Testimonials</a></li>
+			<li><a href="{{ route('pages.resources.testimonials') }}">Testimonials</a></li>
 			<li><a href="{{ route('pages.resources.manufacturer-numbers') }}">Manufacturer Numbers</a></li>
 			<li><a href="{{ route('pages.resources.coverage') }}">Coverage</a></li>
 			<li><a href="{{ route('pages.resources.content-sliders') }}">Content Sliders</a></li>
@@ -36,9 +36,7 @@
 	<li class="nav-item dropdown">
 		<a id="fourth-dropdown" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Tips &amp; Tricks</a>
 		<ul class="dropdown-menu" aria-labelledby="fourth-dropdown">
-			<li><a href="#">Installation Tips</a></li>
-			<li><a href="#">Repair Tips</a></li>
-			<li><a href="#">Maintenance Tips</a></li>
+			<li><a href="{{ route('pages.repair-tips') }}">Repair Tips</a></li>
 			<li><a href="{{ route('pages.faq') }}">FAQ</a></li>
 		</ul>
 	</li>

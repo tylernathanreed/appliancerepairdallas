@@ -23,6 +23,13 @@ Route::get('pricing', [
 	'uses' => 'PagesController@pricing'
 ]);
 
+// Repair Tips
+Route::get('repair-tips', [
+	'as' => 'pages.repair-tips',
+	'uses' => 'PagesController@repairTips'
+]);
+
+// FAQ
 Route::get('faq', [
 	'as' => 'pages.faq',
 	'uses' => 'PagesController@faq'
@@ -127,5 +134,10 @@ Route::group(['prefix' => 'resources'], function() {
 		'uses' => 'PagesController@resourcesCoverage'
 	]);
 
+	// Testimonials
+	Route::get('testimonials', [
+		'as' => 'pages.resources.testimonials',
+		'uses' => 'PagesController@resourcesTestimonials'
+	]);
 
 });
