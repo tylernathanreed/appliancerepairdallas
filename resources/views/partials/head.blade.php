@@ -39,11 +39,14 @@
 	<link href="{{ asset('/media/css/typography-default.css') }}" rel="stylesheet">
 
 	<!-- Color Scheme (In order to change the color scheme, replace the blue.css with the color scheme that you prefer)-->
+	<?php $selected = config('styles.primary-colors.selected'); ?>
+	<?php $skin = config('styles.primary-colors.colors.' . $selected . '.style'); ?>
+
 	@if(config('app.debug'))
-		<link href="{{ asset('/media/css/skins/light_blue.css') }}" data-style="styles-no-cookie" rel="stylesheet">
+		<link href="{{ asset('/media/css/skins/' . $skin . '.css') }}" data-style="styles-no-cookie" rel="stylesheet">
 		<link href="{{ asset('/media/plugins/style-switcher/style-switcher.css') }}" rel="stylesheet">
 	@else
-		<link href="{{ asset('/media/css/skins/light_blue.css') }}" rel="stylesheet">
+		<link href="{{ asset('/media/css/skins/' . $skin . '.css') }}" rel="stylesheet">
 	@endif
 
 	<!-- Custom css --> 

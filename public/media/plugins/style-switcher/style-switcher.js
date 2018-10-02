@@ -54,7 +54,7 @@ jQuery(document).ready(function($) {
 		tp_layout_mode = $.cookie('tp_layout_mode'),		
 		pattern = $.cookie('pattern');
 
-	$(".style-switcher .selected").removeClass("selected");
+	// $(".style-switcher .selected").removeClass("selected");
 	if (!($.cookie('tp_stylesheet'))) {
 		$.cookie('tp_stylesheet', 'light_blue', 365);
 		tp_stylesheet = $.cookie('tp_stylesheet');

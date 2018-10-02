@@ -6,7 +6,7 @@
 
 @section('content')
 
-    @component('components.call-to-action', ['link' => '#', 'action' => 'Learn More'])
+    @component('components.call-to-action', ['link' => route('pages.repair-tips'), 'action' => 'Learn More'])
         Free Repair, Installation, and Maintenance Tips!
     @endcomponent
 
@@ -27,7 +27,7 @@
                     <p>We are <strong>A+</strong> rated by the Dallas Better Business Bureau since 2005.</p>
                     <p>We strive to provide great appliance repairs and outstanding service.</p>
                     <p>We do not charge extra for Saturday service.</p>
-                    <a href="page-about.html" class="btn radius-50 btn-default btn-hvr hvr-shutter-out-horizontal"><i class="fa fa-arrow-left pr-10"></i>Learn More</a>
+                    <a href="{{ route('pages.about.style-1') }}" class="btn radius-50 btn-default btn-hvr hvr-shutter-out-horizontal"><i class="fa fa-arrow-left pr-10"></i>Learn More</a>
                 </div>
 
                 <div class="col-md-6">
@@ -65,7 +65,7 @@
                         <h3>Incredibly<br>Fast and Reliable</h3>
                         <div class="separator clearfix"></div>
                         <p>We provide a <span class="text-default">six-month warranty</span> on parts and labor, tips for do-it-yourselfers, fresh blog content, and and extraordinary prompt service.</p>
-                        <a class="btn btn-gray-transparent radius-50 btn-animated" href="page-services.html">Read More <i class="fa fa-angle-double-right"></i></a>
+                        <a class="btn btn-gray-transparent radius-50 btn-animated" href="{{ route('pages.services.style-1') }}">Read More <i class="fa fa-angle-double-right"></i></a>
                     </div>
                 </div>
 
@@ -75,7 +75,7 @@
                         <h3>Free Service Call<br>with Repair</h3>
                         <div class="separator clearfix"></div>
                         <p>We will not nickle and dime you to drive up your bill. We are <span class="text-default">upfront and honest</span> with our pricing and strive to provide you with the most service for your money.</p>
-                        <a class="btn btn-gray-transparent radius-50 btn-animated" href="page-services.html">See Pricing <i class="fa fa-angle-double-right"></i></a>
+                        <a class="btn btn-gray-transparent radius-50 btn-animated" href="{{ route('pages.services.style-1') }}">See Pricing <i class="fa fa-angle-double-right"></i></a>
                     </div>
                 </div>
 
@@ -85,7 +85,7 @@
                         <h3>Commitment to<br>Service</h3>
                         <div class="separator clearfix"></div>
                         <p>E&amp;M Home Service is committed to providing <span class="text-default">superior appliance repair</span> service in Dallas / Fort Worth Metroplex area in Texas.</p>
-                        <a class="btn btn-gray-transparent radius-50 btn-animated" href="page-services.html">View Coverage <i class="fa fa-angle-double-right"></i></a>
+                        <a class="btn btn-gray-transparent radius-50 btn-animated" href="{{ route('pages.services.style-1') }}">View Coverage <i class="fa fa-angle-double-right"></i></a>
                     </div>
                 </div>
 
@@ -95,7 +95,7 @@
                         <h3>Submit a<br>Service Request</h3>
                         <div class="separator clearfix"></div>
                         <p>The quickest way to have a highly qualified friendly technician at your location is to submit a <span class="text-default">service request form</span>.</p>
-                        <a class="btn btn-gray-transparent radius-50 btn-animated" href="page-services.html">Submit Request<i class="fa fa-angle-double-right"></i></a>
+                        <a class="btn btn-gray-transparent radius-50 btn-animated" href="{{ route('pages.contact.style-1') }}">Submit Request<i class="fa fa-angle-double-right"></i></a>
                     </div>
                 </div>
             </div>

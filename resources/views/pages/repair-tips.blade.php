@@ -18,9 +18,9 @@
 
     @component('components.tabs', [
         'style' => 2,
-        'items.0.heading' => '<i class="fa fa-life-saver pr-10"></i>Washing Machine',
-        'items.1.heading' => '<i class="fa fa-user pr-10"></i>Refrigerator',
-        'items.2.heading' => '<i class="fa fa-star pr-10"></i>Oven'
+        'items.0.heading' => '<i class="fa fa-refresh pr-10"></i>Washing Machine',
+        'items.1.heading' => '<i class="fa fa-snowflake-o pr-10"></i>Refrigerator',
+        'items.2.heading' => '<i class="fa fa-fire pr-10"></i>Oven'
     ])
 
         @slot('items.0.content')

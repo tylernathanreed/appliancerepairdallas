@@ -38,7 +38,7 @@
 			</div>
 
 			<div id="collapse-{{ $key }}" class="{{ $collapsed ? 'collapse' : 'collapse show' }}" role="tabpanel" aria-labelledby="heading-{{ $key }}">
-				<div class="card-block">
+				<div class="card-block"{!! $style == 2 ? ' style="padding: 15px;"' : '' !!}>
 					{!! $item['content'] !!}
 				</div>
 			</div>

@@ -4,7 +4,7 @@ return [
 
 	'primary-colors' => [
 
-		'selected' => 'blue',
+		'selected' => 'imitation-blue',
 
 		'colors' => [
 			'blue'            => ['title' => 'Blue',            'class' => 'blue',            'style' => 'blue'],
@@ -17,6 +17,7 @@ return [
 			'gold'            => ['title' => 'Gold',            'class' => 'gold',            'style' => 'gold'],
 			'gray'            => ['title' => 'Gray',            'class' => 'gray',            'style' => 'gray'],
 			'green'           => ['title' => 'Green',           'class' => 'green',           'style' => 'green'],
+			'imitation-blue'  => ['title' => 'Imitation Blue',  'class' => 'imitation-blue',  'style' => 'imitation_blue'],
 			'jacksons-purple' => ['title' => 'Jacksons Purple', 'class' => 'jacksons-purple', 'style' => 'jacksons_purple'],
 			'light-blue'      => ['title' => 'Light Blue',      'class' => 'light-blue',      'style' => 'light_blue'],
 			'orange'          => ['title' => 'Orange',          'class' => 'orange',          'style' => 'orange'],

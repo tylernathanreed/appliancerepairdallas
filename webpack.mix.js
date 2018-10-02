@@ -18,3 +18,4 @@ mix.sass('resources/assets/sass/skins/curious_blue.scss', 'public/media/css/skin
 mix.sass('resources/assets/sass/skins/chambray.scss', 'public/media/css/skins');
 mix.sass('resources/assets/sass/skins/jacksons_purple.scss', 'public/media/css/skins');
 mix.sass('resources/assets/sass/skins/true_blue.scss', 'public/media/css/skins');
+mix.sass('resources/assets/sass/skins/imitation_blue.scss', 'public/media/css/skins');
