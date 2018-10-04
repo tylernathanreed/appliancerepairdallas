@@ -244,9 +244,12 @@ div.style-switcher .vivid-red  { background: #c82727; } div.style-switcher .vivi
 
 div.style-switcher .chambray        { background: hsl(225, 46%,  42%); } div.style-switcher .chambray:hover        { background: hsl(226, 8%,  24%); }
 div.style-switcher .curious-blue    { background: hsl(204, 70%,  53%); } div.style-switcher .curious-blue:hover    { background: hsl(204, 65%, 47%); }
+div.style-switcher .egyptian-blue   { background: hsl(227, 82%,  36%); } div.style-switcher .egyptian-blue:hover   { background: hsl(227, 77%, 31%); }
 div.style-switcher .imitation-blue  { background: hsl(240, 100%, 63%); } div.style-switcher .imitation-blue:hover  { background: hsl(240, 95%, 58%); }
 div.style-switcher .jacksons-purple { background: hsl(226, 65%,  35%); } div.style-switcher .jacksons-purple:hover { background: hsl(227, 9%,  25%); }
+div.style-switcher .nation-blue     { background: hsl(209, 89%,  35%); } div.style-switcher .nation-blue:hover     { background: hsl(209, 84%, 30%); }
 div.style-switcher .piction-blue    { background: hsl(204, 71%,  62%); } div.style-switcher .piction-blue:hover    { background: hsl(204, 66%, 56%); }
 div.style-switcher .royal-blue      { background: hsl(214, 65%,  55%); } div.style-switcher .royal-blue:hover      { background: hsl(214, 60%, 49%); }
 div.style-switcher .san-marino      { background: hsl(218, 45%,  48%); } div.style-switcher .san-marino:hover      { background: hsl(218, 40%, 43%); }
+div.style-switcher .sapphire        { background: hsl(216, 85%,  39%); } div.style-switcher .sapphire:hover        { background: hsl(216, 80%, 34%); }
 div.style-switcher .true-blue       { background: hsl(240, 100%, 50%); } div.style-switcher .true-blue:hover       { background: hsl(240, 95%, 45%); }

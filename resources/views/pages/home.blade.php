@@ -64,7 +64,7 @@
                         <span class="icon default-bg circle"><i class="fa fa-hourglass-half"></i></span>
                         <h3>Incredibly<br>Fast and Reliable</h3>
                         <div class="separator clearfix"></div>
-                        <p>We provide a <span class="text-default">six-month warranty</span> on parts and labor, tips for do-it-yourselfers, fresh blog content, and and extraordinary prompt service.</p>
+                        <p>We provide a <span class="text-default text-glow text-bold">six-month warranty</span> on parts and labor, tips for do-it-yourselfers, fresh blog content, and and extraordinary prompt service.</p>
                         <a class="btn btn-gray-transparent radius-50 btn-animated" href="{{ route('pages.services.style-1') }}">Read More <i class="fa fa-angle-double-right"></i></a>
                     </div>
                 </div>
@@ -74,7 +74,7 @@
                         <span class="icon default-bg circle"><i class="fa fa-usd"></i></span>
                         <h3>Free Service Call<br>with Repair</h3>
                         <div class="separator clearfix"></div>
-                        <p>We will not nickle and dime you to drive up your bill. We are <span class="text-default">upfront and honest</span> with our pricing and strive to provide you with the most service for your money.</p>
+                        <p>We will not nickle and dime you to drive up your bill. We are <span class="text-default text-glow text-bold">upfront and honest</span> with our pricing and strive to provide you with the most service for your money.</p>
                         <a class="btn btn-gray-transparent radius-50 btn-animated" href="{{ route('pages.services.style-1') }}">See Pricing <i class="fa fa-angle-double-right"></i></a>
                     </div>
                 </div>
@@ -84,7 +84,7 @@
                         <span class="icon default-bg circle"><i class="fa fa-wrench"></i></span>
                         <h3>Commitment to<br>Service</h3>
                         <div class="separator clearfix"></div>
-                        <p>E&amp;M Home Service is committed to providing <span class="text-default">superior appliance repair</span> service in Dallas / Fort Worth Metroplex area in Texas.</p>
+                        <p>E&amp;M Home Service is committed to providing <span class="text-default text-glow text-bold">superior appliance repair</span> service in Dallas / Fort Worth Metroplex area in Texas.</p>
                         <a class="btn btn-gray-transparent radius-50 btn-animated" href="{{ route('pages.services.style-1') }}">View Coverage <i class="fa fa-angle-double-right"></i></a>
                     </div>
                 </div>
@@ -94,7 +94,7 @@
                         <span class="icon default-bg circle"><i class="fa fa-truck"></i></span>
                         <h3>Submit a<br>Service Request</h3>
                         <div class="separator clearfix"></div>
-                        <p>The quickest way to have a highly qualified friendly technician at your location is to submit a <span class="text-default">service request form</span>.</p>
+                        <p>The quickest way to have a highly qualified friendly technician at your location is to submit a <span class="text-default text-glow text-bold">service request form</span>.</p>
                         <a class="btn btn-gray-transparent radius-50 btn-animated" href="{{ route('pages.contact.style-1') }}">Submit Request<i class="fa fa-angle-double-right"></i></a>
                     </div>
                 </div>
