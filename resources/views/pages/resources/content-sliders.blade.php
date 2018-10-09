@@ -5,7 +5,7 @@
     <div class="row">
         <div class="col-sm-6">
             <h3>Content Slider with Controls (Autoplay off)</h3>
-            @include('components.owl-carousel.content-slider', [
+            @include('components.carousels.content-slider', [
                 'controls' => true,
                 'autoplay' => false,
                 'items' => [
@@ -30,7 +30,7 @@
 
         <div class="col-sm-6">
             <h3>Content Slider with Controls 2 (Autoplay off)</h3>
-            @include('components.owl-carousel.content-slider', [
+            @include('components.carousels.content-slider', [
                 'controls' => 'large',
                 'autoplay' => false,
                 'items' => [
@@ -50,7 +50,7 @@
 
         <div class="col-sm-6">
             <h3>Content Slider without controls (Autoplay on)</h3>
-            @include('components.owl-carousel.content-slider', [
+            @include('components.carousels.content-slider', [
                 'controls' => false,
                 'autoplay' => true,
                 'items' => [
@@ -75,7 +75,7 @@
 
         <div class="col-sm-6">
             <h3>Content Slider with Controls (Autoplay on)</h3>
-            @include('components.owl-carousel.content-slider', [
+            @include('components.carousels.content-slider', [
                 'controls' => true,
                 'autoplay' => true,
                 'items' => [
@@ -100,7 +100,7 @@
 
         <div class="col-sm-6">
             <h3>Content Slider with Controls 2 (Autoplay On)</h3>
-            @include('components.owl-carousel.content-slider', [
+            @include('components.carousels.content-slider', [
                 'controls' => 'large',
                 'autoplay' => true,
                 'items' => [
@@ -120,7 +120,7 @@
 
         <div class="col-sm-6">
             <h3>Carousel (Autoplay off)</h3>
-            @include('components.owl-carousel.carousel', [
+            @include('components.carousels.carousel', [
                 'imageBox' => true,
                 'items' => [
                     [
@@ -153,7 +153,7 @@
 
         <div class="col-sm-6">
             <h3>Carousel (Autoplay on)</h3>
-            @include('components.owl-carousel.carousel', [
+            @include('components.carousels.carousel', [
                 'autoplay' => true,
                 'items' => [
                     [
@@ -192,7 +192,7 @@
 
         <div class="col-sm-6">
             <h3>Clients</h3>
-            @include('components.owl-carousel.clients', [
+            @include('components.carousels.clients', [
                 'items' => [
                     ['image' => asset('media/images/client-1.png')],
                     ['image' => asset('media/images/client-2.png')],

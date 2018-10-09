@@ -141,3 +141,17 @@ Route::group(['prefix' => 'resources'], function() {
 	]);
 
 });
+
+//////////////////
+//* Components *//
+//////////////////
+
+// Components
+Route::group(['prefix' => 'components'], function() {
+
+	// Component Page
+	Route::get('{view}', function($view) {
+		return view('pages.component-pages.' . $view);
+	});
+
+});
