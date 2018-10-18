@@ -3,8 +3,15 @@ function initializeGoogleMaps() {
 
 	"use strict";
 
-	// Set the coordinates of your location
+	// Determine the map element
 	var element = document.getElementById('map-canvas');
+
+	// Stop here if there is no map element
+	if(element == null) {
+		return;
+	}
+
+	// Set the coordinates of your location
 	var center = {lat: 32.7758142, lng: -96.7963734};
 	var zoom = 9;
 

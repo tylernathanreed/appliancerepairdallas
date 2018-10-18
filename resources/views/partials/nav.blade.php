@@ -55,7 +55,6 @@
 									<li><a href="{{ url('components/alerts-and-callouts') }}"><i class="fa fa-info-circle pr-2"></i>Alerts &amp; Callouts</a></li>
 									<li><a href="{{ url('components/content-sliders') }}"><i class="fa fa-star pr-2"></i>Content Sliders</a></li>
 									<li><a href="{{ url('components/charts') }}"><i class="fa fa-pie-chart pr-2"></i>Charts</a></li>
-									<li><a href="{{ url('components/page-loaders') }}"><i class="fa fa-circle-o-notch fa-spin"></i>Page Loaders</a></li>
 									<li><a href="{{ url('components/icon-boxes') }}"><i class="fa fa-picture-o pr-2"></i>Icon Boxes</a></li>
 								</ul>
 							</div>

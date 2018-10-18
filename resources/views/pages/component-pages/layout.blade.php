@@ -1,4 +1,6 @@
-@extends('layouts.page')
+@extends('layouts.page', [
+    'main-container' => $__data['main-container'] ?? []
+])
 
 <?php $title = \Illuminate\Support\Str::title(str_replace('-', ' ', basename(request()->url()))); ?>
 
@@ -32,7 +34,6 @@
                     <li class="nav-item"><a class="nav-link" href="{{ url('components/alerts-and-callouts') }}"><i class="fa fa-info-circle"></i> Alerts &amp; Callouts</a></li>
                     <li class="nav-item"><a class="nav-link" href="{{ url('components/content-sliders') }}"><i class="fa fa-star"></i> Content Sliders</a></li>
                     <li class="nav-item"><a class="nav-link" href="{{ url('components/charts') }}"><i class="fa fa-pie-chart"></i> Charts</a></li>
-                    <li class="nav-item"><a class="nav-link" href="{{ url('components/page-loaders') }}"><i class="fa fa-rotate-right"></i> Page Loaders</a></li>
                     <li class="nav-item"><a class="nav-link" href="{{ url('components/icon-boxes') }}"><i class="fa fa-picture-o"></i> Icon Boxes</a></li>
                     <li class="nav-item"><a class="nav-link" href="{{ url('components/image-boxes') }}"><i class="fa fa-camera"></i> Image Boxes</a></li>
                     <li class="nav-item"><a class="nav-link" href="{{ url('components/fullwidth-sections') }}"><i class="fa fa-code"></i> Full Width Sections</a></li>

@@ -26,6 +26,9 @@
 	<!-- Morphext -->
 	<script type="text/javascript" src="{{ config('app.url') }}/media/plugins/typed/typed.min.js"></script>
 
+    <!-- Charts -->
+    <script type="text/javascript" src="{{ config('app.url') }}/media/plugins/charts/Chart.js"></script>
+
 	<!-- Slick carousel javascript -->
 	<script type="text/javascript" src="{{ config('app.url') }}/media/plugins/slick/slick.min.js"></script>
 
