@@ -36,9 +36,8 @@
                     <li class="nav-item"><a class="nav-link" href="{{ url('components/charts') }}"><i class="fa fa-pie-chart"></i> Charts</a></li>
                     <li class="nav-item"><a class="nav-link" href="{{ url('components/icon-boxes') }}"><i class="fa fa-picture-o"></i> Icon Boxes</a></li>
                     <li class="nav-item"><a class="nav-link" href="{{ url('components/image-boxes') }}"><i class="fa fa-camera"></i> Image Boxes</a></li>
-                    <li class="nav-item"><a class="nav-link" href="{{ url('components/fullwidth-sections') }}"><i class="fa fa-code"></i> Full Width Sections</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{{ url('components/full-width-sections') }}"><i class="fa fa-code"></i> Full Width Sections</a></li>
                     <li class="nav-item"><a class="nav-link" href="{{ url('components/animations') }}"><i class="fa fa-heart"></i> Animations</a></li>
-                    <li class="nav-item"><a class="nav-link" href="{{ url('components/video-and-audio') }}"><i class="fa fa-play"></i> Video</a></li>
                     <li class="nav-item"><a class="nav-link" href="{{ url('components/lightbox') }}"><i class="fa fa-search-plus"></i> Lightbox</a></li>
                     <li class="nav-item"><a class="nav-link" href="{{ url('components/counters') }}"><i class="fa fa-sort-numeric-desc"></i> Counters</a></li>
                     <li class="nav-item"><a class="nav-link" href="{{ url('components/modals') }}"><i class="fa fa-arrows-alt"></i> Modals</a></li>

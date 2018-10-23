@@ -65,7 +65,6 @@
 									<li><a href="{{ url('components/image-boxes') }}"><i class="fa fa-camera pr-2"></i>Image Boxes</a></li>
 									<li><a href="{{ url('components/fullwidth-sections') }}"><i class="fa fa-code pr-2"></i>Full Width Sections</a></li>
 									<li><a href="{{ url('components/animations') }}"><i class="fa fa-heart pr-2"></i>Animations</a></li>
-									<li><a href="{{ url('components/video-and-audio') }}"><i class="fa fa-play pr-2"></i>Video</a></li>
 									<li><a href="{{ url('components/lightbox') }}"><i class="fa fa-plus pr-2"></i>Lightbox</a></li>
 									<li><a href="{{ url('components/counters') }}"><i class="fa fa-sort-numeric-desc pr-2"></i>Counters</a></li>
 									<li><a href="{{ url('components/modals') }}"><i class="fa fa-arrows-alt pr-2"></i>Modals</a></li>
