@@ -6,7 +6,6 @@
 
 	@include('partials.head')
 
-
 	<!-- body classes:  -->
 	<!-- "boxed": boxed layout mode e.g. <body class="boxed"> -->
 	<!-- "pattern-1 ... pattern-9": background patterns for boxed layout mode e.g. <body class="boxed pattern-1"> -->

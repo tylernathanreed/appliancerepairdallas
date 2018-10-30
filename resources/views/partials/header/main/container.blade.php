@@ -1,4 +1,7 @@
 <div class="header-container">
+
+	@include('partials.announcements')
+
 	<div class="header-top dark">
 		<div class="container">
 			<div class="row">

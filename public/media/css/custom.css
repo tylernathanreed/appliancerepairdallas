@@ -12,6 +12,11 @@
 	margin-bottom: 1em;
 }
 
+.mx-3 {
+	margin-left: 1.5rem;
+	margin-right: 1.5rem;
+}
+
 .pl-26 {
 	padding-left: 26px;
 }
@@ -78,4 +83,20 @@
 
 .items-center {
 	align-items: center;
+}
+
+.order-1 {
+	order: 1;
+}
+
+.order-2 {
+	order: 2;
+}
+
+.order-3 {
+	order: 3;
+}
+
+.position-initial {
+	position: initial !important;
 }
