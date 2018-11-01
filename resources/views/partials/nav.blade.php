@@ -1,17 +1,20 @@
 <ul class="navbar-nav">
-	<li class="nav-item mega-menu mega-menu--wide{{ url() == config('app.url') ? ' active' : '' }}">
+	<li class="nav-item">
 		<a href="{{ config('app.url') }}" class="nav-link">Home</a>
 	</li>
 
-	<li class="nav-item dropdown">
-		<a id="first-dropdown" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">About</a>
-		<ul class="dropdown-menu" aria-labelledby="first-dropdown">
-			<li><a href="{{ route('pages.about.style-1') }}">Style 1</a></li>
-			<li><a href="{{ route('pages.about.style-2') }}">Style 2</a></li>
-			<li><a href="{{ route('pages.about.style-3') }}">Style 3</a></li>
-			<li><a href="{{ route('pages.about.style-4') }}">Style 4</a></li>
-		</ul>
-	</li>
+	@component('components.dropdown', ['tag' => 'li', 'class' => 'nav-item', 'button' => ['tag' => 'a', 'class' => 'nav-link'], 'menu' => ['tag' => 'ul']])
+
+		@slot('button.text')
+			About
+		@endslot
+
+		<li><a href="{{ route('pages.about.style-1') }}">Style 1</a></li>
+		<li><a href="{{ route('pages.about.style-2') }}">Style 2</a></li>
+		<li><a href="{{ route('pages.about.style-3') }}">Style 3</a></li>
+		<li><a href="{{ route('pages.about.style-4') }}">Style 4</a></li>
+
+	@endcomponent
 
 	<li class="nav-item dropdown">
 		<a id="second-dropdown" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Services</a>
@@ -33,9 +36,8 @@
 		</ul>
 	</li>
 
-	<!-- mega-menu start -->
-	<li class="nav-item dropdown active mega-menu mega-menu--narrow">
-	  <a id="components-dropdown" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false">Components</a>
+	<li class="nav-item dropdown mega-menu mega-menu--narrow">
+	  	<a id="components-dropdown" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false">Components</a>
 		<ul class="dropdown-menu" aria-labelledby="components-dropdown">
 			<li>
 				<div class="row">

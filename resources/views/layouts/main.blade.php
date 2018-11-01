@@ -11,9 +11,10 @@
 	<!-- "pattern-1 ... pattern-9": background patterns for boxed layout mode e.g. <body class="boxed pattern-1"> -->
 	<!-- "transparent-header": makes the header transparent and pulls the banner to top -->
 	<body class="{{ request()->path() == '/' ? 'front-page' : '' }}">
-		<!-- scrollToTop -->
-		<!-- ================ -->
-		<div class="scrollToTop circle"><i class="icon-up-open-big"></i></div>
+
+		<div class="scrollToTop circle">
+			<i class="fa fa-angle-up"></i>
+		</div>
 
 		<!-- page wrapper start -->
 		<!-- ================ -->

@@ -71,11 +71,11 @@
                         data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;"
                         data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;"
                         data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;">
-                        <a href="#" class="btn radius-50 btn-dark btn-animated-left">
+                        <a href="{{ route('pages.services.style-1') }}" class="btn radius-50 btn-dark btn-animated-left">
                             <i class="fa fa-usd"></i> See Pricing
                         </a>
                         <span class="pl-5 pr-5">or</span>
-                        <a href="page-contact.html" class="btn radius-50 btn-default btn-animated-left">
+                        <a href="{{ route('pages.contact.style-1') }}" class="btn radius-50 btn-default btn-animated-left">
                             <i class="fa fa-truck"></i> Submit a Service Request
                         </a>
                         <i></i>
@@ -161,11 +161,11 @@
                         data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;"
                         data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;"
                         data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;">
-                        <a href="#" class="btn radius-50 btn-dark btn-animated-left">
+                        <a href="{{ route('pages.services.style-1') }}" class="btn radius-50 btn-dark btn-animated-left">
                             <i class="fa fa-usd"></i> See Pricing
                         </a>
                         <span class="pl-5 pr-5">or</span>
-                        <a href="page-contact.html" class="btn radius-50 btn-default btn-animated-left">
+                        <a href="{{ route('pages.contact.style-1') }}" class="btn radius-50 btn-default btn-animated-left">
                             <i class="fa fa-truck"></i> Submit a Service Request
                         </a>
                         <i></i>

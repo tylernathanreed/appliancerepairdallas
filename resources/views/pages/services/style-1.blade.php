@@ -208,6 +208,9 @@
 				</div>
 			</div>
 
+			<h2 class="text-center">Pricing</h2>
+			<div class="separator"></div>
+
 			@include('models.pricing-tables.partials.index', ['style' => 'style-3'])
 		</div>
 	</section>

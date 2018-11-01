@@ -18,9 +18,11 @@
 
     @component('components.tabs', [
         'style' => 2,
-        'items.0.heading' => '<i class="fa fa-refresh pr-10"></i>Washing Machine',
-        'items.1.heading' => '<i class="fa fa-snowflake-o pr-10"></i>Refrigerator',
-        'items.2.heading' => '<i class="fa fa-fire pr-10"></i>Oven'
+        'items.0.heading' => '<i class="fa fa-tint pr-10"></i>Washing Machine',
+        'items.1.heading' => '<i class="fa fa-refresh pr-10"></i>Dryer',
+        'items.2.heading' => '<i class="fa fa-snowflake-o pr-10"></i>Refrigerator',
+        'items.3.heading' => '<i class="fa fa-fire pr-10"></i>Oven',
+        'items.4.heading' => '<i class="fa fa-cubes pr-10"></i>Ice Maker',
     ])
 
         @slot('items.0.content')
@@ -64,6 +66,79 @@
         @endslot
 
         @slot('items.1.content')
+
+            <div>
+                <p>All dryers need three things to work:</p>
+                <ul>
+                    <li>Heat</li>
+                    <li>Tumbling</li>
+                    <li>Airflow</li>
+                </ul>
+            </div>
+
+            @component('components.accordion', ['style' => 2])
+
+                @slot('items.0.heading')
+                    <i class="fa fa-question-circle pr-10"></i> No Heat
+                @endslot
+
+                @slot('items.0.content')
+                    The electrical requirements for most electric dryers is 240 volts. There could be 120 volts missing. A possible fix for this is to throw the breaker for the dryer all the way off, then back on again. Then test the dryer. If the electrical is ok, the heating element, thermal cut off, thermostat, or terminal block could be bad. In rare cases the timer or motor could cause a dryer not to heat.
+                @endslot
+
+                @slot('items.1.heading')
+                    <i class="fa fa-question-circle pr-10"></i> Won't Tumble
+                @endslot
+
+                @slot('items.1.content')
+                    The most common cause for a dryer not to tumble is a broken belt. If the belt is broken, it is necessary to check the tension pulley for abnormalities. If the tension pulley is bad, a newly installed belt will not last.
+                @endslot
+
+                @slot('items.2.heading')
+                    <i class="fa fa-question-circle pr-10"></i> Not Working at All
+                @endslot
+
+                @slot('items.2.content')
+                    Check the breaker first then check the lid switch. If the lid switch is broken, the dryer will not operate. The other possibility is the thermal fuse or the terminal block. Unplug the dryer and make sure the plug terminals are good as well.
+                @endslot
+
+                @slot('items.3.heading')
+                    <i class="fa fa-question-circle pr-10"></i> Heats but not Drying
+                @endslot
+
+                @slot('items.3.content')
+                    Make sure that the dryer is tumbling. If it is, then remove the vent hose from the back of the dryer. Turn the dryer on and test for good airflow from the back. It should be as powerful as a hair dryer on low setting. If the dryer is producing a good airflow, the vent ducts in the house might be clogged. This will keep the dryer from drying.
+                @endslot
+
+                @slot('items.4.heading')
+                    <i class="fa fa-question-circle pr-10"></i> Overheats
+                @endslot
+
+                @slot('items.4.content')
+                    This is usually caused by an internal build up of lint or a blocked vent hose. The vent hose can also be smashed behind the dryer. If the dryer can’t blow enough air through the heater coils, the dryer will overheat. If it gets too hot, the terminal protectors could engage disabling the dryer.
+                @endslot
+
+                @slot('items.5.heading')
+                    <i class="fa fa-question-circle pr-10"></i> Dryer Odor
+                @endslot
+
+                @slot('items.5.content')
+                    It is rare that a dryer, electric or gas, will malfunction and cause an internal odor. Odors usually come from external sources such as an old rag with turpentine or possibly lint that fell on the heating element.
+                @endslot
+
+                @slot('items.6.heading')
+                    <i class="fa fa-question-circle pr-10"></i> No heat gas dryer
+                @endslot
+
+                @slot('items.6.content')
+                    There is a thermal fuse, gas coils, flame sensor, and gas valve coils that can cause no heat problems.
+                @endslot
+
+            @endcomponent
+
+        @endslot
+
+        @slot('items.2.content')
 
             @component('components.accordion', ['style' => 2])
 
@@ -149,7 +224,7 @@
 
         @endslot
 
-        @slot('items.2.content')
+        @slot('items.3.content')
 
             @component('components.accordion', ['style' => 2])
 
@@ -191,6 +266,46 @@
 
                 @slot('items.4.content')
                     When installing a range make sure to install the anti tip device. Ranges if tipped over are a leading cause of household deaths.
+                @endslot
+
+            @endcomponent
+
+        @endslot
+
+        @slot('items.4.content')
+
+            @component('components.accordion', ['style' => 2])
+
+                @slot('items.0.heading')
+                    <i class="fa fa-question-circle pr-10"></i> No Cubes
+                @endslot
+
+                @slot('items.0.content')
+                    Make sure the water going to the refrigerator is on. If the refrigerator is equipped with a filter, it could restrict the water flow to the ice maker. The other possibility is that the ice maker or water solenoid is bad.
+                @endslot
+
+                @slot('items.1.heading')
+                    <i class="fa fa-question-circle pr-10"></i> Small Cubes
+                @endslot
+
+                @slot('items.1.content')
+                    This is possibly a water restriction caused by a filter or a bad water solenoid.
+                @endslot
+
+                @slot('items.2.heading')
+                    <i class="fa fa-question-circle pr-10"></i> Leaking
+                @endslot
+
+                @slot('items.2.content')
+                    If the water is leaking on the floor, it could be a bad waterline, water solenoid, or frozen water dispenser. If the water is leaking in the freezer, it is probably a bad ice maker. If the coating on the ice maker wears out, the water can leak easily and you will probably see icicles.
+                @endslot
+
+                @slot('items.3.heading')
+                    <i class="fa fa-question-circle pr-10"></i> Slow Production
+                @endslot
+
+                @slot('items.3.content')
+                    If the freezer is not cold enough, ice production will slow. If the freezer is above 10 degrees, ice will not freeze quickly at all. 0 to 5 degrees is the best temperature for ice prodution. Cleaning the coils will enable the freezer to cool more efficiently. The ice maker has a heater. If the heater is not working, the ice maker slows down dramatically and will eventually wear out.
                 @endslot
 
             @endcomponent
