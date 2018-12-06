@@ -64,7 +64,7 @@
                         <span class="icon default-bg circle"><i class="fa fa-hourglass-half"></i></span>
                         <h3>Incredibly<br>Fast and Reliable</h3>
                         <div class="separator clearfix"></div>
-                        <p>We provide a <span class="text-default text-glow text-bold">six-month warranty</span> on parts and labor, tips for do-it-yourselfers, fresh blog content, and and extraordinary prompt service.</p>
+                        <p>We provide a <span class="text-default text-glow text-bold">six-month warranty</span> on parts and labor. We also provide tips for do-it-yourselfers and extraordinarily prompt service.</p>
                         <a class="btn btn-gray-transparent radius-50 btn-animated" href="{{ route('pages.services.style-1') }}">Read More <i class="fa fa-angle-double-right"></i></a>
                     </div>
                 </div>
