@@ -84,3 +84,7 @@
 - Don't like the "Drop us a Line" verbiage
 
 7.3) Style 3
+
+--
+
+Hours Worked (12/8): 27.8
